@@ -91,6 +91,11 @@
             margin-left: 30px;
         }
     </style>
+    <script>
+        window.onload = function () {
+            document.getElementById("domain").innerText = window.location.protocol+ document.domain;
+        }
+    </script>
 </head>
 <body>
     <script src="/js/point_line.js" count="100" zindex="-2" opacity="0.6" color="131,111,255" type="text/javascript">
@@ -100,15 +105,15 @@
             <!--<img alt="精略" src="image/logo.png" />-->
         </div>
         <div class="title">
-            <h1>厦门模拟报税系统使用说明</h1>
+            <h1>北京模拟报税系统使用说明</h1>
         </div>
     </div>
     <div class="ins_main_">
         <div class="note">注意事项:</div>
         <div class="noteinfo">
             <p>尊敬的用户：</p>
-            <p>（1）推荐使用Google Chrome浏览器，IE请使用IE9或以上版本。</p>
-            <p>（2）请浏览器"设置"》"Internet选项"》"安全"》将网址"<span style="color: #E60012;">http://jluepracticexiamenbs.kjcytk.com</span>"设置可信任站点，并且设置ActiveX控件和插件级别为"<span style="color: #E60012;">启用</span>"。</p>
+            <p>（1）推荐使用IE浏览器，IE9或以上版本。</p>
+            <p>（2）请浏览器"设置"》"Internet选项"》"安全"》将网址"<span id="domain" style="color: #E60012;"></span>"设置可信任站点，并且设置ActiveX控件和插件级别为"<span style="color: #E60012;">启用</span>"。</p>
             <div class="img_kxrzd">
                 <img alt="精略" src="image/kxrzd.png" height="550" width="850" />
                 <img alt="精略" src="image/zdyjb.png" height="550" width="850" />

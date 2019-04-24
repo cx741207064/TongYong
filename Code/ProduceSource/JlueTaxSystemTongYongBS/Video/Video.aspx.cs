@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace JlueTaxSystemGuiZhouBS.Vedio
+namespace JlueTaxSystemTongYongBS.Vedio
 {
     public partial class Vedio : System.Web.UI.Page
     {

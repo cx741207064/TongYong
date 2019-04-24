@@ -68,7 +68,7 @@ namespace JlueTaxSystemTongYongBS.Code
 
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYUserYSBQC/GetList?userid=" + userid + "&questionId=" + questionId + "&classid=" + classid;
+            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/GetList?userid=" + userid + "&questionId=" + questionId + "&classid=" + classid;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -84,7 +84,7 @@ namespace JlueTaxSystemTongYongBS.Code
             string userId = CurrentUser.GetInstance().GetCurrentUserId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYUserYSBQCReportData/Add", string.Format("classid={0}&jsonReportData={1}&userYsbqcId={2}&reportCode={3}&userId={4}"
+            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Add", string.Format("classid={0}&jsonReportData={1}&userYsbqcId={2}&reportCode={3}&userId={4}"
                 , classid, jsonReportData, userYsbqcId, reportCode, userId));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -98,7 +98,7 @@ namespace JlueTaxSystemTongYongBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYUserYSBQCReportData/Get", string.Format("classid={0}&userYsbqcId={1}&reportCode={2}"
+            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Get", string.Format("classid={0}&userYsbqcId={1}&reportCode={2}"
                 , classid, userYsbqcId, reportCode));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -111,7 +111,7 @@ namespace JlueTaxSystemTongYongBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYUserYSBQC/UpdateSBZT?Id=" + userYSBQCId + "&classid=" + classid + "&SBZT=" + SBZT;
+            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/UpdateSBZT?Id=" + userYSBQCId + "&classid=" + classid + "&SBZT=" + SBZT;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -125,25 +125,7 @@ namespace JlueTaxSystemTongYongBS.Code
             string classid = CurrentUser.GetInstance().GetCurrentClassId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GDTXTYUserYSBQC/UpdateSBSE?Id=" + userYSBQCId + "&classid=" + classid + "&SBSE=" + SBSE;
-            string json = p.Get(fullpath);
-            return JsonConvert.DeserializeObject<GTXResult>(json);
-        }
-
-        /// <summary>
-        /// 更新应申报清册的填报情况
-        /// </summary>
-        public static GTXResult UpdateYSBQCtbzt(string userYSBQCId, string reportCode, string tbzt)
-        {
-            string nowtbzt = (tbzt + reportCode + ";");
-            if (reportCode == "")
-            {
-                nowtbzt = tbzt;
-            }
-            string classid = CurrentUser.GetInstance().GetCurrentClassId;
-            string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
-            publicmethod p = new publicmethod();
-            string fullpath = path + "/GTX/GTXTYUserYSBQC/Updatetbzt?Id=" + userYSBQCId + "&classid=" + classid + "&tbzt=" + nowtbzt;
+            string fullpath = path + "/GTX/GDTXTYTAXUserYSBQC/UpdateSBSE?Id=" + userYSBQCId + "&classid=" + classid + "&SBSE=" + SBSE;
             string json = p.Get(fullpath);
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }
@@ -158,7 +140,7 @@ namespace JlueTaxSystemTongYongBS.Code
             string userId = CurrentUser.GetInstance().GetCurrentUserId;
             string path = System.Configuration.ConfigurationManager.AppSettings["tikupath"];
             publicmethod p = new publicmethod();
-            string json = p.HttpPost(path + "/GTX/GDTXTYUserYSBQCReportData/Delete", string.Format("classid={0}&userYsbqcId={1}&userId={2}&reportCode={3}"
+            string json = p.HttpPost(path + "/GTX/GDTXTYTAXUserYSBQCReportData/Delete", string.Format("classid={0}&userYsbqcId={1}&userId={2}&reportCode={3}"
                 , classid, userYsbqcId, userId, reportCode));
             return JsonConvert.DeserializeObject<GTXResult>(json);
         }

@@ -116,10 +116,112 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bszm-web\api\xxzx\queryUserMessage\WEB\20\0\5.json" />
+    <Content Include="bszm-web\apps\images\home\no-data.png" />
+    <Content Include="bszm-web\apps\images\home\userInfoListAccount.png" />
+    <Content Include="bszm-web\apps\images\zj\common\bread-location.png" />
+    <Content Include="bszm-web\apps\images\zj\common\icon-dzjg.png" />
+    <Content Include="bszm-web\apps\images\zj\common\logo-txt.png" />
+    <Content Include="bszm-web\apps\images\zj\common\tax-logo.png" />
+    <Content Include="bszm-web\apps\images\zj\home\home-header-bg.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-bsjdjjgxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-bspj.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-ccs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-cktsgl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-cwbbbs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-cygn.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-cztdsys.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-dzzl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-fcs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-flzzyjjsx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-fpsy.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-fpxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-gray-dot.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-grsds.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-gtgshhddexxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-gzcx-gzcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-gzsb.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-hdgl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-jkxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-lsbsczcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-nsrmyddc.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-nsrxq.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-nsrxx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-nsxy.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-nsxyztxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-qsxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-qtfwsx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-qtsb.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-qybh.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-qysds.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-sbfzxxbg.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-sbjgcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-sbxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-shbxf.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-skjn.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-ssjm.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-sszjjgxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-sszyfwjggl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-swdbgzjsq.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-swxzxk.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-tcyw.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-tdzzs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-tsyw.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-wdxx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-wfwzxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-wybs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-xfs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-ybtdsgl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-yhgl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-yhs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-yhxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-yybs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-yydjap.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zhsb.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zhxxbg.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zmkj.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zmxxcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zxfd-gzcx.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zxjh.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zys.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zzs.png" />
+    <Content Include="bszm-web\apps\images\zj\home\icon-zzsdkpzgl.png" />
+    <Content Include="bszm-web\apps\images\zj\home\menu-arrow.png" />
+    <Content Include="bszm-web\apps\images\zj\home\menu-down.png" />
+    <Content Include="bszm-web\apps\images\zj\home\menu-up.png" />
+    <Content Include="bszm-web\apps\images\zj\home\userInfoListBg.png" />
+    <Content Include="bszm-web\apps\images\zj\index\bg_gzfw.png" />
+    <Content Include="bszm-web\apps\images\zj\index\bg_hdzx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\bg_wdxx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\bg_wybs.png" />
+    <Content Include="bszm-web\apps\images\zj\index\bg_wycx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-blue-dot.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-fn-arrow.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-fn-title.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-gray-dot.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-gxfw.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-gzfw.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-hdzx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-tzgg.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-wddb.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-wdxx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-wybs.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-wycx.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon-wyyy.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon_czsc.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon_download.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon_help.png" />
+    <Content Include="bszm-web\apps\images\zj\index\icon_login.png" />
+    <Content Include="bszm-web\apps\images\zj\index\zj-banner.png" />
+    <Content Include="bszm-web\apps\scripts\bszm-common.js" />
+    <Content Include="bszm-web\apps\scripts\zj-common\util.js" />
+    <Content Include="bszm-web\apps\styles\fit.css" />
+    <Content Include="bszm-web\apps\styles\style.css" />
     <Content Include="bszm-web\apps\views-zj\home\home.aspx" />
     <Content Include="bszm-web\apps\views-zj\home\home.css" />
-    <Content Include="bszm-web\apps\views-zj\home\home.html" />
     <Content Include="bszm-web\apps\views-zj\home\home.js" />
+    <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.css" />
+    <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.html" />
+    <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.js" />
     <Content Include="bszm-web\apps\views-zj\publicTemps\foot.html" />
     <Content Include="bszm-web\apps\views-zj\publicTemps\search.html" />
     <Content Include="bszm-web\apps\views-zj\publicTemps\userInfo.html" />
@@ -132,6 +234,8 @@
     <Content Include="css\styleedit.css" />
     <Content Include="css\stylenew.css" />
     <Content Include="Global.asax" />
+    <Content Include="image\kxrzd.png" />
+    <Content Include="image\zdyjb.png" />
     <Content Include="industry.xml" />
     <Content Include="Instruction.html" />
     <Content Include="js\common.js" />
@@ -143,11 +247,144 @@
     <Content Include="js\json2.js" />
     <Content Include="js\point_line.js" />
     <Content Include="QuestionMain.aspx" />
+    <Content Include="sbzx-web\apps\data\qysds\data_cglx.txt" />
+    <Content Include="sbzx-web\apps\images\public\bg-header.png" />
+    <Content Include="sbzx-web\apps\images\public\bg-sb-success.png" />
+    <Content Include="sbzx-web\apps\images\public\bread-back.png" />
+    <Content Include="sbzx-web\apps\images\public\dzjg-logo.png" />
+    <Content Include="sbzx-web\apps\images\public\edit-tip-hover.png" />
+    <Content Include="sbzx-web\apps\images\public\edit-tip.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-alert-close-hover.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-alert-close.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-calendar.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-multi-select.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-multi-selected.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-radio-checked.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-radio.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-step-current.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-step-disabled.png" />
+    <Content Include="sbzx-web\apps\images\public\ico-step-done.png" />
+    <Content Include="sbzx-web\apps\images\public\icon-header.png" />
+    <Content Include="sbzx-web\apps\images\public\location-fill.png" />
+    <Content Include="sbzx-web\apps\images\public\swjg-title.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-2wm.jpg" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-arrow-up.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-arrow.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-avatar.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-jbxx.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-msg-box.png" />
+    <Content Include="sbzx-web\apps\images\xgmsb\ico-sbzb.png" />
+    <Content Include="sbzx-web\apps\scripts\common-include.js" />
+    <Content Include="sbzx-web\apps\scripts\includeHeader.js" />
+    <Content Include="sbzx-web\apps\scripts\miniui.js" />
+    <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.css" />
+    <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.js" />
+    <Content Include="sbzx-web\apps\scripts\reportSB3.0\style.css" />
+    <Content Include="sbzx-web\apps\scripts\reportTip.js" />
+    <Content Include="sbzx-web\apps\scripts\sbzxcommon.js" />
+    <Content Include="sbzx-web\apps\scripts\steps.js" />
+    <Content Include="sbzx-web\apps\styles\style.css" />
+    <Content Include="sbzx-web\apps\views\apiService\publicService.js" />
+    <Content Include="sbzx-web\apps\views\apiService\xfsService.js" />
+    <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx-hb.css" />
+    <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.css" />
+    <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.html" />
+    <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.js" />
+    <Content Include="sbzx-web\apps\views\public\foot\FootView.html" />
+    <Content Include="sbzx-web\apps\views\public\head\HeadView.html" />
+    <Content Include="sbzx-web\apps\views\public\sb_result.css" />
+    <Content Include="sbzx-web\apps\views\public\sb_success.html" />
+    <Content Include="sbzx-web\apps\views\public\sb_success.js" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\002_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\002_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.html" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.js" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\table_002.html" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\table_003.html" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\001_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\sb_fjs.html" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\sb_fjs.js" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs.js" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\003_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\003_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\004_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\004_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\005_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\005_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\006_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\006_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\007_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\007_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.css" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.js" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_003.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_004.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_005.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_006.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_007.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\Timer.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_j3.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_j3.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\reportTip.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_001.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_006.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_008.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\xgmsb-tbs.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\xgmsb-tbs.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\qrsbbView.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\sbtjView.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\skjs.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\submit.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xgmsb.css" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xgmsb.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xgmsb.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xgmsbScom.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xgmsbService.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\xsxx.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\ydy.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds_new\ydy.js" />
+    <Content Include="sbzx-web\lib\artTemplate\template.js" />
+    <Content Include="sbzx-web\lib\jquery.cookie\jquery.cookie.js" />
+    <Content Include="sbzx-web\lib\jquery\jquery.min.js" />
+    <Content Include="sbzx-web\lib\lodop\lodopPrint.js" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\buttonedit\close.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\buttonedit\icon2.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\buttonedit\pressed.png" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\calendar\months.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\calendar\next.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\calendar\prev.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\grid\footer.png" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\grid\loading.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\listbox\header.png" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\messagebox\icon-info.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\messagebox\icon-question.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\messagebox\icon-warning.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\panel\resize.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tabs\allow_left.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tabs\allow_right.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\textbox\error.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tools\collapse.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tools\max.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tools\min.gif" />
+    <Content Include="sbzx-web\lib\sui-miniui\themes\default\images\tools\restore.gif" />
     <Content Include="VideoManage\css\QuestionMain.css" />
     <Content Include="VideoManage\css\VideoIndex.css" />
     <Content Include="VideoManage\image\bc.png" />
@@ -266,8 +503,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\bszmm\" />
-    <Folder Include="Views\sbzxx\" />
+    <Folder Include="sbzx-web\apps\views\cwbbCallOcx\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\formulas.json" />
@@ -283,6 +519,67 @@
     <Content Include="bszm-web\api\desktop\customizedFuctionsEX\usertype\get.json" />
     <Content Include="bszm-web\api\desktop\todoList\get.json" />
     <Content Include="bszm-web\api\desktop\userInfo\get.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bszm-web\apps\data\zj\tzgg.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\base\nsrxx\get.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\baseCode\get\baseCode2CombSelect2\DM_GY_SFZJLX.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\10109.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30203.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30216.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxx\21101.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_DJ_DJZCLX.159.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_HY.4899.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_SFZJLX.201.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\hb\sb\fjs\compareGdsNsrxx.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\sbzf\submit\sbzf.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\ysbqc\queryysb.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\api\sb\common\fnb\getSbsj.json" />
+    <Content Include="sbzx-web\api\sb\common\fnb\sbzc.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10103.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10442.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.29836.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.ysb.json" />
+    <Content Include="sbzx-web\api\sb\common\submit\sbcl.json" />
+    <Content Include="sbzx-web\api\sb\fjs\hdxx.json" />
+    <Content Include="sbzx-web\api\sb\fjs\hdxx.ysb.json" />
+    <Content Include="sbzx-web\api\sb\jgcx\sbqkcx.json" />
+    <Content Include="sbzx-web\api\sb\sbbd\needBd.json" />
+    <Content Include="sbzx-web\api\sb\sbbd\zzsbd.json" />
+    <Content Include="sbzx-web\api\sb\xgmsb\validatePkZg.json" />
+    <Content Include="sbzx-web\api\sb\xgmsb\validateYqwrd.json" />
+    <Content Include="sbzx-web\api\sb\yhsqc\hdxx.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\apps\data\url\urlMap.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\formulas.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\formulas.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\formulas.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\IIS.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

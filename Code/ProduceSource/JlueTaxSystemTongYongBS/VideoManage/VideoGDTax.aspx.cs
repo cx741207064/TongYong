@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace JlueTaxSystemGuiZhouBS.VideoManage
+namespace JlueTaxSystemTongYongBS.VideoManage
 {
     public partial class VideoGDTax : System.Web.UI.Page
     {

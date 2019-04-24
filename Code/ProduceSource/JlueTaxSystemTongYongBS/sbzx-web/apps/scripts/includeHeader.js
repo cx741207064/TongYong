@@ -160,7 +160,7 @@
 /**
  * Created by chenjunj on 2017/6/2 14:56.
  *///
-header.homeUrl = '/bszm-web/apps/views-zj/home/home.html';//首页
+header.homeUrl = '/bszm-web/apps/views-zj/home/home.aspx';//首页
 header.secondUrl = '/bszm-web/apps/views-zj/publicPages/allFunctions.html?tab=panel-{code}#menu-{code}1010';//二级菜单
 header.renderCrumbs = function () {
     var userInfo = mini.decode(sessionStorage.getItem('getUserInfo')) || {};

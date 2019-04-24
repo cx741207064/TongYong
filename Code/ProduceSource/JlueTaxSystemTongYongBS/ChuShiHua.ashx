@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="ChuShiHua.ashx.cs" Class="JlueTaxSystemXiaMenBS.ChuShiHua" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="ChuShiHua.ashx.cs" Class="JlueTaxSystemTongYongBS.ChuShiHua" %>
