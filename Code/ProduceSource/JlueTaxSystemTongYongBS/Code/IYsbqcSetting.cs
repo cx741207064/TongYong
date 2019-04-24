@@ -59,6 +59,8 @@ namespace JlueTaxSystemTongYongBS.Code
 
         JObject getYbnsrzzsDataConfig(object in_obj, string dm);
 
+        JObject getQysdsyjADataConfig(JObject in_jo, string dm);
+
         GDTXDate getGDTXDate(Type type);
 
         GDTXDate getGDTXDate(string dm);

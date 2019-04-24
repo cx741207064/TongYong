@@ -281,6 +281,22 @@ namespace JlueTaxSystemTongYongBS.Code
            return in_jo;
        }
 
+       public JObject getQysdsyjADataConfig(JObject in_jo, string dm)
+       {
+           string Name = HttpContext.Current.Session["Name"].ToString();
+           XmlDocument doc = new XmlDocument();
+           doc.LoadXml(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "industry.xml"));
+           JToken industry = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(doc));
+           industry = industry.SelectToken("root.industry").Where(a => a["name"].ToString() == Name).ToList()[0];
+
+           XmlDocument xml_config = new XmlDocument();
+           xml_config.LoadXml(File.ReadAllText(HttpContext.Current.Server.MapPath(dm + ".dataconfig.xml")));
+           JToken config = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(xml_config));
+           config = config.SelectToken("root." + industry["value"] + ".YJJE");
+           in_jo.SelectToken("value.sbzl[0].wsxxs.wsxx").Where(a => a["code"].ToString() == "YJJE").FirstOrDefault()["value"] = config.ToString();
+           return in_jo;
+       }
+
        public GDTXDate getGDTXDate(Type type)
        {
            GDTXDate gd = new GDTXDate();

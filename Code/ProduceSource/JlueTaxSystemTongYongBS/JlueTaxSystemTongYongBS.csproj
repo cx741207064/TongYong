@@ -247,6 +247,7 @@
     <Content Include="js\json2.js" />
     <Content Include="js\point_line.js" />
     <Content Include="QuestionMain.aspx" />
+    <Content Include="sbzx-web\api\sb\common\get\10442.dataconfig.xml" />
     <Content Include="sbzx-web\apps\data\qysds\data_cglx.txt" />
     <Content Include="sbzx-web\apps\images\public\bg-header.png" />
     <Content Include="sbzx-web\apps\images\public\bg-sb-success.png" />

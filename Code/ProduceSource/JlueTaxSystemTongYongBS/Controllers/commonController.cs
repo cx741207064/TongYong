@@ -41,22 +41,47 @@ namespace JlueTaxSystemTongYongBS.Controllers
             JObject re_json = new JObject();
             string str = "";
             qc = set.getUserYSBQC(sbzlDm);
-            if (qc.SBZT == set.ysbzt)
-            {
-                str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.ysb.json"));
-                re_json = JsonConvert.DeserializeObject<JObject>(str);
-            }
-            else
-            {
-                str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
-                re_json = JsonConvert.DeserializeObject<JObject>(str);
 
-                JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
-                sbzl["sksssqQ"] = date.skssqq;
-                sbzl["sksssqZ"] = date.skssqz;
-                sbzl["tbrq"] = date.tbrq;
-            }
+            switch (sbzlDm)
+            {
+                case "10103":
+                case "29836":
+                    if (qc.SBZT == set.ysbzt)
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.ysb.json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+                    }
+                    else
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
 
+                        JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
+                        sbzl["sksssqQ"] = date.skssqq;
+                        sbzl["sksssqZ"] = date.skssqz;
+                        sbzl["tbrq"] = date.tbrq;
+                    }
+
+                    break;
+                case "10442":
+                    if (qc.SBZT == set.ysbzt)
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx.ysb.json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+                    }
+                    else
+                    {
+                        str = File.ReadAllText(HttpContext.Current.Server.MapPath("hdxx." + sbzlDm + ".json"));
+                        re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+                        re_json = set.getQysdsyjADataConfig(re_json, sbzlDm);
+                        JObject sbzl = (JObject)re_json.SelectToken("value.sbzl[0]");
+                        sbzl["sksssqQ"] = date.skssqq;
+                        sbzl["sksssqZ"] = date.skssqz;
+                        sbzl["tbrq"] = date.tbrq;
+                    }
+                    break;
+            }
             return re_json;
         }
 
