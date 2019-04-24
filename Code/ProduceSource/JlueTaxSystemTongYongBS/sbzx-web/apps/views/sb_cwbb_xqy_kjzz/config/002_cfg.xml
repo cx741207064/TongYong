@@ -1,0 +1,81 @@
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_XQYLRB.SB_XQYLRB_BTXX.SB_XQYLRB_NSRSBH." Col="1" Row="1" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_XQYLRB.SB_XQYLRB_BTXX.SB_XQYLRB_NSR." Col="1" Row="2" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_XQYLRB.SB_XQYLRB_BTXX.SB_XQYLRB_QSRQ." Col="4" Row="1" HeadStr="税款所属期：" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_XQYLRB.SB_XQYLRB_BTXX.SB_XQYLRB_TBRQ." Col="7" Row="2" HeadStr="填表日期：" DataType="填表时间"/>
+	</Head>
+	<Body>
+		<Records HeadName="SB_XQYLRB.SB_XQYLRB_MXXX." NodeRange="1,2," CellColRange="6,9," CellSRow="4" CellERow="35" XmlSRow="0" XmlERow="31" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+	</Body>
+
+	<BodyFromPreData>
+		<Records AreaCode="13,62" HeadName="SB_XQYLRB.SB_XQYLRB_MXXX." NodeRange="1," CellColRange="11," CellSRow="4" CellERow="23" XmlSRow="0" XmlERow="19" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYLRB.SB_XQYLRB_MXXX." NodeRange="1," CellColRange="11," CellSRow="25" CellERow="32" XmlSRow="21" XmlERow="28" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYLRB.SB_XQYLRB_MXXX." NodeRange="1," CellColRange="11," CellSRow="34" CellERow="34" XmlSRow="30" XmlERow="30" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+	</BodyFromPreData>
+	<!--
+	<CalcSum openmode="new">
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="53"  DependCol="-1" Col="6" CellSRow="4" CellERow="35" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+	</CalcSum>
+	-->
+
+	<DynamicSetCellFormula>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="4" DataType="DT_Num" Formula="round((L5)+(J5),2)" ReadOnly="0" DependCol="9,4" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="5" DataType="DT_Num" Formula="round((L6)+(J6),2)" ReadOnly="0" DependCol="9,5" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="6" DataType="DT_Num" Formula="round((L7)+(J7),2)" ReadOnly="0" DependCol="9,6" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="7" DataType="DT_Num" Formula="round((L8)+(J8),2)" ReadOnly="0" DependCol="9,7" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="8" DataType="DT_Num" Formula="round((L9)+(J9),2)" ReadOnly="0" DependCol="9,8" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="9" DataType="DT_Num" Formula="round((L10)+(J10),2)" ReadOnly="0" DependCol="9,9" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="10" DataType="DT_Num" Formula="round((L11)+(J11),2)" ReadOnly="0" DependCol="9,10" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="11" DataType="DT_Num" Formula="round((L12)+(J12),2)" ReadOnly="0" DependCol="9,11" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="12" DataType="DT_Num" Formula="round((L13)+(J13),2)" ReadOnly="0" DependCol="9,12" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="13" DataType="DT_Num" Formula="round((L14)+(J14),2)" ReadOnly="0" DependCol="9,13" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="14" DataType="DT_Num" Formula="round((L15)+(J15),2)" ReadOnly="0" DependCol="9,14" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="15" DataType="DT_Num" Formula="round((L16)+(J16),2)" ReadOnly="0" DependCol="9,15" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="16" DataType="DT_Num" Formula="round((L17)+(J17),2)" ReadOnly="0" DependCol="9,16" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="17" DataType="DT_Num" Formula="round((L18)+(J18),2)" ReadOnly="0" DependCol="9,17" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="18" DataType="DT_Num" Formula="round((L19)+(J19),2)" ReadOnly="0" DependCol="9,18" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="19" DataType="DT_Num" Formula="round((L20)+(J20),2)" ReadOnly="0" DependCol="9,19" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="20" DataType="DT_Num" Formula="round((L21)+(J21),2)" ReadOnly="0" DependCol="9,20" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="21" DataType="DT_Num" Formula="round((L22)+(J22),2)" ReadOnly="0" DependCol="9,21" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="22" DataType="DT_Num" Formula="round((L23)+(J23),2)" ReadOnly="0" DependCol="9,22" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="23" DataType="DT_Num" Formula="round((L24)+(J24),2)" ReadOnly="0" DependCol="9,23" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="25" DataType="DT_Num" Formula="round((L26)+(J26),2)" ReadOnly="0" DependCol="9,25" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="26" DataType="DT_Num" Formula="round((L27)+(J27),2)" ReadOnly="0" DependCol="9,26" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="27" DataType="DT_Num" Formula="round((L28)+(J28),2)" ReadOnly="0" DependCol="9,27" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="28" DataType="DT_Num" Formula="round((L29)+(J29),2)" ReadOnly="0" DependCol="9,28" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="29" DataType="DT_Num" Formula="round((L30)+(J30),2)" ReadOnly="0" DependCol="9,29" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="30" DataType="DT_Num" Formula="round((L31)+(J31),2)" ReadOnly="0" DependCol="9,30" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="31" DataType="DT_Num" Formula="round((L32)+(J32),2)" ReadOnly="0" DependCol="9,31" OpenMode="new,edit" Caption=""/>		
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="32" DataType="DT_Num" Formula="round((L33)+(J33),2)" ReadOnly="0" DependCol="9,32" OpenMode="new,edit" Caption=""/>
+		<Records AreaCode="13,62" Count="0" Conditions="" Col="6" Row="34" DataType="DT_Num" Formula="round((L35)+(J35),2)" ReadOnly="0" DependCol="9,34" OpenMode="new,edit" Caption=""/>
+	</DynamicSetCellFormula>
+	<SaveCheckData>
+		<Records Count="8" A1="6,6" A2="6,7" A3="6,8" A4="6,9" A5="6,10" A6="6,11" A7="6,12" A8="6,13" Formula="((A2)+(A3)+(A4)+(A5)+(A6)+(A7)+(A8)-(A1)&gt;0.001)" Range="true" Emsg="利润表第3栏中营业税金及附加本年累计金额【A1】应大于等于第4+5+6+7+8+9+10栏【A2+A3+A4+A5+A6+A7+A8】之和！" />
+		<Records Count="8" A1="9,6" A2="9,7" A3="9,8" A4="9,9" A5="9,10" A6="9,11" A7="9,12" A8="9,13" Formula="((A2)+(A3)+(A4)+(A5)+(A6)+(A7)+(A8)-(A1)&gt;0.001)" Range="true" Emsg="利润表第3栏中营业税金及附加本期金额【A1】应大于等于第4+5+6+7+8+9+10栏【A2+A3+A4+A5+A6+A7+A8】之和！" />
+		<!--Records Count="3" A1="6,14" A2="6,15" A3="6,16" Formula="((A2)+(A3)-(A1)&gt;0.001)" Range="true" Emsg="利润表第11栏中销售费用本年累计金额【A1】应大于等于第12、13栏【(A2)+(A3)】之和！" />
+		<Records Count="3" A1="9,14" A2="9,15" A3="9,16" Formula="((A2)+(A3)-(A1)&gt;0.001)" Range="true" Emsg="利润表第11栏中销售费用本月金额【A1】应大于等于第12、13栏【(A2)+(A3)】之和！" />
+		<Records Count="4" A1="6,17" A2="6,18" A3="6,19" A4="6,20" Formula="((A2)+(A3)+(A4)-(A1)&gt;0.001)" Range="true" Emsg="利润表第14栏中管理费用本年累计金额【A1】应大于等于第15-17栏【(A2)+(A3)+(A4)】之和！" />
+		<Records Count="4" A1="9,17" A2="9,18" A3="9,19" A4="9,20" Formula="((A2)+(A3)+(A4)-(A1)&gt;0.001)" Range="true" Emsg="利润表第14栏中销售费用本月金额【A1】应大于等于第15-17栏【(A2)+(A3)+(A4)】之和！" />
+		<Records Count="2" A1="6,21" A2="6,22" Formula="(A2-(A1)&gt;0.001)" Range="true" Emsg="利润表第18栏中财务费用本年累计金额【A1】应大于等于第19栏利息费用【A2】！" />
+		<Records Count="2" A1="9,21" A2="9,22" Formula="(A2-(A1)&gt;0.001)" Range="true" Emsg="利润表第18栏中财务费用本月金额【A1】应大于等于第19栏利息费用【A2】！" />
+		<Records Count="2" A1="6,25" A2="6,26" Formula="(A2-(A1)&gt;0.001)" Range="true" Emsg="利润表第22栏中营业外收入本年累计金额【A1】应大于等于第23栏政府补助【A2】！" />
+		<Records Count="2" A1="9,25" A2="9,26" Formula="(A2-(A1)&gt;0.001)" Range="true" Emsg="利润表第22栏中营业外收入本月金额【A1】应大于等于第23栏政府补助【A2】！" />
+		<Records Count="6" A1="6,27" A2="6,28" A3="6,29" A4="6,30" A5="6,31" A6="6,32" Formula="((A2)+(A3)+(A4)+(A5)+(A6)-(A1)&gt;0.001)" Range="true" Emsg="利润表第24栏中营业外支出本年累计金额【A1】应大于等于第25-29栏【(A2)+(A3)+(A4)+(A5)+(A6)】之和！" />
+		<Records Count="6" A1="9,27" A2="9,28" A3="9,29" A4="9,30" A5="9,31" A6="9,32" Formula="((A2)+(A3)+(A4)+(A5)+(A6)-(A1)&gt;0.001)" Range="true" Emsg="利润表第24栏中营业税金及附加本月金额【A1】应大于等于第25-29栏【(A2)+(A3)+(A4)+(A5)+(A6)】之和！" /-->
+	</SaveCheckData>
+	<DoShowMessage>
+		<Records Count="3" A1="6,14" A2="6,15" A3="6,16" Conditions="(A1&lt;A2+A3)" ActionTime="save" ErrMsg="利润表第11栏本年累计金额应大于等于第12+13栏本年累计金额！" InfoMsg= ""/>
+		<Records Count="3" A1="9,14" A2="9,15" A3="9,16" Conditions="(A1&lt;A2+A3)" ActionTime="save" ErrMsg="利润表第11栏本期金额应大于等于第12+13栏本期金额！" InfoMsg= ""/>
+		<Records Count="4" A1="6,17" A2="6,18" A3="6,19" A4="6,20" Conditions="(A1&lt;A2+A3+A4)" ActionTime="save" ErrMsg="利润表第14栏本年累计金额应大于等于第15+16+17栏本年累计金额！" InfoMsg= ""/>
+		<Records Count="4" A1="9,17" A2="9,18" A3="9,19" A4="9,20" Conditions="(A1&lt;A2+A3+A4)" ActionTime="save" ErrMsg="利润表第14栏本期金额应大于等于第15+16+17栏本期金额！" InfoMsg= ""/>
+		<Records Count="2" A1="6,21" A2="6,22" Conditions="(A1&lt;A2)" ActionTime="save" ErrMsg="利润表第18栏本年累计金额应大于等于第19栏本年累计金额！" InfoMsg= ""/>
+		<Records Count="2" A1="9,21" A2="9,22" Conditions="(A1&lt;A2)" ActionTime="save" ErrMsg="利润表第18栏本期金额应大于等于第19栏本期金额！" InfoMsg= ""/>
+		<Records Count="2" A1="6,25" A2="6,26" Conditions="(A1&lt;A2)" ActionTime="save" ErrMsg="利润表第22栏本年累计金额应大于等于第23栏本年累计金额！" InfoMsg= ""/>
+		<Records Count="2" A1="9,25" A2="9,26" Conditions="(A1&lt;A2)" ActionTime="save" ErrMsg="利润表第22栏本期金额应大于等于第23栏本期金额！" InfoMsg= ""/>
+		
+		<Records Count="6" A1="6,27" A2="6,28" A3="6,29" A4="6,30" A5="6,31" A6="6,32" Conditions="(A1&lt;A2+A3+A4+A5+A6)" ActionTime="save" ErrMsg="利润表第24栏本年累计金额应大于等于第25+26+27+28+29栏本年累计金额之和！" InfoMsg= ""/>
+		<Records Count="6" A1="9,27" A2="9,28" A3="9,29" A4="9,30" A5="9,31" A6="9,32" Conditions="(A1&lt;A2+A3+A4+A5+A6)" ActionTime="save" ErrMsg="利润表第24栏本期金额应大于等于第25+26+27+28+29栏本期金额之和！" InfoMsg= ""/>
+	</DoShowMessage>
+</XmlRWConfig>

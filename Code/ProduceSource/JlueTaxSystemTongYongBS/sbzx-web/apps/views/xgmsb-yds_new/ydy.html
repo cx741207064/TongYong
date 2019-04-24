@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=renderer content=webkit|ie-stand|ie-comp>
+    <meta name=description content=网上税务局,网上办税服务厅>
+    <meta name=keywords content=网上税务局,网上办税服务厅>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href=../../images/public/favicon.ico rel=icon type=image/x-icon>
+    <title>增值税小规模纳税人申报</title>
+    <link rel=stylesheet href=../../../apps/styles/style.css?v =1538121400974_2.0.0>
+    <link rel=stylesheet href=xgmsb.css?v =1538121400974_2.0.0>
+</head>
+<body>
+    <div class=xgmsb-xxhd>
+        <div class=xxhd-tips>尊敬的纳税人您好，欢迎使用河北省网上税务局网上申报系统，请核对以下信息后开始申报：</div>
+        <div class=xxhd-jbxx>
+            <div class=xxhd-title>纳税人基本信息</div>
+            <div class=xxhd-jbxx-content>
+                <table width=100% height=120>
+                    <tr>
+                        <td width=10% class=txt-r>纳税人名称：</td>
+                        <td width=39%><span class=nsrmc></span></td>
+                        <td width=10% class=txt-r>税款所属期：</td>
+                        <td width=39%><span class=skssq></span></td>
+                    </tr>
+                    <tr id=hdzs>
+                        <td class=txt-r>核定销售额：</td>
+                        <td><span class=zse></span></td>
+                        <td class=txt-r>核定应纳税额：</td>
+                        <td><span class=nse></span></td>
+                    </tr>
+                    <tr></tr>
+                </table>
+            </div>
+        </div>
+        <div class=xxhd-sbzb>
+            <div class=xxhd-title>申报前准备</div>
+            <div class=xxhd-sbzb-content>
+                <ul>
+                    <li>1、您开具的发票需全部验旧； <!--<a href="/fpzx-web/apps/views/fpyj/fpyj.html?code=110211&id=10" target=_blank>去验旧>></a>--></li>
+                    <li>2、若您为金税盘或者税控盘用户，请先完成抄税；</li>
+                    <li>3、确认您缴税账户有足额的税款；</li>
+                </ul>
+            </div>
+        </div>
+        <div class=xb-xz>
+            <table class="table text-center" cellspacing=0 cellpadding=0 width=100%>
+                <tr class=header>
+                    <td>申报方式选择</td>
+                    <td>适用对象</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td>直接填写报表</td>
+                    <td>适用于所有纳税人</td>
+                    <td><a class="btn zjsb">直接填写申报表</a></td>
+                </tr>
+                <tr>
+                    <td>引导式申报</td>
+                    <td>
+                        适用于3%征收率的纳税人
+                        <i class=help-ico>?</i>
+                        <span class="tip-span hide">有差额扣除项目、减免税项目（不包括未达起征点免税）、 销售使用过固定资产、销售出租不动产的纳税人请使用直接填表式申报</span>
+                    </td>
+                    <td><a class="btn ydssb">引导式申报</a></td>
+                </tr>
+                <tr>
+                    <td>一键零申报</td>
+                    <td>适用于没有发生销售业务，申报项目全部为0的纳税人</td>
+                    <td><a class="btn yjlsb">一键零申报</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class=xxhd-sbfs style="display: none">
+            <div class=xxhd-title>申报方式选择</div>
+            <div class=xxhd-sbfs-content>
+                <button class="xxhd-sbfs-ydssb active" value=ydssb>引导式申报（适合新用户）</button>
+                <button class=xxhd-sbfs-zjsb value=zjsb>直接填写申报表</button>
+            </div>
+        </div>
+    </div>
+    <script src=../../../lib/jquery/jquery.min.js?v =1538121400974_2.0.0></script>
+    <script src=../../../apps/scripts/steps.js?v =1538121400974_2.0.0></script>
+    <script src=../../../apps/scripts/miniui.js?v =1538121400974_2.0.0></script>
+    <script src=../../../apps/scripts/sbzxcommon.js?v =1538121400974_2.0.0></script>
+    <script src=xgmsbScom.js?v =1538121400974_2.0.0></script>
+    <script src=xgmsbService.js?v =1538121400974_2.0.0></script>
+    <script src=ydy.js?v =1538121400974_2.0.0></script>
+</body>
+</html>

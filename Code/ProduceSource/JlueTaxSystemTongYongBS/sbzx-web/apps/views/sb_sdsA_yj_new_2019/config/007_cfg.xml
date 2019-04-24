@@ -1,0 +1,21 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_QSRQ." Col="1" Row="20" HeadStr="" DataType="税款所属时期 季报"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_SSND." Col="9" Row="1" HeadStr="" DataType="DT_String"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_NSRSBH." Col="5" Row="1" HeadStr="纳税人识别号：" DataType="纳税人识别号"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_NSRMC." Col="0" Row="1" HeadStr="纳税人名称（盖章）：" DataType="纳税人名称"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_FDDBR." Col="8" Row="17" HeadStr="" DataType="DT_String"/>
+		<!--Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_QZRQ." Col="8" Row="18" HeadStr="" DataType="DT_String"/-->
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_TBR." Col="2" Row="19" HeadStr="" DataType="DT_String"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_QYSDSYJDNSSBBA_TBRQ." Col="7" Row="19" HeadStr="" DataType="填表时间"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_GYJZ_HJ." Col="4" Row="15" HeadStr="" DataType="DT_Num"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_JSJC_HJ." Col="5" Row="15" HeadStr="" DataType="DT_Num"/>
+		<Records NodeName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_BTXX.SB_JSCGTZRGBAB_DYSD_HJ." Col="7" Row="15" HeadStr="" DataType="DT_Num"/>
+	</Head>
+
+	<Body>
+		<Records HeadName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_MXXX." NodeRange="1,2,3,6,8,9,10,11,12,13,14," CellColRange="1,2,3,6,8,10,11,12,13,14,15," CellSRow="5" CellERow="14" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="1"/>
+		<Records HeadName="SB_JSCGTZRGBAB.SB_JSCGTZRGBAB_MXXX." NodeRange="1,2,3,4,5,6,7,8,9,10,11," CellColRange="1,2,3,4,5,6,7,8,9,10,11," CellSRow="5" CellERow="14" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="1" IDentifyCol="1"/>
+	</Body>
+</XmlRWConfig>

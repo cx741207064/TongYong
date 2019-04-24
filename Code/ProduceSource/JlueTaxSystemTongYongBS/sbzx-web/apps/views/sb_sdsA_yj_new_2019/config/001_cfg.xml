@@ -1,0 +1,53 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_QYSDSYJDNSSBBA.SB_QYSDSYJDNSSBBA_BTXX.SB_QYSDSYJDNSSBBA_XWQYY." Col="2" Row="38" HeadStr="" DataType="DT_Num"/>
+	</Head>
+	 <Body>
+			<!--Records HeadName="SB_QYSDSYJDNSSBBA.SB_QYSDSYJDNSSBBA_MXXX." NodeRange="0," CellColRange="0," CellSRow="5" CellERow="39" XmlSRow="0" XmlERow="34" DataType="DT_String" WriteZero="-1" IDentifyCol="-1"/-->
+			<Records HeadName="SB_QYSDSYJDNSSBBA.SB_QYSDSYJDNSSBBA_MXXX." NodeRange="1,2," CellColRange="5,6," CellSRow="5" CellERow="35" XmlSRow="0" XmlERow="30" DataType="DT_Num" WriteZero="-1" IDentifyCol="-1"/>
+			<Records HeadName="SB_QYSDSYJDNSSBBA.SB_QYSDSYJDNSSBBA_MXXX." NodeRange="1,2," CellColRange="5,6," CellSRow="36" CellERow="36" XmlSRow="31" XmlERow="31" DataType="DT_Num" Round="4" WriteZero="-1" IDentifyCol="-1"/>
+			<Records HeadName="SB_QYSDSYJDNSSBBA.SB_QYSDSYJDNSSBBA_MXXX." NodeRange="1,2," CellColRange="5,6," CellSRow="37" CellERow="37" XmlSRow="32" XmlERow="32" DataType="DT_Num" WriteZero="-1" IDentifyCol="-1"/>
+	 </Body>
+
+	<SaveCheckData XmlFile="'003','004','005'">
+		<!-- 2018.06.13  by liun start-->
+        <Records Count="2" A1="WSXXS.[SQTDYWJSDYNSSDELJ]" A2="5,11" A3="WSXXS.[YJFS]" A4="WSXXS.[SBQYLX]" Formula="(A1&gt;A2) and (A3=1) and (A4 &lt;&gt; 2)" Range="true" Emsg="主表第4行“加：特定业务计算的应纳税所得额”应大于等于本年上期本行金额[A1]。"/>
+		<Records Count="1" A1="5,13" Formula="A1&lt;0" Range="true" Emsg="主表第6行“减：免税收入、减计收入、所得减免等优惠金额”应大于等于0。"/>
+		<Records Count="1" A1="5,14" Formula="A1&lt;0" Range="true" Emsg="主表第7行“减：免税收入、减计收入、所得减免等优惠金额”应大于等于0。"/>
+		<Records Count="1" A1="5,18" Formula="A1&lt;0" Range="true" Emsg="主表第11行“应纳所得税额”应大于等于0。"/>
+		<Records Count="2" A1="5,19" A2="5,18" Formula="A1&lt;0 or A1&gt;A2" Range="true" Emsg="主表第12行“减：减免所得税额”应大于等于0,且小于等于第11行“应纳所得税额”，请修改A201030表数据后保存！"/>
+		<Records Count="2" A1="WSXXS.[SQTDYWYJZSDSELJ]" A2="5,21" A3="WSXXS.[YJFS]" A4="WSXXS.[SBQYLX]" Formula="(A1&gt;A2) and (A3=1) and (A4 &lt;&gt; 2)" Range="true" Emsg="主表第14行“特定业务预缴（征）所得税额”应大于等于本年上期本行金额[A1]。"/>
+        <!--下一行校验2019-01-24移除-->
+        <!--<Records Count="2" A1="WSXXS.[SBQYLX]" A2="2,33" Formula="A1&lt;&gt;2 and A2=0" Range="true" Emsg="主表期末从业人数必须大于0且为整数！"/>-->
+		<Records Count="2" A1="WSXXS.[BQYJ]" A2="5,20" Formula="A1&lt;A2" Range="true" Emsg="主表第13行减：实际已缴纳所得税额不能大于核定值[A1]。"/>
+		<!--<Records Count="2" A1="1,5" A2="4,36" Formula="(A1=2) and (&quot;A2&quot;=&quot;Y&quot;)" Range="true" Emsg="尊敬的纳税人，您的企业类型为跨地区经营汇总纳税企业的分支机构，小型微利企业必须选择为否，请核实！"/>-->
+		<!--<Records Count="2" A1="WSXXS.[BYHBZ]" A2="4,36" Formula="(&quot;A1&quot;=&quot;Y&quot;) and (&quot;A2&quot;=&quot;Y&quot;)" Range="true" Emsg="尊敬的纳税人，您为报验户企业，小型微利企业必须选择为否，请核实！"/>-->
+		<Records Count="2" A1="5,16" A2="4,36" A7="WSXXS.[XWJM_MAX_2019]" Formula="(A1&gt;A7) and (&quot;A2&quot;=&quot;Y&quot;)" Range="true" Emsg="尊敬的纳税人，本期第9行累计金额超过【A7】，小型微利企业必须选择为否，请核实！"/>
+		<!--下一行校验2019-01-24移除-->
+        <!--<Records Count="4" A1="5,16" A2="4,36" A3="WSXXS.[XXWLBZ]" A4="1,4" A5="WSXXS.[SBQYLX]" A6="WSXXS.[BYHBZ]" A7="WSXXS.[XWJM_2019]" A8="WSXXS.[TSNSR]" Formula="(A5&lt;&gt;2) and (&quot;A6&quot;=&quot;N&quot;) and (A1&lt;=A7) and (&quot;A2&quot;=&quot;N&quot;) and (A3=1) and (A4=1 or A4=2) and (A8=0)" Range="true" Emsg="尊敬的纳税人，您符合小型微利条件，小型微利企业必须选择为是，请核实！"/>-->
+        <!--下一行校验2019-01-24移除-->
+        <!--<Records Count="3" A1="4,36" A2="WSXXS.[XXWLBZ]" A3="1,4" A4="WSXXS.[TSNSR]" A5="WSXXS.[SBQYLX]" A6="WSXXS.[BYHBZ]" Formula="(A5&lt;&gt;2) and (&quot;A6&quot;=&quot;N&quot;) and (&quot;A1&quot;=&quot;Y&quot;) and (A2=1) and (A3=3) and (A4=0)" Range="true" Emsg="尊敬的纳税人，您符合小型微利企业，且预缴方式为按照税务机关确定的其他方法预缴，小型微利企业必须选择为否，请核实！"/>-->
+		<!-- 2018.06.13  by liun end-->
+        <!--2019-01-24 begin-->
+        <Records Count="1" A1="5,0" A2="4,36" A3="WSXXS.[SBQYLX]" Formula="(A1=3 or A1=6 or A1=9 or A1=12) and (&quot;A2&quot;=&quot;&quot;) and (A3 &lt;&gt; 2)" Range="true" Emsg="请选择是否属于小型微利企业！"/>
+        <Records Count="1" A1="2,31" A2="WSXXS.[SBQYLX]" Formula="(&quot;A1&quot;=&quot;&quot;) and (A2 &lt;&gt; 2)" Range="true" Emsg="请选择是否属于高新技术企业！"/>
+        <Records Count="1" A1="4,31" A2="WSXXS.[SBQYLX]" Formula="(&quot;A1&quot;=&quot;&quot;) and (A2 &lt;&gt; 2)" Range="true" Emsg="请选择是否属于科技型中小企业！"/>
+        <Records Count="1" A1="2,32" A2="WSXXS.[SBQYLX]" Formula="(&quot;A1&quot;=&quot;&quot;) and (A2 &lt;&gt; 2)" Range="true" Emsg="请选择是否属于技术入股递延纳税事项！"/>
+        <Records Count="1" A1="5,0" A2="2,34" A3="WSXXS.[SBQYLX]" Formula="(A1=3 or A1=6 or A1=9 or A1=12) and (A2&lt;=0) and (A3 &lt;&gt; 2)" Range="true" Emsg="“按季度填报信息”的季初从业人数必须大于0且为整数！"/>
+        <Records Count="1" A1="5,0" A2="4,34" A3="WSXXS.[SBQYLX]" Formula="(A1=3 or A1=6 or A1=9 or A1=12) and (A2&lt;=0) and (A3 &lt;&gt; 2)" Range="true" Emsg="“按季度填报信息”的季末从业人数必须大于0且为整数！"/>
+        <Records Count="1" A1="5,0" A2="2,35" A3="WSXXS.[SBQYLX]" Formula="(A1=3 or A1=6 or A1=9 or A1=12) and (A2&lt;0) and (A3 &lt;&gt; 2)" Range="true" Emsg="“按季度填报信息”的季初资产总额（万元）必须大于等于0！"/>
+        <Records Count="1" A1="5,0" A2="4,35" A3="WSXXS.[SBQYLX]" Formula="(A1=3 or A1=6 or A1=9 or A1=12) and (A2&lt;0) and (A3 &lt;&gt; 2)" Range="true" Emsg="“按季度填报信息”的季末资产总额（万元）必须大于等于0！"/>
+        <!--2019-01-24 end-->
+	</SaveCheckData>
+	<DoShowMessage XmlFile="'002'">
+		<!-- 2018.06.13  by liun start-->
+		<Records Count="2" A1="5,11" A2="WSXXS.[FDCBZ]" Conditions="(A1&gt;0)and(&quot;A2&quot;=&quot;N&quot;)" ActionTime="save" ErrMsg="房地产开发企业销售未完工开发产品取得的预售收入，按照税收规定的预计计税毛利率计算的预计毛利额填入主表第4行。请确认是否填写正确。" InfoMsg=""/>
+		<!-- 2018.06.13  by liun start-->
+        <!--2019-01-25 begin-->
+        <Records Count="2" A1="4,0" A2="5,0" A3="4,36" Conditions="(A1=A2) and (A2=3 || A2=6 || A2=9 || A2=12) and (&quot;A3&quot;=&quot;Y&quot;)" ActionTime="save" ErrMsg="您截止本期，符合最小微企业优惠条件，请到税务局机关及时调整为按季度预缴申报！" InfoMsg=""/>
+        <Records Count="2" A1="2,35" A2="4,35" A3="WSXXS.[SBQYLX]" A4="5,0" Conditions="((A1=0) or (A2=0)) and (A3 != 2) and (A4=3 or A4=6 or A4=9 or A4=12)" ActionTime="save" ErrMsg="您季初资产总额或季末资产总额为0，请确认填写是否正确？，如果正确继续提交；否则，返回" InfoMsg=""/>
+        <!--2019-01-25 end-->
+		<Records Count="2" A1="2,34" A2="4,34" Conditions="((A1&gt;100000) or (A2&gt;100000))" ActionTime="save" ErrMsg="从业人数超过10万人，请确认填报是否准确？ 点击“确定”可以继续提交；否则返回修改。" InfoMsg=""/>
+	</DoShowMessage>
+</XmlRWConfig>

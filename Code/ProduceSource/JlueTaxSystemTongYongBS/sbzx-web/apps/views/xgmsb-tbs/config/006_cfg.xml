@@ -1,0 +1,32 @@
+﻿<XmlRWConfig>
+  <Head>
+    <Records NodeName="SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_BTXX.SB_ZZSNSXGMSBBFBY_QSRQ." Col="1" Row="1" HeadStr="" DataType="税款所属时期 季报"/>
+    <Records NodeName="SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_BTXX.SB_ZZSNSXGMSBBFBY_NSRSBH." Col="1" Row="2" HeadStr="" DataType="纳税人识别号"/>
+    <Records NodeName="SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_BTXX.SB_ZZSNSXGMSBBFBY_NSRMC." Col="1" Row="3" HeadStr="" DataType="纳税人名称"/>
+    <Records NodeName="SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_BTXX.SB_ZZSNSXGMSBBFBY_TBRQ." Col="4" Row="1" HeadStr="" DataType="填表时间"/>
+  </Head>
+  <Body>
+    <Records HeadName="zzsxgmflzl." NodeRange="0..2" CellColRange="0,1,2" CellSRow="7" CellERow="7" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+    <Records HeadName="zzsxgmflzl." NodeRange="4" CellColRange="0" CellSRow="11" CellERow="11" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+    <Records HeadName="zzsxgmflzl." NodeRange="7..9" CellColRange="0,1,2" CellSRow="15" CellERow="15" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+    <Records HeadName="zzsxgmflzl." NodeRange="11" CellColRange="0" CellSRow="19" CellERow="19" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+  </Body>
+  <AutoFill>
+    <Records Col="5" Row="10" Count="1" A1="WSXXS.[YSFWYNZSL]" Formula="A1+1" Conditions="" OpenMode="new,edit"/>
+    <Records Col="5" Row="18" Count="1" A1="WSXXS.[YSBDCZSL]" Formula="A1+1" Conditions="" OpenMode="new,edit"/>
+  </AutoFill>
+  <!--期初余额可以从核定取-->
+  <DynamicSetCellFormula>
+    <Records Count="1" A1="WSXXS.[XGMFB1QCYE]" Conditions="" Col="0" Row="7" DataType="DT_Num" Formula="A1"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <Records Count="1" A1="5,10" Conditions="" Col="4" Row="11" DataType="DT_Num" Formula="ROUND((C12/A1)+0.0000001,2)"  ReadOnly="1" DependCol="2,7|0,11" OpenMode="new,edit" Caption="显示信息"/>
+    <Records Count="1" A1="WSXXS.[YSBDCZSL]" Conditions="" Col="4" Row="19" DataType="DT_Num" Formula="ROUND((C20/(1+(A1)))+0.0000001,2)"  ReadOnly="1" DependCol="2,15|0,19" OpenMode="new,edit" Caption="显示信息"/>
+  </DynamicSetCellFormula>
+  <SaveCheckData>
+    <!--3小于等1+2，且3小于等于5-->
+    <Records Count="4" A1="0,7" A2="1,7" A3="2,7" A4="0,11"  Formula="(A3&gt;round(A1+A2,2)) or (A3&gt;A4)" Range="true" Emsg="第3栏【A3】需小于等于1+2栏之和【A1+A2】，且第3栏[A3]需小于等于第5栏【A4】!"/>
+    <!--11小于等9+10，且11小于等于13-->
+    <Records Count="4" A1="0,15" A2="1,15" A3="2,15" A4="0,19"  Formula="(A3&gt;round(A1+A2,2)) or (A3&gt;A4)" Range="true" Emsg="第11栏[A3]需小于等于9+10栏之和[A1+A2]，且第11栏[A3]需小于等于第13栏[A4]!"/>
+    <!--货劳企业在保存小规模附列资料表时，校验下半部分第5-第8个值必须为0才能保存-->
+    <Records Count="5" A1="0,11" A2="1,11" A3="WSXXS.[SZLBDM]" A4="0,19" A5="1,19" Formula="(A3=01) and ((A1&lt;&gt;0) or (A2&lt;&gt;0) or (A4&lt;&gt;0) or (A5&lt;&gt;0))" Range="true" Emsg="您的增值税征收类型为货劳企业，小规模附列资料表应税服务计税销售额计算部分应该为0，请检查。"/>
+  </SaveCheckData >
+</XmlRWConfig>

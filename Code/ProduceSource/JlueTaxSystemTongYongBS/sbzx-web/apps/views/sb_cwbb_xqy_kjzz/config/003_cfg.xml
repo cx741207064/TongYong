@@ -1,0 +1,41 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_XQYXJLLB.SB_XQYXJLLB_BTXX.SB_XQYXJLLB_NSRSBH." Col="1" Row="1" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_XQYXJLLB.SB_XQYXJLLB_BTXX.SB_XQYXJLLB_NSR." Col="1" Row="2" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_XQYXJLLB.SB_XQYXJLLB_BTXX.SB_XQYXJLLB_QSRQ." Col="2" Row="1" HeadStr="税款所属期：" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_XQYXJLLB.SB_XQYXJLLB_BTXX.SB_XQYXJLLB_TBRQ." Col="4" Row="2" HeadStr="填表日期：" DataType="填表时间"/>
+	</Head>
+	<Body>
+		<Records HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1,2," CellColRange="4,5," CellSRow="5" CellERow="11" XmlSRow="0" XmlERow="6" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1,2," CellColRange="4,5," CellSRow="13" CellERow="18" XmlSRow="7" XmlERow="12" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1,2," CellColRange="4,5," CellSRow="20" CellERow="28" XmlSRow="13" XmlERow="21" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+	</Body>
+
+	<BodyFromPreData>
+		<Records AreaCode="13,62" HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1," CellColRange="6," CellSRow="5" CellERow="10" XmlSRow="0" XmlERow="5" DataType="DT_Num" WriteZero="1" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1," CellColRange="6," CellSRow="13" CellERow="17" XmlSRow="7" XmlERow="11" DataType="DT_Num" WriteZero="1" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1," CellColRange="6," CellSRow="20" CellERow="24" XmlSRow="13" XmlERow="17" DataType="DT_Num" WriteZero="1" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYXJLLB.SB_XQYXJLLB_MXXX." NodeRange="1," CellColRange="6," CellSRow="27" CellERow="27" XmlSRow="20" XmlERow="20" DataType="DT_Num" WriteZero="1" NotDealYF="1," OpenMode="new"/>
+        </BodyFromPreData>
+
+<DynamicSetCellFormula>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="5" DataType="DT_Num" Formula="ROUND((F6)+(G6),2)"  ReadOnly="0" DependCol="5,5" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="6" DataType="DT_Num" Formula="ROUND((F7)+(G7),2)"  ReadOnly="0" DependCol="5,6" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="7" DataType="DT_Num" Formula="ROUND((F8)+(G8),2)"  ReadOnly="0" DependCol="5,7" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="8" DataType="DT_Num" Formula="ROUND((F9)+(G9),2)"  ReadOnly="0" DependCol="5,8" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="9" DataType="DT_Num" Formula="ROUND((F10)+(G10),2)"  ReadOnly="0" DependCol="5,9" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="10" DataType="DT_Num" Formula="ROUND((F11)+(G11),2)"  ReadOnly="0" DependCol="5,10" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="13" DataType="DT_Num" Formula="ROUND((F14)+(G14),2)"  ReadOnly="0" DependCol="5,13" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="14" DataType="DT_Num" Formula="ROUND((F15)+(G15),2)"  ReadOnly="0" DependCol="5,14" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="15" DataType="DT_Num" Formula="ROUND((F16)+(G16),2)"  ReadOnly="0" DependCol="5,15" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="16" DataType="DT_Num" Formula="ROUND((F17)+(G17),2)"  ReadOnly="0" DependCol="5,16" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="17" DataType="DT_Num" Formula="ROUND((F18)+(G18),2)"  ReadOnly="0" DependCol="5,17" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="20" DataType="DT_Num" Formula="ROUND((F21)+(G21),2)"  ReadOnly="0" DependCol="5,20" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="21" DataType="DT_Num" Formula="ROUND((F22)+(G22),2)"  ReadOnly="0" DependCol="5,21" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="22" DataType="DT_Num" Formula="ROUND((F23)+(G23),2)"  ReadOnly="0" DependCol="5,22" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="23" DataType="DT_Num" Formula="ROUND((F24)+(G24),2)"  ReadOnly="0" DependCol="5,23" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="24" DataType="DT_Num" Formula="ROUND((F25)+(G25),2)"  ReadOnly="0" DependCol="5,24" OpenMode="new,edit" Caption=""/>
+	<Records AreaCode="13,62" Count="0" Conditions="" Col="4" Row="27" DataType="DT_Num" Formula="ROUND((F28)+(G28),2)"  ReadOnly="0" DependCol="5,27" OpenMode="new,edit" Caption=""/>
+</DynamicSetCellFormula>
+</XmlRWConfig>

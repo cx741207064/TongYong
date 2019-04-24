@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>增值税小规模纳税人申报</title>
+    <link rel=stylesheet href=../../../apps/scripts/reportSB3.0/style.css?v =1539832402421_2.0.0>
+    <link rel=stylesheet href=../../../apps/scripts/reportSB3.0/servyouReport.css?v =1539832402421_2.0.0>
+</head>
+<body>
+    <div class=container>
+        <div id=tabs class=mini-tabs activeindex=0 style="width: 100%;" plain=false></div>
+        <div class=btn-group id=btn-group></div>
+    </div>
+    <div>
+        <object id=plugin0 type=application/x-hbcheckcactrl width=0 height=0><param name= onload value=pluginLoaded></object>
+        <br>
+    </div>
+    <div class="mini-window fixedWindowTop0" id=gds-win title=提示 style="width: 600px;display:none;font-size: 14px">
+        <div class="">
+            <div class=gds-message></div>
+            <table class=gds-table border=1 bordercolor=#999 cellspacing=0 style="width: 540px">
+                <tr>
+                    <td></td>
+                    <td align=center>原国税</td>
+                    <td align=center>原地税</td>
+                </tr>
+                <tr>
+                    <td>纳税人识别号</td>
+                    <td id=gs-nsrsbh></td>
+                    <td id=ds-nsrsbh></td>
+                </tr>
+                <tr>
+                    <td>纳税人名称</td>
+                    <td id=gs-nsrmc></td>
+                    <td id=ds-nsrmc></td>
+                </tr>
+                <tr>
+                    <td>社会信用代码</td>
+                    <td id=gs-shxydm></td>
+                    <td id=ds-shxydm></td>
+                </tr>
+                <tr>
+                    <td>法人证件类型</td>
+                    <td id=gs-fddbrsfzjlxDm></td>
+                    <td id=ds-fddbrsfzjlxDm></td>
+                </tr>
+                <tr>
+                    <td>法人证件号码</td>
+                    <td id=gs-fddbrsfzjhm></td>
+                    <td id=ds-fddbrsfzjhm></td>
+                </tr>
+                <tr>
+                    <td>法人姓名</td>
+                    <td id=gs-fddbrxm></td>
+                    <td id=ds-fddbrxm></td>
+                </tr>
+                <tr>
+                    <td>税收档案编号</td>
+                    <td id=gs-ssdabh></td>
+                    <td id=ds-ssdabh></td>
+                </tr>
+            </table>
+            <div class=btn-group>
+                <a class="btn btn-blue" onclick=xgm.changeFjsbz(true)>一体化申报</a>
+                <a class="btn btn-red" onclick=xgm.changeFjsbz(false)>主税种申报</a>
+            </div>
+        </div>
+    </div>
+    <script src=../../../lib/jquery/jquery.min.js?v =1539832402421_2.0.0></script>
+    <script src=../../../apps/scripts/miniui.js?v =1539832402421_2.0.0></script>
+    <script src=../../../lib/lodop/lodopPrint.js?v =1539832402421_2.0.0></script>
+    <script src=../../scripts/common-include.js?v =1539832402421_2.0.0></script>
+    <script src=../../../apps/scripts/reportSB3.0/servyouReport.js?v =1539832402421_2.0.0></script>
+    <script src=xgmsb-tbs.js?v =1539832402421_2.0.0></script>
+</body>
+</html>

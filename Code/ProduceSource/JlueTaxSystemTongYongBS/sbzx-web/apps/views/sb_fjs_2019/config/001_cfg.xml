@@ -1,0 +1,33 @@
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_QSRQ." Col="2" Row="3" HeadStr="" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_NSRSBH." Col="2" Row="4" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_NSRMC." Col="3" Row="5" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_DJLX." Col="3" Row="6" HeadStr="" DataType="登记类型" SectionName="djzclx" DispType="mc" SaveType="dm" GivenType="dm"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_HY." Col="9" Row="6" HeadStr="" DataType="所属行业" SectionName="hyxx" DispType="mc" SaveType="dm" GivenType="dm"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_LB1." Col="9" Row="5" HeadStr="" DataType="DT_Num"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_LB2." Col="10" Row="5" HeadStr="" DataType="DT_Num"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_SFZHM." Col="3" Row="7" HeadStr="" DataType="其他"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_LXFS." Col="9" Row="7" HeadStr="" DataType="其他"/>
+	</Head>
+
+	<Body>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="1,4,5,7,8,9,10," CellColRange="2,5,6,8,10,11,12," CellSRow="12" CellERow="31" XmlSRow="0" XmlERow="19" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2,3," CellColRange="3,4," CellSRow="12" CellERow="31" XmlSRow="0" XmlERow="19" DataType="DT_Num" WriteZero="0" IDentifyCol="-1" Round="6"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="6," CellColRange="7," CellSRow="12" CellERow="31" XmlSRow="0" XmlERow="19" DataType="DT_Num" WriteZero="0" IDentifyCol="-1" Round="4"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="11,12,13,14,15," CellColRange="9,0,13,14,15," CellSRow="12" CellERow="31" XmlSRow="0" XmlERow="19" DataType="DT_String" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="1,5,7,8,9,10," CellColRange="2,6,8,10,11,12," CellSRow="32" CellERow="32" XmlSRow="20" XmlERow="20" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2,3," CellColRange="3,4," CellSRow="32" CellERow="32" XmlSRow="20" XmlERow="20" DataType="DT_Num" WriteZero="0" IDentifyCol="-1" Round="6"/>
+	</Body>
+  	<CanFillCells>
+		<Records DependColRange ="0," ColRange="2,3,4,10,11," CellSRow="12" CellERow="31" Describe ="是否可编辑"/>
+	</CanFillCells>
+	<Edited>
+		<Records EditedCol="9" CellSRow="12" CellERow="31" ReadOnly="0" ClearCell="1" DependCol="9," DependSRow="-1" DependERow="-1" oData="" DataType="DT_String"/>
+	</Edited>
+
+  <DoShowMessage>
+  	<!--<Records Count="20" A1="9,12" A2="9,13" A3="9,14" A4="9,15" A5="9,16" A6="9,17" A7="9,18" A8="9,19" A9="9,20" A10="9,21" A11="9,22" A12="9,23" A13="9,24" A14="9,25" A15="9,26" A16="9,27" A17="9,28" A18="9,29" A19="9,30" A20="9,31" Conditions="(&quot;A1&quot;&lt;&gt;&quot;&quot;) or (&quot;A2&quot;&lt;&gt;&quot;&quot;) or (&quot;A3&quot;&lt;&gt;&quot;&quot;) or (&quot;A4&quot;&lt;&gt;&quot;&quot;) or (&quot;A5&quot;&lt;&gt;&quot;&quot;) or (&quot;A6&quot;&lt;&gt;&quot;&quot;) or (&quot;A7&quot;&lt;&gt;&quot;&quot;) or (&quot;A8&quot;&lt;&gt;&quot;&quot;) or (&quot;A9&quot;&lt;&gt;&quot;&quot;) or (&quot;A10&quot;&lt;&gt;&quot;&quot;) or (&quot;A11&quot;&lt;&gt;&quot;&quot;) or (&quot;A12&quot;&lt;&gt;&quot;&quot;) or (&quot;A13&quot;&lt;&gt;&quot;&quot;) or (&quot;A14&quot;&lt;&gt;&quot;&quot;) or (&quot;A15&quot;&lt;&gt;&quot;&quot;) or (&quot;A16&quot;&lt;&gt;&quot;&quot;) or (&quot;A17&quot;&lt;&gt;&quot;&quot;) or (&quot;A18&quot;&lt;&gt;&quot;&quot;) or (&quot;A19&quot;&lt;&gt;&quot;&quot;) or (&quot;A20&quot;&lt;&gt;&quot;&quot;)" ActionTime="save" ErrMsg="您录入了税收减免性质代码，请及时向税务机关进行备案。若有疑问，请咨询税务机关。" InfoMsg= ""/>-->
+  	<Records Count="2" A1="1,8" A2="WSXXS.[SFSYXGMZC]" Conditions="&quot;A1&quot;=&quot;Y&quot; and &quot;A2&quot;=&quot;Y&quot;" ActionTime="save" ErrMsg="增值税年应税销售额超过小规模纳税人标准应当登记为一般纳税人而未登记，经税务机关通知，逾期仍不办理登记的，自逾期次月起不再适用减征优惠。是否确定要申报减征优惠？" InfoMsg= ""/>
+  </DoShowMessage>
+</XmlRWConfig>

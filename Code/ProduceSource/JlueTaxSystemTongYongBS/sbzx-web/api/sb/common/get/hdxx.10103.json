@@ -1,0 +1,734 @@
+﻿{
+    "message": null,
+    "value": {
+        "nsrsbh": "91130623MA07TXDY2Y",
+        "kjny": "201809",
+        "qssj": "@@skssqq",
+        "jzsj": "@@skssqz",
+        "hbsj": "N",
+        "cajmbz": "N",
+        "sbzl": [
+            {
+                "sbzlcode": "10103",
+                "sbzlxlcode": "10103",
+                "ysbbbz": "N",
+                "sksssqZ": "@@skssqz",
+                "sksssqQ": "@@skssqq",
+                "tbrq":"@@tbrq",
+                "sbzlmc": "小规模申报季报",
+                "sbqj": "2",
+                "nsqxdm": "08",
+                "qccgbz": "Y",
+                "qccgbzms": "",
+                "sbqx": "2018-10-24",
+                "zsxmbm": "10101",
+                "zsxmpy": "",
+                "zsxmmc": "小规模申报季报",
+                "pdfversion": "",
+                "wsxxs": {
+                    "wsxx": [
+                        {
+                            "code": "BQYSHWYJ",
+                            "name": "本期应税货物预缴",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "BQYSFWYJ",
+                            "name": "本期应税服务预缴",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "SZLBDM",
+                            "name": "税种类别代码",
+                            "value": "03"
+                        },
+                        {
+                            "code": "HWYQNS",
+                            "name": "货物代开发票预缴税款",
+                            "value": ""
+                        },
+                        {
+                            "code": "FWYQNS",
+                            "name": "服务代开发票预缴税款",
+                            "value": ""
+                        },
+                        {
+                            "code": "HWDKZPXSE",
+                            "name": "应税货物税务机关代开的增值税专用发票不含销售额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "FWDKZPXSE",
+                            "name": "应税服务税务机关代开的增值税专用发票不含销售额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "DKFPJE",
+                            "name": "代开发票金额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "HWYQSB",
+                            "name": "货物定税户标志",
+                            "value": "0"
+                        },
+                        {
+                            "code": "FWYQSB",
+                            "name": "服务定税户标志",
+                            "value": "0"
+                        },
+                        {
+                            "code": "BQJM",
+                            "name": "减免额度",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "JML",
+                            "name": "减免幅度",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "GTHBZ",
+                            "name": "0非个体户、1个体户",
+                            "value": "0"
+                        },
+                        {
+                            "code": "QZD",
+                            "name": "起征点",
+                            "value": "90000.0"
+                        },
+                        {
+                            "code": "XGMFB1QCYE",
+                            "name": "小规模附表1期初余额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "XGMFB1QCYE5",
+                            "name": "小规模附表1期初余额5%",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "ZZSBALX",
+                            "name": "增值税备案类型（用于判断是否差额征税）",
+                            "value": "1"
+                        },
+                        {
+                            "code": "YSHWHDXSE",
+                            "name": "应税货物核定销售额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "YSFWHDXSE",
+                            "name": "应税服务核定销售额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "YSHWHDYNSE",
+                            "name": "应税货物核定应纳税额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "YSFWHDYNSE",
+                            "name": "应税服务核定应纳税额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "YQWRDBZ",
+                            "name": "逾期未认定标志",
+                            "value": "0"
+                        },
+                        {
+                            "code": "YSHWYNZSL",
+                            "name": "应税货物征收率",
+                            "value": "0.03"
+                        },
+                        {
+                            "code": "YSFWYNZSL",
+                            "name": "应税服务征收率",
+                            "value": "0.03"
+                        },
+                        {
+                            "code": "HWZSPM",
+                            "name": "货物征收品目",
+                            "value": ""
+                        },
+                        {
+                            "code": "FWZSPM",
+                            "name": "服务征收品目",
+                            "value": ""
+                        },
+                        {
+                            "code": "FB4JZEQCYE",
+                            "name": "附列资料四第1栏的期初余额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "FB4FZJGYJQCYE",
+                            "name": "附列资料四第2栏的期初余额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "FB4JZEBQFSE",
+                            "name": "附列资料四第1栏的本期发生额",
+                            "value": ""
+                        },
+                        {
+                            "code": "FZJGCDDYJNSEHZ",
+                            "name": "附列资料四第2栏的本期发生额",
+                            "value": ""
+                        },
+                        {
+                            "code": "XGMNSRBZ",
+                            "name": "增值税小规模纳税人标志",
+                            "value": ""
+                        },
+                        {
+                            "code": "YSFWBZ",
+                            "name": "应税服务标志",
+                            "value": "Y"
+                        },
+                        {
+                            "code": "ZSL",
+                            "name": "征收率",
+                            "value": "0.03"
+                        },
+                        {
+                            "code": "HWSKQJKJDPTFP",
+                            "name": "销售货物和劳务的税控器具开具的普通发票不含税销售额",
+                            "value": "32524.28"
+                        },
+                        {
+                            "code": "FWSKQJKJDPTFP",
+                            "name": "应税服务的税控器具开具的普通发票不含税销售额",
+                            "value": "32524.28"
+                        },
+                        {
+                            "code": "ZJ12SBXSSR_LW",
+                            "name": "最近已申报的12个月销售收入(货物劳务)",
+                            "value": "0,0,0,388.34,0,0,10158.57,0,0,329.13,0,0"
+                        },
+                        {
+                            "code": "ZJ12SBXSSR_FW",
+                            "name": "最近已申报的12个月销售收入(服务)",
+                            "value": "38483.5,0,0,3349.52,0,0,40242.72,0,0,9126.21,0,0"
+                        },
+                        {
+                            "code": "XSCZBDCDKZPXSE",
+                            "name": "税务机关代开的增值税专用发票不含税销售额(销售、出租不动产)",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "YSFWQZD",
+                            "name": "应税服务起征点（月报30000，季报90000）",
+                            "value": "90000.00"
+                        },
+                        {
+                            "code": "YSBDCZSL",
+                            "name": "应税不动产征收率",
+                            "value": "0.05"
+                        },
+                        {
+                            "code": "PPJE",
+                            "name": "普票金额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "ZPJE",
+                            "name": "专票金额",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "BQYSHWYJ_GT3",
+                            "name": "本期应税货物金三预缴值",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "BQYSFWYJ_GT3",
+                            "name": "本期应税服务金三预缴值",
+                            "value": "0.00"
+                        },
+                        {
+                            "code": "GYSYYGZQYBZ",
+                            "name": "工业商业营改增服务企业标志",
+                            "value": "50"
+                        },
+                        {
+                            "code": "ZSYLGZPBZ",
+                            "name": "住宿业且领购专票标志",
+                            "value": "0"
+                        },
+                        {
+                            "code": "DKZZSZYFPSE",
+                            "name": "代开增值税专用发票税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "DKZZSPTFPSE",
+                            "name": "代开增值税普通发票税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "ZKZZSZYFPSE",
+                            "name": "自开增值税专票税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "ZKZZSPTFPSE",
+                            "name": "自开增值税普票发票税额",
+                            "value": "975.72"
+                        },
+                        {
+                            "code": "SY_DKZZSZYFP",
+                            "name": "代开增值税专用发票",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "SY_DKZZSPTFP",
+                            "name": "代开增值税普通发票",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "SY_ZKZZSZP",
+                            "name": "自开增值税专票",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "SY_ZKZZSPP",
+                            "name": "自开增值税普票",
+                            "value": "32524.28"
+                        },
+                        {
+                            "code": "SY_QTFP",
+                            "name": "其它发票",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "SY_FPFYZH",
+                            "name": "代开增值税专用发票+代开增值税普通发票+自开增值税专票+自开增值税普票+其它发票之和",
+                            "value": "32524.28"
+                        },
+                        {
+                            "code": "KKJFPZL",
+                            "name": "可开具的发票种类",
+                            "value": "000008101200,04"
+                        },
+                        {
+                            "code": "CBSBZ",
+                            "name": "抄报税标志",
+                            "value": "1"
+                        }
+                    ]
+                },
+                "zspms": {
+                    "zspmList": [
+                        {
+                            "smmc": "",
+                            "pmbm": "101016703",
+                            "pmmc": "",
+                            "dzbm": "",
+                            "sl": "0.06",
+                            "zsl": "0.03",
+                            "ljs": "",
+                            "yjlj": "",
+                            "ljyj": "",
+                            "wjlj": "",
+                            "desl": "",
+                            "sllx": "",
+                            "desljldw": "",
+                            "zsxmdm": "",
+                            "zsxmmc": "",
+                            "rdpzuuid": "",
+                            "hdjsyj": "",
+                            "hdjsbl": "",
+                            "hydm": "",
+                            "zspmdm": "",
+                            "zspmmc": "",
+                            "yjse": "",
+                            "zspmVoList": null,
+                            "sybz": null,
+                            "nsqxDm": null,
+                            "zszm": null
+                        },
+                        {
+                            "smmc": "",
+                            "pmbm": "101014001",
+                            "pmmc": "",
+                            "dzbm": "",
+                            "sl": "0.17",
+                            "zsl": "0.03",
+                            "ljs": "",
+                            "yjlj": "",
+                            "ljyj": "",
+                            "wjlj": "",
+                            "desl": "",
+                            "sllx": "",
+                            "desljldw": "",
+                            "zsxmdm": "",
+                            "zsxmmc": "",
+                            "rdpzuuid": "",
+                            "hdjsyj": "",
+                            "hdjsbl": "",
+                            "hydm": "",
+                            "zspmdm": "",
+                            "zspmmc": "",
+                            "yjse": "",
+                            "zspmVoList": null,
+                            "sybz": null,
+                            "nsqxDm": null,
+                            "zszm": null
+                        }
+                    ]
+                },
+                "lsxxs": {
+                    "lsxx": [
+                        {
+                            "code": "1",
+                            "name": "应征增值税不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "2",
+                            "name": "税务机关代开的增值税专用发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "3",
+                            "name": "税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "4",
+                            "name": "销售、出租不动产不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "5",
+                            "name": "税务机关代开的增值税专用发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "6",
+                            "name": "税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "7",
+                            "name": "销售使用过的应税固定资产不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "8",
+                            "name": "其中：税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "9",
+                            "name": "免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "10",
+                            "name": "小微企业免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "11",
+                            "name": "未达起征点销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "12",
+                            "name": "其他免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "13",
+                            "name": "出口免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "14",
+                            "name": "出口免税销售额_税控器具开具的普通发票销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "15",
+                            "name": "本期应纳税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "16",
+                            "name": "本期应纳税额减征额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "17",
+                            "name": "本期免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "18",
+                            "name": "其中：小微企业免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "19",
+                            "name": "未达起征点免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "20",
+                            "name": "应纳税额合计",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "21",
+                            "name": "本期预缴税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "22",
+                            "name": "本期应补（退）税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "23",
+                            "name": "应征增值税不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "24",
+                            "name": "税务机关代开的增值税专用发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "25",
+                            "name": "税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "26",
+                            "name": "销售、出租不动产不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "27",
+                            "name": "税务机关代开的增值税专用发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "28",
+                            "name": "税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "29",
+                            "name": "销售使用过的应税固定资产不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "30",
+                            "name": "其中：税控器具开具的普通发票不含税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "31",
+                            "name": "免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "32",
+                            "name": "小微企业免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "33",
+                            "name": "未达起征点销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "34",
+                            "name": "其他免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "35",
+                            "name": "出口免税销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "36",
+                            "name": "出口免税销售额_税控器具开具的普通发票销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "37",
+                            "name": "本期应纳税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "38",
+                            "name": "本期应纳税额减征额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "39",
+                            "name": "本期免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "40",
+                            "name": "其中：小微企业免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "41",
+                            "name": "未达起征点免税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "42",
+                            "name": "应纳税额合计",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "43",
+                            "name": "本期预缴税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "44",
+                            "name": "本期应补（退）税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "45",
+                            "name": "应税货物劳务核定销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "46",
+                            "name": "应税货物劳务核定应纳税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "47",
+                            "name": "应税服务核定销售额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "48",
+                            "name": "应税服务核定应纳税额",
+                            "value": "0.0"
+                        }
+                    ]
+                },
+                "sbbs": {
+                    "sbb": [
+                        "001",
+                        "008",
+                        "006"
+                    ]
+                },
+                "jmxx": [
+                    {
+                        "zsxmDm": "",
+                        "zspmDm": "",
+                        "jmlxDm": "",
+                        "jmfsDm": "",
+                        "jmzlxDm": "01",
+                        "jmqxq": "",
+                        "jmqxz": "",
+                        "ssjmzlDm": "",
+                        "ssjmyyDm": "",
+                        "ssjmxzhzDm": "0001129914",
+                        "ssjmxzdlDm": "",
+                        "ssjmxzxlDm": "",
+                        "jmfd": "",
+                        "yhpzuuid": "",
+                        "jzfd": 0.0,
+                        "jzsl": 0.0,
+                        "jzed": 0.0,
+                        "jmxzMc": "《财政部 国家税务总局关于增值税税控系统专用设备和技术维护费用抵减增值税税额有关政策的通知》 财税〔2012〕15号",
+                        "jmwjDm": 0.0,
+                        "zsxmMc": null,
+                        "zspmMc": null,
+                        "jmlxMc": null,
+                        "jmfsMc": null,
+                        "jmzlxMc": null,
+                        "ssjmxzdlMc": null,
+                        "ssjmxzxlMc": null,
+                        "jmsspsxDm": "SXA031900185",
+                        "swsxMc": "购置增值税税控系统专用设备抵减增值税",
+                        "jmxzDm": "",
+                        "jmxmMc": "",
+                        "jmxmDm": "",
+                        "nsqxDm": "",
+                        "zzsJmsl": "0.03"
+                    }
+                ],
+                "ssdc": null,
+                "yyssecsxx": null,
+                "nsrgrtsxx": null,
+                "mdktzs": null,
+                "hzsbxx": null,
+                "kshztlZzskfpdjbsVo": null,
+                "ncpxx": null,
+                "fzjgxx": null,
+                "dsdjmx": null,
+                "zzsjmxxbs": null,
+                "djxxs": null,
+                "fzjgsdsfpb": null,
+                "dkdjgrid": null,
+                "dqdefyhzGrid": null,
+                "cjjzsymxbGrid": null,
+                "czjzsymxbGrid": null,
+                "fcsjmxxGrid": null,
+                "nsrxxform": null,
+                "cpmcs": null,
+                "qysdshdjgs": {
+                    "qysdshdjg": [
+                    ]
+                },
+                "fjmkjsds": {
+                    "fjmkjsdsGrid": [
+                    ]
+                },
+                "skfpswsxtzs": null,
+                "ycdkpzswsxtzs": null,
+                "ssyhmx": [
+                ],
+                "skxxgrid": null,
+                "tdzzsxmxxgrid": null,
+                "clsymxGrid": null,
+                "cbsymxGrid": null,
+                "zysxxGrid": null,
+                "dqyjskxxGrid": null,
+                "sbxxGrid": null,
+                "yjxxGrid": null,
+                "dqwrGrid": null,
+                "dqdeGrSdsQcVO": null,
+                "sbcxsfcjyjbxxGrid": null,
+                "swrGrid": null,
+                "gfwrGrid": null,
+                "zswrGrid": null,
+                "dqswrpwxxGrid": null,
+                "sb030QssbSyxxVO": null,
+                "resbxxGrid": null,
+                "yqtGrid": null,
+                "zlfSkxxGrid": null,
+                "yqtfpGrid": null,
+                "gdsBz": "1",
+                "csbzspms": null
+            }
+        ],
+        "nsrs": null,
+        "jyhdbz": ""
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {
+    },
+    "msgParams": null,
+    "jylsh": "3a821fb7ac1943de9f9a840156935702"
+}

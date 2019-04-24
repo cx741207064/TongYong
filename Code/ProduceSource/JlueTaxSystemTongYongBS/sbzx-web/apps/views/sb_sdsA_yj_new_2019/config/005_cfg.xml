@@ -1,0 +1,42 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_JMSDSEMXB.SB_JMSDSEMXB_BTXX.SB_JMSDSEMXB_QSRQ." Col="1" Row="1" HeadStr="" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_JMSDSEMXB.SB_JMSDSEMXB_BTXX.SB_JMSDSEMXB_NSRSBH." Col="3" Row="1" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_JMSDSEMXB.SB_JMSDSEMXB_BTXX.SB_JMSDSEMXB_NSRMC." Col="2" Row="1" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_JMSDSEMXB.SB_JMSDSEMXB_BTXX.SB_JMSDSEMXB_TBRQ." Col="5" Row="3" HeadStr="" DataType="填表时间"/>
+	</Head>
+	<Body>
+		<Records HeadName="SB_JMSDSEMXB.SB_JMSDSEMXB_MXXX." NodeRange="1,2," CellColRange="2,3," CellSRow="4" CellERow="33" XmlSRow="0" XmlERow="29" DataType="DT_Num" WriteZero="-1" IDentifyCol="-1"/>
+		<Records AreaCode="36,13,62,4403,65" HeadName="SB_JMSDSEMXB.SB_JMSDSEMXB_MXXX." NodeRange="3," CellColRange="1," CellSRow="4" CellERow="33" XmlSRow="0" XmlERow="29" DataType="DT_String" WriteZero="-1" IDentifyCol="-1" Ignore="1"/>
+		<Records HeadName="SB_JMSDSEMXB.SB_JMSDSEMXB_MXXX." NodeRange="0," CellColRange="0," CellSRow="4" CellERow="33" XmlSRow="0" XmlERow="29" DataType="DT_String" WriteZero="-1" IDentifyCol="-1"/>
+		<Records AreaCode="36,13,62,4403,65" HeadName="SB_JMSDSEMXB.SB_JMSDSEMXB_MXXX." NodeRange="4," CellColRange="4," CellSRow="4" CellERow="33" XmlSRow="0" XmlERow="29" DataType="DT_String" WriteZero="-1" IDentifyCol="-1" NoShowErrmsg="1"/>
+	</Body>
+	<SaveCheckData>
+		<!--<Records Count="4" A1="005|2,31" A2="001|5,19" A3="001|1,4" A4="WSXXS.[TSNSR]" Formula="(A1&lt;&gt;A2 and (A3=1 or A3=2) and A4&lt;&gt;3)" Range="true" Emsg="主表第12行应等于表A201030第30行。"/>-->
+		<!--<Records Count="4" A1="005|2,31" A2="001|5,19" A3="001|1,4" A4="WSXXS.[TSNSR]" Formula="(round(A1*0.5,2)&lt;&gt;A2 and (A3=1 or A3=2) and A4=3)" Range="true" Emsg="主表第12行应等于表A201030第30行×50%。"/>-->
+		<Records Count="5" A1="005|1,0" A2="001|2,31" A3="005|2,2" A4="001|5,16" A5="WSXXS.[XWJM_MAX_2019]" Formula="(A1=0 and &quot;A2&quot;=&quot;Y&quot; and A3=0 and A4&gt;0.03 and A4&lt;=A5)" Range="true" Emsg="您符合小型微利企业所得税优惠政策条件，请在A201030表第1行填写减免税金额。"/>
+		<Records Count="2" A1="005|2,0" A2="005|2,2" Formula="(A1&gt;0 and A2&gt;0)" Range="true" Emsg="您符合小型微利企业所得税优惠政策不能与本表其他优惠叠加享受（除第23、29行）。"/>
+        <!--下一行校验2019-01-24有变-->
+		<Records Count="2" A1="001|5,16" A2="005|2,2" Formula="(A2&lt;&gt;0 and A2&lt;&gt;round(A1*0.2,2) and A2&lt;&gt;round(A1*0.15+50000,2))" Range="true" Emsg="您的表A201030第1行“一、符合条件的小型微利企业减免企业所得税”只允许填写减免的最大值和0。"/>
+        <!--下一行校验2019-01-24有变-->
+        <!--<Records Count="8" A1="001|5,16" A2="005|2,2" A3="005|1,0" A4="005|2,30" A5="WSXXS.[XWJM_MAX_2019]" A6="001|4,36" A7="WSXXS.[BYHBZ]" Formula="(A1&gt;0.03) and (A1&lt;=A5) and (A2=0) and (round(A3+A4,2)=0) and (&quot;A6&quot;=&quot;Y&quot;) and (&quot;A7&quot;=&quot;N&quot;)" Range="true" Emsg="您选择享受其他优惠的，A201030表第2行至29行上述行次合计数必须大于0！"/>-->
+		<Records Count="2" A1="001|5,18" A2="005|2,4" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第3行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,5" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第4行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,6" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第5行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,7" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第6行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,10" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第9行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,11" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第10行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,12" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第11行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,13" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第12行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,14" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第13行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,16" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第15行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,18" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第17行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,19" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第18行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,20" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第19行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,21" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第20行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,25" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第24行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,26" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第25行累计金额不能大于表A200000第11行,请修改。"/>
+		<Records Count="2" A1="001|5,18" A2="005|2,28" Formula="(A1&gt;0) and (A2&gt;A1)" Range="true" Emsg="您的表A201030第27行累计金额不能大于表A200000第11行,请修改。"/>
+	</SaveCheckData>
+</XmlRWConfig>

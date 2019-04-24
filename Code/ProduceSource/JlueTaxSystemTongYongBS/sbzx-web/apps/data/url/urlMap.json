@@ -1,0 +1,1136 @@
+{
+  "10101": {
+    "sbzlDm": "10101",
+    "sbzlMc": "《增值税纳税申报表（一般纳税人适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_ybnsr/sb_ybnsr.html?sbzlDm=10101",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/ybnsrsb/ybnsrsb_view.html",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10102": {
+    "sbzlDm": "10102",
+    "sbzlMc": "《增值税纳税申报表（小规模纳税人适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/xgmsb-yds_new/ydy.html?sbzlDm=10102&code=10102",
+    "url_2019": "/sbzx-web/apps/views/xgmsb-yds_new_2019/ydy.html?sbzlDm=10102&code=10102",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10103": {
+    "sbzlDm": "10103",
+    "sbzlMc": "《增值税纳税申报表（小规模纳税人适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/xgmsb-yds_new/ydy.html?sbzlDm=10103&code=10103",
+    "url_2019": "/sbzx-web/apps/views/xgmsb-yds_new_2019/ydy.html?sbzlDm=10103&code=10103",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10104": {
+    "sbzlDm": "10104",
+    "sbzlMc": "委托代征",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_wtdz/sb_gdlh_wtdz.html?sbzlDm=10104",
+    "url_old_preview": ""
+  },
+  "10110": {
+    "sbzlDm": "10110",
+    "sbzlMc": "一般纳税人增值税季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_ybnsr/sb_ybnsr.html?sbzlDm=10110",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/ybnsrsb/ybnsrsb_view.html",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10112": {
+    "sbzlDm": "10112",
+    "sbzlMc": "跨境应税服务免税企业情况调查表",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "10115": {
+    "sbzlDm": "10115",
+    "sbzlMc": "《城建税、教育费附加、地方教育附加税（费）申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjs/sb_fjs.html?sbzlDm=10115",
+    "url_2019": "/sbzx-web/apps/views/sb_fjs_2019/sb_fjs.html?sbzlDm=10115",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10116": {
+    "sbzlDm": "10116",
+    "sbzlMc": "《城建税、教育费附加、地方教育附加税（费）申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjs/sb_fjs.html?sbzlDm=10116",
+    "url_2019": "/sbzx-web/apps/views/sb_fjs_2019/sb_fjs.html?sbzlDm=10116",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10129": {
+    "sbzlDm": "10129",
+    "sbzlMc": "《城建税、教育费附加、地方教育附加税（费）申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjs/sb_fjs.html?sbzlDm=10129",
+    "url_2019": "/sbzx-web/apps/views/sb_fjs_2019/sb_fjs.html?sbzlDm=10129",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10117": {
+    "sbzlDm": "10117",
+    "sbzlMc": "增值税预缴申报月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_zzsyj/sb_zzsyj.html?sbzlDm=10117",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10118": {
+    "sbzlDm": "10118",
+    "sbzlMc": "增值税预缴申报季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_zzsyj/sb_zzsyj.html?sbzlDm=10118",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10119": {
+    "sbzlDm": "10119",
+    "sbzlMc": "软件增值税即征即退（月报）",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_zzsjzjt/sb_zzsjzjt.html?sbzlDm=10119",
+    "url_old_preview": ""
+  },
+  "10120": {
+    "sbzlDm": "10120",
+    "sbzlMc": "软件增值税即征即退（季报）",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_zzsjzjt/sb_zzsjzjt.html?sbzlDm=10120",
+    "url_old_preview": ""
+  },
+  "10302": {
+    "sbzlDm": "10302",
+    "sbzlMc": "《烟类应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_yl/sb_xfs_yl.html?sbzlDm=10302",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10303": {
+    "sbzlDm": "10303",
+    "sbzlMc": "《酒类应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_jl/sb_xfs_jl.html?sbzlDm=10303",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10304": {
+    "sbzlDm": "10304",
+    "sbzlMc": "《成品油消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_cpy/sb_xfs_cpy.html?sbzlDm=10304",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10305": {
+    "sbzlDm": "10305",
+    "sbzlMc": "《小汽车消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_xqc/sb_xfs_xqc.html?sbzlDm=10305",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10306": {
+    "sbzlDm": "10306",
+    "sbzlMc": "《其他应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_qt/sb_xfs_qt.html?sbzlDm=10306",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/xfs/sb_xfs_sb.html",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10307": {
+    "sbzlDm": "10307",
+    "sbzlMc": "《卷烟消费税纳税申报表（批发）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_jypf/sb_xfs_jypf.html?sbzlDm=10307",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10310": {
+    "sbzlDm": "10310",
+    "sbzlMc": "《电池消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_dc/sb_xfs_dc.html?sbzlDm=10310",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10311": {
+    "sbzlDm": "10311",
+    "sbzlMc": "《涂料消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_tl/sb_xfs_tl.html?sbzlDm=10311",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10312": {
+    "sbzlDm": "10312",
+    "sbzlMc": "《烟类应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_yl/sb_xfs_yl.html?sbzlDm=10302",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10313": {
+    "sbzlDm": "10313",
+    "sbzlMc": "《酒类应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_jl/sb_xfs_jl.html?sbzlDm=10303",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10314": {
+    "sbzlDm": "10314",
+    "sbzlMc": "《成品油消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_cpy/sb_xfs_cpy.html?sbzlDm=10304",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10315": {
+    "sbzlDm": "10315",
+    "sbzlMc": "《小汽车消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_xqc/sb_xfs_xqc.html?sbzlDm=10305",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10316": {
+    "sbzlDm": "10316",
+    "sbzlMc": "《其他应税消费品消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_qt/sb_xfs_qt.html?sbzlDm=10306",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/xfs/sb_xfs_sb.html",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10317": {
+    "sbzlDm": "10317",
+    "sbzlMc": "《卷烟消费税纳税申报表（批发）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_jypf/sb_xfs_jypf.html?sbzlDm=10307",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10318": {
+    "sbzlDm": "10318",
+    "sbzlMc": "《电池消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_dc/sb_xfs_dc.html?sbzlDm=10310",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10319": {
+    "sbzlDm": "10319",
+    "sbzlMc": "《涂料消费税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_xfs_tl/sb_xfs_tl.html?sbzlDm=10311",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10407": {
+    "sbzlDm": "10407",
+    "sbzlMc": "《中华人民共和国企业年度关联业务往来报告表》",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "10416": {
+    "sbzlDm": "10416",
+    "sbzlMc": "《企业所得税（查账征收）月季度预缴纳税申报表（A类，2015版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_qysds_yjb_A/sb_qysds_yjb_A.html?sbzlDm=10416",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/suodeshuiA_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10417": {
+    "sbzlDm": "10417",
+    "sbzlMc": "《中华人民共和国企业所得税月（季）度纳税申报表（B类，2015年版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_jm_qysdsyjb_b/sb_jm_qysdsyjb_b.html?sbzlDm=10417",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/suodeshuiB_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10418": {
+    "sbzlDm": "10418",
+    "sbzlMc": "《企业所得税（查账征收）月季度预缴纳税申报表（A类，2015版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_qysds_yjb_A/sb_qysds_yjb_A.html?sbzlDm=10418",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/suodeshuiA_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10419": {
+    "sbzlDm": "10419",
+    "sbzlMc": "《中华人民共和国企业所得税月（季）度纳税申报表（B类，2015年版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_jm_qysdsyjb_b/sb_jm_qysdsyjb_b.html?sbzlDm=10419",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/suodeshuiB_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10421": {
+    "sbzlDm": "10421",
+    "sbzlMc": "企业所得税年度纳税申报B类",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_suodeshuiB_year/sb_suodeshuiB_year.html?sbzlDm=10421",
+    "url_2018": "/sbzx-web/apps/views/sb_suodeshuiB_year_2018/sb_suodeshuiB_year.html?sbzlDm=10446",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/sb_qysds_B_year_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10446": {
+    "sbzlDm": "10446",
+    "sbzlMc": "企业所得税年度纳税申报B类（2018版）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_suodeshuiB_year_2018/sb_suodeshuiB_year.html?sbzlDm=10446",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/qysds/sb_qysds_B_year_view.html#preview",
+    "url_2019": "/sbzx-web/apps/views/sb_suodeshuiB_year_2019/sb_suodeshuiB_year.html?sbzlDm=10446"
+  },
+  "10422": {
+    "sbzlDm": "10422",
+    "sbzlMc": "《跨地区经营汇总纳税企业的分支机构年度纳税申报表》",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "10447": {
+    "sbzlDm": "10447",
+    "sbzlMc": "《跨地区经营汇总纳税企业的分支机构年度纳税申报表（2018版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_qysds_fzjg_nb_2018/sb_qysds_fzjg_nb.html?sbzlDm=10447",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10430": {
+    "sbzlDm": "10430",
+    "sbzlMc": "《中华人民共和国非居民企业所得税季度纳税申报表（适用于核定征收企业）（不构成常设机构和国际运输免税申报）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjmqy_qysds_B/sb_fjmqy_qysds_B.html?sbzlDm=10430",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10431": {
+    "sbzlDm": "10431",
+    "sbzlMc": "《中华人民共和国非居民企业所得税季度纳税申报表（适用于据实申报企业）（F200）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjmsds_A_Jb_new/sb_fjmsds_A_Jb_new.html?sbzlDm=10431",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10432": {
+    "sbzlDm": "10432",
+    "sbzlMc": "居民企业清算所得税申报",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "10433": {
+    "sbzlDm": "10433",
+    "sbzlMc": "《中华人民共和国扣缴企业所得税报告表（2015年版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_kjqysds/sb_kjqysds.html?sbzlDm=10433",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10437": {
+    "sbzlDm": "10437",
+    "sbzlMc": "《中华人民共和国企业年度关联业务往来汇总表》",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_qyndglbgb/qyndglbgb.html?sbzlDm=10437",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10438": {
+    "sbzlDm": "10438",
+    "sbzlMc": "非居民企业所得税年度申报（据实申报）",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fjm_qysds_nb_A/sb_fjm_qysds_nb_A.html?sbzlDm=10438",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10439": {
+    "sbzlDm": "10439",
+    "sbzlMc": "非居民企业所得税年度申报（核定征收）",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fjmqy_qysds_B/sb_fjmqy_qysds_B.html?sbzlDm=10439",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10440": {
+    "sbzlDm": "10440",
+    "sbzlMc": "《中华人民共和国企业所得税年度纳税申报表（A类）》（2017）",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_suodeshuiA_year/suodeshuiA_year.html?sbzlDm=10440",
+    "url_old_preview": ""
+  },
+  "10448": {
+    "sbzlDm": "10448",
+    "sbzlMc": "《中华人民共和国企业所得税年度纳税申报表（A类）》（2018）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_suodeshuiA_year_2018/suodeshuiA_year.html?sbzlDm=10448",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10601": {
+    "sbzlDm": "10601",
+    "sbzlMc": "《储蓄存款利息所得扣缴个人所得税报告表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cclx_kjgrsds_5/sb_cclx_kjgrsds_5.html?sbzlDm=10601",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/grcxcklxsds/sb_grcxcklxsds_5.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10602": {
+    "sbzlDm": "10602",
+    "sbzlMc": "《储蓄存款利息所得扣缴个人所得税报告表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cclx_kjgrsds_20/sb_cclx_kjgrsds_20.html?sbzlDm=10602",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/grcxcklxsds/sb_grcxcklxsds_20.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "11601": {
+    "sbzlDm": "11601",
+    "sbzlMc": "车购税",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "12107": {
+    "sbzlDm": "12107",
+    "sbzlMc": "重点税源",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "12110": {
+    "sbzlDm": "12110",
+    "sbzlMc": "代扣代缴、代收代缴税款报告表",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "17701": {
+    "sbzlDm": "17701",
+    "sbzlMc": "废旧电子产品处理基金申请表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fqdz_cpcljj/sb_fqdz_cpcljj.html?sbzlDm=17701",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/fqdzcpcljjsqb/sb_fqdzcpcljj.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "17702": {
+    "sbzlDm": "17702",
+    "sbzlMc": "废旧电子产品处理基金申请表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fqdz_cpcljj/sb_fqdz_cpcljj.html?sbzlDm=17702",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/fqdzcpcljjsqb/sb_fqdzcpcljj.html#preview"
+  },
+  "21001": {
+    "sbzlDm": "21001",
+    "sbzlMc": "《房产税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_fcs/fcs_tabs.html?sbzlDm=21001",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_fcs_2019/fcs_tabs.html?sbzlDm=21001",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21002": {
+    "sbzlDm": "21002",
+    "sbzlMc": "《房产税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_fcs/fcs_tabs.html?sbzlDm=21002",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_fcs_2019/fcs_tabs.html?sbzlDm=21002",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "26501": {
+    "sbzlDm": "26501",
+    "sbzlMc": "《文化事业建设费申报表》（营改增）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_whsy_whsyjsf/sb_whsy_whsyjsf.html?sbzlDm=26501",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/whsyjsf/sb_whsyview.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "26502": {
+    "sbzlDm": "26502",
+    "sbzlMc": "《文化事业建设费申报表》（营改增）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_whsy_whsyjsf/sb_whsy_whsyjsf.html?sbzlDm=26502",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/whsyjsf/sb_whsyview.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29802": {
+    "sbzlDm": "29802",
+    "sbzlMc": "商业银行财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_yh_kjzz/sb_cwbb_yh_kjzz.html?sbzlDm=29802",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_yh_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29803": {
+    "sbzlDm": "29803",
+    "sbzlMc": "保险公司财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_bx_kjzz/sb_cwbb_bx_kjzz.html?sbzlDm=29803",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_bx_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29804": {
+    "sbzlDm": "29804",
+    "sbzlMc": "证券公司财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzz/sb_cwbb_zq_kjzz.html?sbzlDm=29804",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_zq_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29806": {
+    "sbzlDm": "29806",
+    "sbzlMc": "企业会计制度-财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_qykjzd_kjzz/sb_cwbb_qykjzd_kjzz.html?sbzlDm=29806",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/cwbbview.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29807": {
+    "sbzlDm": "29807",
+    "sbzlMc": "一般企业财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_ybqy_kjzz/sb_cwbb_ybqy_kjzz.html?sbzlDm=29807",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_ybqy_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29808": {
+    "sbzlDm": "29808",
+    "sbzlMc": "商业银行财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_yh_kjzz/sb_cwbb_yh_kjzz.html?sbzlDm=29808",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29809": {
+    "sbzlDm": "29809",
+    "sbzlMc": "保险公司财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_bx_kjzz/sb_cwbb_bx_kjzz.html?sbzlDm=29809",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29810": {
+    "sbzlDm": "29810",
+    "sbzlMc": "证券公司财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzz/sb_cwbb_zq_kjzz.html?sbzlDm=29810",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29811": {
+    "sbzlDm": "29811",
+    "sbzlMc": "企业会计制度-财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_qykjzd_kjzz/sb_cwbb_qykjzd_kjzz.html?sbzlDm=29811",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29812": {
+    "sbzlDm": "29812",
+    "sbzlMc": "一般企业财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_ybqy_kjzz/sb_cwbb_ybqy_kjzz.html?sbzlDm=29812",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29823": {
+    "sbzlDm": "29823",
+    "sbzlMc": "商业银行财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_yh_kjzz/sb_cwbb_yh_kjzz.html?sbzlDm=29823",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_yh_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29824": {
+    "sbzlDm": "29824",
+    "sbzlMc": "保险公司财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_bx_kjzz/sb_cwbb_bx_kjzz.html?sbzlDm=29824",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_bx_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29825": {
+    "sbzlDm": "29825",
+    "sbzlMc": "证券公司财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzz/sb_cwbb_zq_kjzz.html?sbzlDm=29825",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_zq_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29826": {
+    "sbzlDm": "29826",
+    "sbzlMc": "企业会计制度-财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_qykjzd_kjzz/sb_cwbb_qykjzd_kjzz.html?sbzlDm=29826",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/cwbbview.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29827": {
+    "sbzlDm": "29827",
+    "sbzlMc": "一般企业财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_ybqy_kjzz/sb_cwbb_ybqy_kjzz.html?sbzlDm=29827",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_ybqy_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29835": {
+    "sbzlDm": "29835",
+    "sbzlMc": "小企业财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_xqy_kjzz/sb_cwbb_xqy_kjzz.html?sbzlDm=29835",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/cwbbview_xqy.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29836": {
+    "sbzlDm": "29836",
+    "sbzlMc": "小企业财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_xqy_kjzz/sb_cwbb_xqy_kjzz.html?sbzlDm=29836",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/cwbbview_xqy.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29837": {
+    "sbzlDm": "29837",
+    "sbzlMc": "小企业财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_xqy_kjzz/sb_cwbb_xqy_kjzz.html?sbzlDm=29837",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29838": {
+    "sbzlDm": "29838",
+    "sbzlMc": "担保公司财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_db_kjzz/sb_cwbb_db_kjzz.html?sbzlDm=29838",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_db_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29839": {
+    "sbzlDm": "29839",
+    "sbzlMc": "担保公司财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_db_kjzz/sb_cwbb_db_kjzz.html?sbzlDm=29839",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_db_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29840": {
+    "sbzlDm": "29840",
+    "sbzlMc": "担保公司财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_db_kjzz/sb_cwbb_db_kjzz.html?sbzlDm=29840",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29841": {
+    "sbzlDm": "29841",
+    "sbzlMc": "事业单位财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_sydw_kjzz/sb_cwbb_sydw_kjzz.html?sbzlDm=29841",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_sy_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29842": {
+    "sbzlDm": "29842",
+    "sbzlMc": "事业单位财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_sydw_kjzz/sb_cwbb_sydw_kjzz.html?sbzlDm=29842",
+    "url_old_preview": "/BsfwtWeb/pages/sbxxx/cwbb/view/sb_cwbb_sy_view.html#preview",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29843": {
+    "sbzlDm": "29843",
+    "sbzlMc": "事业单位财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_sydw_kjzz/sb_cwbb_sydw_kjzz.html?sbzlDm=29843",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29871": {
+    "sbzlDm": "29871",
+    "sbzlMc": "个体工商户会计制度财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_gtgsh_kjzd/sb_cwbb_gtgsh_kjzd.html?sbzlDm=29871",
+    "url_old_preview": ""
+  },
+  "29872": {
+    "sbzlDm": "29872",
+    "sbzlMc": "个体工商户会计制度财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_gtgsh_kjzd/sb_cwbb_gtgsh_kjzd.html?sbzlDm=29872",
+    "url_old_preview": ""
+  },
+  "29873": {
+    "sbzlDm": "29873",
+    "sbzlMc": "个体工商户会计制度财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_gtgsh_kjzd/sb_cwbb_gtgsh_kjzd.html?sbzlDm=29873",
+    "url_old_preview": ""
+  },
+  "29874": {
+    "sbzlDm": "29874",
+    "sbzlMc": "民间非营利组织会计制度财务报表-月报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_mjfylzz_kjzz/sb_cwbb_mjfylzz_kjzz.html?sbzlDm=29874",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29875": {
+    "sbzlDm": "29875",
+    "sbzlMc": "民间非营利组织会计制度财务报表-季报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_mjfylzz_kjzz/sb_cwbb_mjfylzz_kjzz.html?sbzlDm=29875",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29876": {
+    "sbzlDm": "29876",
+    "sbzlMc": "民间非营利组织会计制度财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_mjfylzz_kjzz/sb_cwbb_mjfylzz_kjzz.html?sbzlDm=29876",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29880": {
+    "sbzlDm": "29880",
+    "sbzlMc": "企业集团合并财务报表-年报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_cwbb_qyjthb_kjzz/sb_cwbb_qyjthb_kjzz.html?sbzlDm=29880",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "29881": {
+    "sbzlDm": "29881",
+    "sbzlMc": "财务报表证券会计制度-月报",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzd/sb_cwbb_zq_kjzd.html?sbzlDm=29881",
+    "url_old_preview": ""
+  },
+  "29882": {
+    "sbzlDm": "29882",
+    "sbzlMc": "财务报表证券会计制度-季报",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzd/sb_cwbb_zq_kjzd.html?sbzlDm=29882",
+    "url_old_preview": ""
+  },
+  "29883": {
+    "sbzlDm": "29883",
+    "sbzlMc": "财务报表证券会计制度-年报",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_cwbb_zq_kjzd/sb_cwbb_zq_kjzd.html?sbzlDm=29883",
+    "url_old_preview": ""
+  },
+  "32001": {
+    "sbzlDm": "32001",
+    "sbzlMc": "定期定额个体工商户分月汇总申报",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/dqdefyhz/sb_dqdefyhz.html?sbzlDm=32001",
+    "url_old_preview": "",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "32002": {
+    "sbzlDm": "32002",
+    "sbzlMc": "定期定额个体工商户申报",
+    "yxbz": "N",
+    "url": "",
+    "url_old_preview": ""
+  },
+  "21101": {
+    "sbzlDm": "21101",
+    "sbzlMc": "《印花税纳税申报表》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_yhs/sb_gdlh_yhs.html?sbzlDm=21101",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_yhs_2019/sb_gdlh_yhs.html?sbzlDm=21101",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21201": {
+    "sbzlDm": "21201",
+    "sbzlMc": "城镇土地使用税",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_cztdsys/sb_gdlh_cztdsys.html?sbzlDm=21201",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_cztdsys_2019/sb_gdlh_cztdsys.html?sbzlDm=21201",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21112": {
+    "sbzlDm": "21112",
+    "sbzlMc": "《土地增值税纳税申报表（一）（从事房地产开发的纳税人预征适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_1/sb_gdlh_tdzzs_1.html?sbzlDm=21112",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21113": {
+    "sbzlDm": "21113",
+    "sbzlMc": "《土地增值税纳税申报表（一）（从事房地产开发的纳税人预征适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_1/sb_gdlh_tdzzs_1.html?sbzlDm=21113",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21130": {
+    "sbzlDm": "21130",
+    "sbzlMc": "《土地增值税纳税申报表（二）（从事房地产开发的纳税人清算适用）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs2/sb_gdlh_tdzzs2.html?sbzlDm=21130",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21102": {
+    "sbzlDm": "21102",
+    "sbzlMc": "通用申报表（税及附征税费）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tysbb/sb_gdlh_tysbb.html?sbzlDm=21102",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21103": {
+    "sbzlDm": "21103",
+    "sbzlMc": "通用申报表（税及附征税费）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tysbb/sb_gdlh_tysbb.html?sbzlDm=21103",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21108": {
+    "sbzlDm": "21108",
+    "sbzlMc": "残疾人就业保障金缴费申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_jybzjsbb/sb_gdlh_jybzjsbb.html?sbzlDm=21108",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21109": {
+    "sbzlDm": "21109",
+    "sbzlMc": "残疾人就业保障金缴费申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_jybzjsbb/sb_gdlh_jybzjsbb.html?sbzlDm=21109",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21104": {
+    "sbzlDm": "21104",
+    "sbzlMc": "环境保护税纳税申报表(A类)",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_hjbhs_A/sb_gdlh_hjbhs_A.html?sbzlDm=21104",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21105": {
+    "sbzlDm": "21105",
+    "sbzlMc": "环境保护税纳税申报表(A类)",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_hjbhs_A/sb_gdlh_hjbhs_A.html?sbzlDm=21105",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21106": {
+    "sbzlDm": "21106",
+    "sbzlMc": "环境保护税纳税申报表（B类）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_hjbhB/sb_gdlh_hjbhB.html?sbzlDm=21106",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21107": {
+    "sbzlDm": "21107",
+    "sbzlMc": "环境保护税纳税申报表（B类）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_hjbhB/sb_gdlh_hjbhB.html?sbzlDm=21107",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21110": {
+    "sbzlDm": "21110",
+    "sbzlMc": "资源税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_zys/sb_gdlh_zys.html?sbzlDm=21110",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_zys_2019/sb_gdlh_zys.html?sbzlDm=21110",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21111": {
+    "sbzlDm": "21111",
+    "sbzlMc": "资源税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_zys/sb_gdlh_zys.html?sbzlDm=21111",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_zys_2019/sb_gdlh_zys.html?sbzlDm=21111",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10441": {
+    "sbzlDm": "10441",
+    "sbzlMc": "《企业所得税（查账征收）月季度预缴纳税申报表（A类，2018版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_sdsA_yj_new/sb_sdsA_yj_new.html?sbzlDm=10441",
+    "url_2019": "/sbzx-web/apps/views/sb_sdsA_yj_new_2019/sb_sdsA_yj_new.html?sbzlDm=10441",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10442": {
+    "sbzlDm": "10442",
+    "sbzlMc": "《企业所得税（查账征收）月季度预缴纳税申报表（A类，2018版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_sdsA_yj_new/sb_sdsA_yj_new.html?sbzlDm=10442",
+    "url_2019": "/sbzx-web/apps/views/sb_sdsA_yj_new_2019/sb_sdsA_yj_new.html?sbzlDm=10442",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10443": {
+    "sbzlDm": "10443",
+    "sbzlMc": "《中华人民共和国企业所得税月（季）度纳税申报表（B类，2018年版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_sdsB_yj_new/sb_sdsB_yj_new.html?sbzlDm=10443",
+    "url_2019": "/sbzx-web/apps/views/sb_sdsB_yj_new_2019/sb_sdsB_yj_new.html?sbzlDm=10443",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10444": {
+    "sbzlDm": "10444",
+    "sbzlMc": "《中华人民共和国企业所得税月（季）度纳税申报表（B类，2018年版）》",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_sdsB_yj_new/sb_sdsB_yj_new.html?sbzlDm=10444",
+    "url_2019": "/sbzx-web/apps/views/sb_sdsB_yj_new_2019/sb_sdsB_yj_new.html?sbzlDm=10444",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21114":{
+    "sbzlDm": "21114",
+    "sbzlMc": "土地增值税纳税申报表（三）（非从事房地产开发的纳税人适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_3/sb_gdlh_tdzzs_3.html?sbzlDm=21114",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21115":{
+    "sbzlDm": "21115",
+    "sbzlMc": "土地增值税纳税申报表（三）（非从事房地产开发的纳税人适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_3/sb_gdlh_tdzzs_3.html?sbzlDm=21115",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21116":{
+    "sbzlDm": "21116",
+    "sbzlMc": "土地增值税纳税申报表（四）（从事房地产开发的纳税人清算后尾盘销售适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_4/sb_gdlh_tdzzs_4.html?sbzlDm=21116",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21118":{
+    "sbzlDm": "21118",
+    "sbzlMc": "土地增值税纳税申报表（七）（非从事房地产开发的纳税人核定征收适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_7/sb_gdlh_tdzzs_7.html?sbzlDm=21118",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21119":{
+    "sbzlDm": "21119",
+    "sbzlMc": "土地增值税纳税申报表（七）（非从事房地产开发的纳税人核定征收适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_7/sb_gdlh_tdzzs_7.html?sbzlDm=21119",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21141":{
+    "sbzlDm": "21141",
+    "sbzlMc": "耕地占用税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_gdzys/sb_gdlh_gdzys.html?sbzlDm=21141",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_gdzys_2019/sb_gdlh_gdzys.html?sbzlDm=21141",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21138":{
+    "sbzlDm": "21138",
+    "sbzlMc": "契税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_qs/sb_gdlh_qs.html?sbzlDm=21138",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21147":{
+    "sbzlDm": "21147",
+    "sbzlMc": "原油天然气增值税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_yytrqzzs/sb_gdlh_yytrqzzs.html?sbzlDm=21147",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_yytrqzzs_2019/sb_gdlh_yytrqzzs.html?sbzlDm=21147",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21148":{
+    "sbzlDm": "21148",
+    "sbzlMc": "原油天然气增值税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_yytrqzzs/sb_gdlh_yytrqzzs.html?sbzlDm=21148",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_yytrqzzs_2019/sb_gdlh_yytrqzzs.html?sbzlDm=21148",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21140":{
+    "sbzlDm": "21140",
+    "sbzlMc": "烟叶税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_yys/sb_gdlh_yys.html?sbzlDm=21140",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21146":{
+    "sbzlDm": "21146",
+    "sbzlMc": "烟叶税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_yys/sb_gdlh_yys.html?sbzlDm=21146",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21145":{
+    "sbzlDm": "21145",
+    "sbzlMc": "土地交易税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdjy/sb_gdlh_tdjy.html?sbzlDm=21145",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21149":{
+    "sbzlDm": "21149",
+    "sbzlMc": "增量房申报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_zlfsb/sb_gdlh_zlfsb.html?sbzlDm=21149"
+  },
+  "21143":{
+    "sbzlDm": "21143",
+    "sbzlMc": "车船税",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_ccs/sb_gdlh_ccs.html?sbzlDm=21143",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21150":{
+    "sbzlDm": "21150",
+    "sbzlMc": "代收代缴车船税申报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_ccs_dkdj/sb_gdlh_ccs_dkdj.html?sbzlDm=21150",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "21134":{
+    "sbzlDm": "21134",
+    "sbzlMc": "土地增值税纳税申报表（六）（纳税人整体转让在建工程适用）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_tdzzs_6/sb_gdlh_tdzzs_6.html?sbzlDm=21134",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+
+  "21151": {
+    "sbzlDm": "21151",
+    "sbzlMc": "定期定额自行申报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_dqdezxsb/sb_dqde.html?sbzlDm=21151",
+    "url_2019": "/sbzx-web/apps/views/sb_gdlh_dqdezxsb_2019/sb_dqde.html?sbzlDm=21151",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+
+  "21152": {
+    "sbzlDm": "21152",
+    "sbzlMc": "房产交易税纳税申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gdlh_fcjys/sb_gdlh_fcjys.html?sbzlDm=21152"
+  },
+
+  "10445": {
+    "sbzlDm": "10445",
+    "sbzlMc": "非居民企业企业所得税自行申报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fjmqysds/sb_fjmqysds.html?sbzlDm=10445",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10122": {
+    "sbzlDm": "10122",
+    "sbzlMc": "2018年度航空运输企业年度清算表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_hkysqyndqsb/sb_hkysqyndqsb.html?sbzlDm=10122"
+  },
+  "33001": {
+    "sbzlDm": "33001",
+    "sbzlMc": "单位养老保险费(自主申报)",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_dwylbxf_zzsb/dwylbxf.html?sbzlDm=33001"
+  },
+  "33002": {
+    "sbzlDm": "33002",
+    "sbzlMc": "单位养老保险费 (核定申报）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_dwylbxf_hdsb/sb_dwylbxf_hdsb.html?sbzlDm=33002"
+  },
+  "33003": {
+    "sbzlDm": "33003",
+    "sbzlMc": "单位失业保险费(自主申报)",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_dwsybxf_zzsb/dwsybxf.html?sbzlDm=33003"
+  },
+  "33004": {
+    "sbzlDm": "33004",
+    "sbzlMc": "单位失业保险费 (核定申报）",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_dwsybxf_hdsb/sb_dwsybxf_hdsb.html?sbzlDm=33004"
+  },
+  "10701":{
+    "sbzlDm": "10701",
+    "sbzlMc": "非税收入通用申报",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fssr_common/sb_fssr.html?sbzlDm=10701",
+    "url_yhs": "/yhs-web/api/sbcx/downFreeUniteMarkerPDF"
+  },
+  "10702":{
+    "sbzlDm": "10702",
+    "sbzlMc": "公路路产损坏赔偿收费申报表",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fssr_gl/sb_fssr.html?sbzlDm=10702"
+  },
+  "10703":{
+    "sbzlDm": "10703",
+    "sbzlMc": "大中型水库移民后期扶持基金",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fssr_common/sb_fssr.html?sbzlDm=10703"
+  },
+  "10704":{
+    "sbzlDm": "10704",
+    "sbzlMc": "可再生能源发展基金",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fssr_common/sb_fssr.html?sbzlDm=10704"
+  },
+  "10705":{
+    "sbzlDm": "10705",
+    "sbzlMc": "大中型水库库区基金",
+    "yxbz": "N",
+    "url": "/sbzx-web/apps/views/sb_fssr_common/sb_fssr.html?sbzlDm=10705"
+  },
+  "10706":{
+    "sbzlDm": "10706",
+    "sbzlMc": "油价调控风险准备金申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fssr_yj/sb_fssr_yj.html?sbzlDm=10706"
+  },
+  "33009": {
+    "sbzlDm": "33009",
+    "sbzlMc": "基本医疗保险",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_ylbxf_zzsb/ylbxf.html?sbzlDm=33009"
+  },
+  "33010": {
+    "sbzlDm": "33010",
+    "sbzlMc": "工伤保险",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_gsbxf_zzsb/gsbxf.html?sbzlDm=33010"
+  },
+  "33011": {
+    "sbzlDm": "33011",
+    "sbzlMc": "生育保险",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_sybxf_zzsb/sybxf.html?sbzlDm=33011"
+  },
+  "33012": {
+    "sbzlDm": "33012",
+    "sbzlMc": "机关事业单位职业年金",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_zynjbxf_zzsb/zynjbxf.html?sbzlDm=33012"
+  },
+  "33013": {
+    "sbzlDm": "33013",
+    "sbzlMc": "机关事业单位基本养老保险",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_jbylbxf_zzsb/jbylbxf.html?sbzlDm=33013"
+  },
+  "21156": {
+    "sbzlDm": "21156",
+    "sbzlMc": "水资源税纳税申报表A",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_szy_A/sb_szy.html?sbzlDm=21156"
+  },
+  "21157": {
+    "sbzlDm": "21157",
+    "sbzlMc": "水资源税纳税申报表B",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_szy_B/sb_szy.html?sbzlDm=21157"
+  },
+  "21159": {
+    "sbzlDm": "21159",
+    "sbzlMc": "石油特别收益金申报表",
+    "yxbz": "Y",
+    "url": "/sbzx-web/apps/views/sb_fssr_sy/sb_fssr_sy.html?sbzlDm=21159"
+  }
+}

@@ -1,0 +1,28 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_NSRMC." Col="1" Row="2" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_NSRSBH." Col="6" Row="2" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_QSRQ." Col="1" Row="3" HeadStr="" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_TBRQ." Col="6" Row="3" HeadStr="" DataType="填表时间"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_NSRMC." Col="1" Row="5" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_NSRSBH." Col="6" Row="5" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_JBR." Col="1" Row="35" HeadStr="" DataType=""/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_JBRLXDH." Col="6" Row="35" HeadStr="" DataType=""/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_SLR." Col="1" Row="37" HeadStr="" DataType=""/>
+		<Records NodeName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTXX.SB_JMQYCGWGQYXXBGB_SLRLXDH." Col="1" Row="38" HeadStr="" DataType=""/>
+	</Head>
+	<Body>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTZWGQYXX." NodeRange="0,3," CellColRange="1,6," CellSRow="7" CellERow="7" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTZWGQYXX." NodeRange="1,4," CellColRange="1,6," CellSRow="8" CellERow="8" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTZWGQYXX." NodeRange="2,5," CellColRange="1,4," CellSRow="9" CellERow="9" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_BTZWGQYXX." NodeRange="6," CellColRange="6," CellSRow="9" CellERow="9" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_QTGDQK." NodeRange="6," CellColRange="5," CellSRow="12" CellERow="15" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_QTGDQK." NodeRange="1,2,3,4,5,7," CellColRange="0,1,2,3,4,6," CellSRow="12" CellERow="15" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_GGHDSQK." NodeRange="1,2,3,4,5,6,7,8," CellColRange="0,1,2,3,4,5,6,9," CellSRow="18" CellERow="20" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_SGGFQK." NodeRange="1,2,3," CellColRange="0,1,4," CellSRow="24" CellERow="26" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_SGGFQK." NodeRange="4,5," CellColRange="5,6," CellSRow="24" CellERow="26" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_CZGFQK." NodeRange="1,2,3," CellColRange="0,1,4," CellSRow="29" CellERow="31" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="0" IDentifyCol="8"/>
+		<Records HeadName="SB_JMQYCGWGQYXXBGB.SB_JMQYCGWGQYXXBGB_CZGFQK." NodeRange="4,5," CellColRange="5,6," CellSRow="29" CellERow="31" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="8"/>	
+	</Body>
+</XmlRWConfig>

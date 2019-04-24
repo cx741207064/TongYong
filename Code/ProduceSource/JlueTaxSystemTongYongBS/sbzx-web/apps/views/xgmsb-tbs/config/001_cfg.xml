@@ -1,0 +1,344 @@
+﻿<XmlRWConfig>
+  <Head>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_QSRQ." Col="2" Row="4" HeadStr="" DataType="税款所属时期 季报"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_NSRSBH." Col="2" Row="2" HeadStr="" DataType="纳税人识别号"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_NSRMC." Col="2" Row="3" HeadStr="" DataType="纳税人名称"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_TBRQ." Col="5" Row="4" HeadStr="" DataType="填表时间"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_NSBM." Col="2" Row="1" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_SQR." Col="3" Row="33" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_HJZG." Col="5" Row="33" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_FRXM." Col="3" Row="34" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_LXDH." Col="5" Row="34" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_SFTXFBY." Col="4" Row="39" HeadStr="" DataType="其他"/>
+    <Records NodeName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_BTXX.SB_ZZSNSXGMSBB_SFCGQZD." Col="6" Row="39" HeadStr="" DataType="其他"/>
+  </Head>
+  <Body>
+    <Records HeadName="zzssyyxgmnsr.zzsxgmGrid." NodeRange="2..25" CellColRange="4,6,8,10" CellSRow="7" CellERow="30" XmlSRow="0" XmlERow="3" XmlAsCol="true" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+  </Body>
+  <CalcSum>
+    <!--
+		设置累加情况
+		-->
+    <!--核定销售额-->
+    <Records HeadName="WSXXS.[YSHWHDXSE]" Count="1" A1="WSXXS.[SZLBDM]" NodeSIndex="-1"  DependCol="8" Col="4" CellSRow="21" CellERow="21" Calc="0" Rec_DependCol="" Conditions="(A1=01) or (A1=03)" ReadOnly="1"/>
+    <Records HeadName="WSXXS.[YSFWHDXSE]" Count="1" A1="WSXXS.[SZLBDM]" NodeSIndex="-1"  DependCol="10" Col="6" CellSRow="21" CellERow="21" Calc="0" Rec_DependCol="" Conditions="(A1=02) or (A1=03)" ReadOnly="1"/>
+    <!--核定应纳税额-->
+    <Records HeadName="WSXXS.[YSHWHDYNSE]" Count="1" A1="WSXXS.[SZLBDM]" NodeSIndex="-1"  DependCol="8" Col="4" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Conditions="(A1=01) or (A1=03)" ReadOnly="1"/>
+    <Records HeadName="WSXXS.[YSFWHDYNSE]" Count="1" A1="WSXXS.[SZLBDM]" NodeSIndex="-1"  DependCol="10" Col="6" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Conditions="(A1=02) or (A1=03)" ReadOnly="1"/>
+    <!--应税货物-->
+    <!--<Records HeadName="LSXXS." NodeSIndex="0" DependCol="4" Col="8" CellSRow="7" CellERow="17" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,13|4,14|4,15|4,16|4,21|4,19|6,7|6,12|6,16" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="11" DependCol="4" Col="8" CellSRow="19" CellERow="19" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,13|4,14|4,15|4,16|4,21|4,19|6,7|6,12|6,16" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="12" DependCol="4" Col="8" CellSRow="21" CellERow="25" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,13|4,14|4,15|4,16|4,21|4,19|6,7|6,12|6,16" Count="0" Conditions="" ReadOnly="0"/>-->
+    <!--应税服务-->
+    <!--<Records HeadName="LSXXS." NodeSIndex="19" DependCol="6" Col="10" CellSRow="7" CellERow="9" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,16|4,21|4,19|6,7|6,12|6,13|6,14|6,15|6,16" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="24" DependCol="6" Col="10" CellSRow="12" CellERow="17" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,16|4,21|4,19|6,7|6,12|6,13|6,14|6,15|6,16" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="30" DependCol="6" Col="10" CellSRow="19" CellERow="19" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,16|4,21|4,19|6,7|6,12|6,13|6,14|6,15|6,16|6,19" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="31" DependCol="6" Col="10" CellSRow="21" CellERow="25" Calc="1" Rec_DependCol="4,7|4,10|4,12|4,16|4,21|4,19|6,7|6,12|6,13|6,14|6,15|6,16|6,19|6,21" Count="0" Conditions="" ReadOnly="0"/>-->
+    <!--应税货物-->
+    <Records HeadName="LSXXS." NodeSIndex="0" DependCol="4" Col="8" CellSRow="7" CellERow="9" Calc="1" Rec_DependCol="4,7|4,8|4,9" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="6" DependCol="4" Col="8" CellSRow="13" CellERow="20" Calc="1" Rec_DependCol="4,13|4,14|4,15|4,16|4,17|4,18|4,19|4,20" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="14" DependCol="4" Col="8" CellSRow="22" CellERow="22" Calc="1" Rec_DependCol="4,7|4,8|4,13|4,15|4,16|4,17|4,18|4,19|4,22" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="15" DependCol="4" Col="8" CellSRow="24" CellERow="28" Calc="1" Rec_DependCol="4,7|4,8|4,13|4,15|4,16|4,17|4,18|4,19|4,22|4,24|4,25|4,26|4,27|4,28|4,29|4,30" Count="0" Conditions="" ReadOnly="0"/>
+    <Records AreaCode="13,62,63,65,4403,36" HeadName="LSXXS." NodeSIndex="44" DependCol="4" Col="8" CellSRow="21" CellERow="21" Calc="1" Rec_DependCol="4,21" Count="0" Conditions="" ReadOnly="0"/>
+    <Records AreaCode="13,62,63,65,4403,36" HeadName="LSXXS." NodeSIndex="45" DependCol="4" Col="8" CellSRow="23" CellERow="23" Calc="1" Rec_DependCol="4,23" Count="0" Conditions="" ReadOnly="0"/>
+    <!--应税服务-->
+    <Records HeadName="LSXXS." NodeSIndex="22" DependCol="6" Col="10" CellSRow="7" CellERow="12" Calc="1" Rec_DependCol="6,7|6,8|6,9|6,10|6,11|6,12" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="30" DependCol="6" Col="10" CellSRow="15" CellERow="20" Calc="1" Rec_DependCol="6,15|6,16|6,17|6,18|6,19|6,20" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="36" DependCol="6" Col="10" CellSRow="22" CellERow="22" Calc="1" Rec_DependCol="6,7|6,8|6,10|6,15|6,16|6,17|6,18|6,19|4,22" Count="0" Conditions="" ReadOnly="0"/>
+    <Records HeadName="LSXXS." NodeSIndex="37" DependCol="6" Col="10" CellSRow="24" CellERow="28" Calc="1" Rec_DependCol="6,7|6,8|6,10|6,15|6,16|6,17|6,18|6,19|6,22|6,24|4,22|4,24|4,25|4,26|4,27|4,28" Count="0" Conditions="" ReadOnly="0"/>
+    <Records AreaCode="13,62,63,65,4403,36" HeadName="LSXXS." NodeSIndex="46" DependCol="6" Col="10" CellSRow="21" CellERow="21" Calc="1" Rec_DependCol="6,21" Count="0" Conditions="" ReadOnly="0"/>
+    <Records AreaCode="13,62,63,65,4403,36" HeadName="LSXXS." NodeSIndex="47" DependCol="6" Col="10" CellSRow="23" CellERow="23" Calc="1" Rec_DependCol="6,23" Count="0" Conditions="" ReadOnly="0"/>
+  </CalcSum>
+  <!--
+	HWYQNS取不到值了
+	-->
+  <DynamicSetCellFormula>
+    <!--1、4、6、10栏之和-->
+    <!--<Records AreaCode="13,62,63,65" Count="2" A1="WSXXS.[BQYSHWYJ]" A2="WSXXS.[SZLBDM]"  Conditions="" Col="2" Row="39" DataType="DT_Num" Formula="round(E8+E14+E16+E20+G16+G20+G8,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>-->
+    <!--1、4、7、9、13栏之和-->
+    <Records Count="0" Conditions="" Col="2" Row="39" DataType="DT_Num" Formula="round(E8+E14+E16+E20,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <!--
+		<Records AreaCode="13,36,62,63,65," Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSBDCZSL]" Conditions="" Col="6" Row="39" DataType="DT_Num" Formula="if((round(B40/(A1+1)+0.0000001,2)+round(H40/(A2+1)+0.0000001,2))>(round(G8+G11,2)),round(B40/(A1+1)+H40/(A2+1)+G19+G20,2),round(G8+G11+G19+G20,2))"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		-->
+    <Records Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSBDCZSL]" Conditions="" Col="6" Row="39" DataType="DT_Num" Formula="if((round(B40/(A1+1)+0.0000001,2)+round(H40/(A2+1)+0.0000001,2)+round(G19,2)+round(G20,2))>(round(G8+G11+G16+G20,2)),round(B40/(A1+1)+H40/(A2+1)+G19+G20,2),round(G8+G11+G16+G20,2))"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <!--
+                <Records AreaCode="65" Count="3" A1="WSXXS.[BQYSHWYJ]" A2="WSXXS.[HWYQNS]" A3="WSXXS.[SZLBDM]"  Conditions="" Col="2" Row="36" DataType="DT_Num" Formula="if(B37/1.03&gt;G8,round(E8+E11+E13+E17+G13+G17+B37/1.03,2),round(E8+E11+E13+E17+G13+G17+G8,2))"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		-->
+    <!--第5栏服务、不动产和无形资产从核定取数-->
+    <!--<Records Count="2" A1="WSXXS.[XSCZBDCDKZPXSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=02) or (A2=03)" Col="6" Row="11" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>-->
+    <!--代开专票从核定取数-->
+    <!--
+		<Records Count="2" A1="WSXXS.[HWDKZPXSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=01) or (A2=03)" Col="4" Row="8" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		<Records Count="2" A1="WSXXS.[FWDKZPXSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=02) or (A2=03)" Col="6" Row="8" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		-->
+    <!--本期预缴-->
+    <Records Count="2" A1="WSXXS.[BQYSHWYJ]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=01) or (A2=03)" Col="4" Row="29" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="0" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <!--本期预缴（应税服务）-->
+    <Records Count="2" A1="WSXXS.[BQYSFWYJ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[FWYQNS]" Conditions="(A2=02) or (A2=03)" Col="6" Row="29" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="0" DependCol="" OpenMode="new" Caption="显示信息"/>
+
+    <!--核定销售额，从核定取-->
+    <Records Count="2" A1="WSXXS.[YSHWHDXSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=01) or (A2=03)" Col="4" Row="21" DataType="DT_Num" Formula="A1"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <Records Count="2" A1="WSXXS.[YSFWHDXSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=02) or (A2=03)" Col="6" Row="21" DataType="DT_Num" Formula="A1"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+
+    <!--核定应纳税额，从核定取-->
+    <Records Count="2" A1="WSXXS.[YSHWHDYNSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=01) or (A2=03)" Col="4" Row="23" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <Records Count="2" A1="WSXXS.[YSFWHDYNSE]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=02) or (A2=03)" Col="6" Row="23" DataType="DT_Num" Formula="round(A1,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+    <!--本期应纳税额-->
+    <!--有起征点了-->
+    <Records Count="6" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" Conditions="(A4=01) or (A4=03)" Col="4" Row="22" DataType="DT_Num" Formula="if(A6=1,round(E8*A1+E14*0.03+0.000001,2),if(((A2&gt;A5) or (C40&gt;A5)),if(E24&gt;=round(E8*A1+E14*0.02,2),E24,round(E8*A1+E14*0.03+0.000001,2)),round(0+E9*A1+0.000001,2)))"  ReadOnly="0" DependCol="4,7|4,8|4,13|4,15|4,16|4,17|4,18|4,19" OpenMode="new" Caption="显示信息"/>
+    <!--新疆，如果是个体户起征点以上=1*征收率+4*3%，起征点以下=0；非个体户起征点以上取1栏*核定征收率zsl+4栏*2%和核定货物应纳税额大者，起征点以下取第2栏*核定zsl-->
+    <!--
+		<Records AreaCode="65" Count="7" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]" A6="WSXXS.[GTHBZ]" A7="WSXXS.[YSHWHDYNSE]" Conditions="(A4=01) or (A4=03)" Col="4" Row="19" DataType="DT_Num" Formula="if(A6=1,if(((A2+A3&gt;A5) or (C37&gt;A5)),round(E8*A1+E11*0.03,2),0.00),if(((A2+A3&gt;A5) or (C37&gt;A5)),if(round(E8*A1+E11*0.02,2)&gt;=A7,round(E8*A1+E11*0.03,2),A7),round(E9*A1,2)))"  ReadOnly="0" DependCol="4,7|4,8|4,10|4,12|4,13|4,14|4,15|4,16|6,7|6,12|6,16" OpenMode="new" Caption="显示信息"/>
+		-->
+    <!--本期应纳税额（应税服务）-->
+    <Records Count="7" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="WSXXS.[YSBDCZSL]" Conditions="(A4=02) or (A4=03)" Col="6" Row="22" DataType="DT_Num" Formula="if(A6=1,round(G8*A1+G11*A7+0.000001,2),if((A3&gt;A5) or (G40&gt;A5),if(G24&gt;=round(G8*A1+G11*A7,2),G24,round(G8*A1+G11*A7+0.000001,2)),round(0+G9*A1+G12*A7+0.000001,2)))"  ReadOnly="0" DependCol="6,7|6,8|6,10|6,11|6,15|6,16|6,17|6,18|6,19" OpenMode="new" Caption="显示信息"/>
+    <!--新疆，如果是个体户起征点以上=1*征收率+4*3%，起征点一下=0；非个体户起征点以上取1栏*核定征收率zsl+4栏*2%和核定服务应纳税额大者，起征点一下取第2栏*核定zsl-->
+    <!--
+		<Records AreaCode="65" Count="7" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]" A6="WSXXS.[GTHBZ]" A7="WSXXS.[YSFWHDYNSE]" Conditions="(A4=02) or (A4=03)" Col="6" Row="19" DataType="DT_Num" Formula="if(A6=1,if(((A2+A3&gt;A5) or (C37&gt;A5)),round(G8*A1,2),0.00),if(((A2+A3&gt;A5) or (C37&gt;A5)),if(round(G8*A1,2)&gt;=A7,round(G8*A1,2),A7),round(G9*A1,2)))"  ReadOnly="0" DependCol="4,7|4,10|4,12|4,16|6,7|6,8|6,12|6,13|6,14|6,15|6,16" OpenMode="new" Caption="显示信息"/>
+		-->
+    <!--第13栏逾期未认定企业：第13栏=第4栏*0.01；-->
+    <Records Count="6" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" Conditions="(A4=01) or (A4=03)" Col="4" Row="24" DataType="DT_Num" Formula="if(A6=1,round(E14*0.01,2),if(((A2&gt;A5) or (C40&gt;A5)),if(E24&gt;=round(E8*A1+E14*0.02,2),0,round(E14*0.01,2)),0.00))"  ReadOnly="0" DependCol="4,7|4,13|4,15|4,16|4,17|4,18|4,19" OpenMode="new" Caption="显示信息"/>
+    <!--
+		<Records AreaCode="65" Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[HWYQSB]" A3="WSXXS.[YSHWHDXSE]" A4="WSXXS.[YSFWHDXSE]" A5="WSXXS.[QZD]" A6="2,36" Conditions="(A1=1 and A2=0)" Col="4" Row="21" DataType="DT_Num" Formula="round(if(((A3+A4&gt;A5) or (A6&gt;A5)),E11*0.01,0),2)"  ReadOnly="0" DependCol="4,7|4,8|4,10|4,12|4,13|4,14|4,15|4,16|6,7|6,12|6,16" OpenMode="new" Caption="显示信息"/>
+		<Records AreaCode="65" Count="7" A1="WSXXS.[GTHBZ]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]" A6="WSXXS.[YSHWYNZSL]" A7="WSXXS.[YSHWHDYNSE]" Conditions="(A1=0)" Col="4" Row="21" DataType="DT_Num" Formula="round(if(((A2+A3&gt;A5) or (C37&gt;A5)) and (E8*A6+E11*0.02&gt;=A7),E11*0.01,0),2)"  ReadOnly="0" DependCol="4,7|4,8|4,10|4,12|4,13|4,14|4,15|4,16|6,7|6,12|6,16" OpenMode="new" Caption="显示信息"/>
+		-->
+    <!--本期应纳税额（应税服务）-->
+    <Records Count="7" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="WSXXS.[YSBDCZSL]" Conditions="(A4=02) or (A4=03)" Col="6" Row="24" DataType="DT_Num" Formula="if(A6=1,round(G14*A1,2),if((A3&gt;A5) or (G40&gt;A5),if(G24&gt;=round(G8*A1+G11*A7,2),0,round(G14*A1,2)),0.00))"  ReadOnly="0" DependCol="6,7|6,8|6,15|6,16|6,17|6,18|6,19" OpenMode="new" Caption="显示信息"/>
+    <!--第14栏本期免税额自动公式计算=第6栏免税销售额*征收率-->
+    <Records AreaCode="13,36,62,63,4403," Count="2" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=01) or (A2=03)" Col="4" Row="25" DataType="DT_Num" Formula="round(E16*A1+0.000001,2)"  ReadOnly="1" DependCol="4,16|4,17|4,18|" OpenMode="new,edit" Caption="显示信息"/>
+    <!--2016-05-16变更（所有地区，“本期数”“服务、不动产和无形资产”17、18、19栏改为手工录入。）-->
+    <!--<Records AreaCode="13,62,63" Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=02) or (A2=03)" Col="6" Row="25" DataType="DT_Num" Formula="round(G16*A1,2)"  ReadOnly="1" DependCol="6,16|6,17|6,18|" OpenMode="new,edit" Caption="显示信息"/>-->
+
+    <Records AreaCode="65,61" Count="2" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=01) or (A2=03)" Col="4" Row="25" DataType="DT_Num" Formula="round(E16*A1+0.000001,2)"  ReadOnly="0" DependCol="4,16|4,17|4,18|" OpenMode="new,edit" Caption="显示信息"/>
+    <!--2016-05-16变更（所有地区，“本期数”“服务、不动产和无形资产”17、18、19栏改为手工录入。）-->
+    <!--<Records AreaCode="65" Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=02) or (A2=03)" Col="6" Row="25" DataType="DT_Num" Formula="round(G16*A1,2)"  ReadOnly="0" DependCol="6,16|6,17|6,18|" OpenMode="new,edit" Caption="显示信息"/>-->
+    <!--
+		<Records AreaCode="65" Count="2" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=01) or (A2=03)" Col="4" Row="22" DataType="DT_Num" Formula="round(E13*A1,2)"  ReadOnly="0" DependCol="4,13|4,14|4,15|" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="65" Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=02) or (A2=03)" Col="6" Row="22" DataType="DT_Num" Formula="round(G13*A1,2)"  ReadOnly="0" DependCol="6,13|6,14|6,15|" OpenMode="new,edit" Caption="显示信息"/>
+		-->
+    <!--第15栏本期免税额自动公式计算=第7栏免税销售额*征收率-->
+    <Records Count="2" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=01) or (A2=03)" Col="4" Row="26" DataType="DT_Num" Formula="round(E17*A1,2)"  ReadOnly="0" DependCol="4,16|" OpenMode="new,edit" Caption="显示信息"/>
+    <!--2016-05-16变更（所有地区，“本期数”“服务、不动产和无形资产”17、18、19栏改为手工录入。）-->
+    <!--<Records Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=02) or (A2=03)" Col="6" Row="26" DataType="DT_Num" Formula="round(G17*A1,2)"  ReadOnly="0" DependCol="6,16|" OpenMode="new,edit" Caption="显示信息"/>-->
+    <!--第16栏本期免税额自动公式计算=第8栏免税销售额*征收率-->
+    <Records Count="2" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=01) or (A2=03)" Col="4" Row="27" DataType="DT_Num" Formula="round(E18*A1,2)"  ReadOnly="0" DependCol="4,17|" OpenMode="new,edit" Caption="显示信息"/>
+    <!--2016-05-16变更（所有地区，“本期数”“服务、不动产和无形资产”17、18、19栏改为手工录入。）-->
+    <!--<Records Count="2" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[SZLBDM]" Conditions="(A2=02) or (A2=03)" Col="6" Row="27" DataType="DT_Num" Formula="round(G18*A1,2)"  ReadOnly="0" DependCol="6,17|" OpenMode="new,edit" Caption="显示信息"/>-->
+
+    <!--应纳税额合计，直接相减-->
+    <Records Count="2" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=01) or (A2=03)" Col="4" Row="28" DataType="DT_Num" Formula="round(E23-E25,2)"  ReadOnly="1" DependCol="4,6|4,9" OpenMode="new" Caption="显示信息"/>
+    <!--应纳税额合计（应税服务），直接相减-->
+    <Records Count="2" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]"  Conditions="(A2=02) or (A2=03)" Col="6" Row="28" DataType="DT_Num" Formula="round(G23-G25,2)"  ReadOnly="1" DependCol="6,6|6,9" OpenMode="new" Caption="显示信息"/>
+
+    <!--本期应补退税额，直接相减-->
+    <!--<Records Count="5" A5="WSXXS.[YQWRDBZ]" A1="WSXXS.[YSHWHDXSE]" A2="WSXXS.[YSFWHDXSE]" A3="WSXXS.[SZLBDM]" A4="WSXXS.[QZD]" Conditions="(A3=01) or (A3=03)"  Col="4" Row="30" DataType="DT_Num" Formula="round(if(A5=1,round(E29-E30,2),if((A1&lt;=A4) and (C40&lt;=A4),if(E29-E30&lt;0,0,E29-E30),round(E29-E30,2))),2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>-->
+    <Records Count="5" A5="WSXXS.[YQWRDBZ]" A1="WSXXS.[YSHWHDXSE]" A2="WSXXS.[YSFWHDXSE]" A3="WSXXS.[SZLBDM]" A4="WSXXS.[QZD]" Conditions="(A3=01) or (A3=03)"  Col="4" Row="30" DataType="DT_Num" Formula="round(E29-E30,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+
+    <!--
+		<Records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" Conditions="(A1=01) or (A1=03)" Col="4" Row="27" DataType="DT_Num" Formula="round(E26-E27,2)"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+		-->
+    <!--本期应补退税额（应税服务），直接相减-->
+    <!--<Records Count="5" A5="WSXXS.[YQWRDBZ]" A1="WSXXS.[YSHWHDXSE]" A2="WSXXS.[YSFWHDXSE]" A3="WSXXS.[SZLBDM]" A4="WSXXS.[YSFWQZD]" Conditions="(A3=02) or (A3=03)" Col="6" Row="30" DataType="DT_Num" Formula="round(if(A5=1,round(G29-G30,2),if((A2&lt;=A4) and (G40&lt;=A4),if(G29-G30&lt;0,0,G29-G30),round(G29-G30,2))),2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>-->
+    <Records Count="5" A5="WSXXS.[YQWRDBZ]" A1="WSXXS.[YSHWHDXSE]" A2="WSXXS.[YSFWHDXSE]" A3="WSXXS.[SZLBDM]" A4="WSXXS.[YSFWQZD]" Conditions="(A3=02) or (A3=03)" Col="6" Row="30" DataType="DT_Num" Formula="round(G29-G30,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+
+    <!--
+		<Records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" Conditions="(A1=02) or (A1=03)" Col="6" Row="27" DataType="DT_Num" Formula="round(G26-G27,2)"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+
+		<Records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" Conditions="(A1=01)" Col="6" Row="19" DataType="DT_Num" Formula="0.00"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+		<Records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" Conditions="(A1=02)" Col="4" Row="19" DataType="DT_Num" Formula="0.00"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+	-->
+  </DynamicSetCellFormula>
+
+  <AutoFill XmlFile="'006',">
+    <Records AreaCode="4403" Col="6" Row="7" Count="1" A1="006.xml|SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_MXXX.[1].SB_ZZSNSXGMSBBFBY_L4." Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="4403" Col="6" Row="10" Count="1" A1="006.xml|SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_MXXX.[3].SB_ZZSNSXGMSBBFBY_L4." Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <!--第5栏，也要取过来-->
+    <Records Col="1" Row="39" Count="1" A1="006.xml|SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_MXXX.[1].SB_ZZSNSXGMSBBFBY_L1." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <Records Col="3" Row="39" Count="1" A1="006.xml|SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_MXXX.[1].SB_ZZSNSXGMSBBFBY_L4." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <Records Col="7" Row="39" Count="1" A1="006.xml|SB_ZZSNSXGMSBBFBY.SB_ZZSNSXGMSBBFBY_MXXX.[3].SB_ZZSNSXGMSBBFBY_L1." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    <!--<Records Col="2" Row="39" Count="1" A1="007.xml|SB_FLZL4.SB_FLZL4_MXXX.[0].SB_FLZL4_BQSJDJSE." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>-->
+    <!--
+		<Records AreaCode="65" Col="6" Row="7" Count="1" A1="3,36" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+	-->
+    <Records AreaCode="36" Col="4" Row="8" Count="1" A1="WSXXS.[HWDKZPXSE]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="36" Col="6" Row="8" Count="1" A1="WSXXS.[FWDKZPXSE]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+    <Records AreaCode="36" Col="6" Row="11" Count="1" A1="WSXXS.[XSCZBDCDKZPXSE]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+  </AutoFill>
+
+  <DynamicSetCellReadOnly>
+    <!--
+	  <records AreaCode="65" Count="0" CellColRange="0,2," CellSRow="1" CellERow="1" DataType="DT_String" Conditions="" ReadOnly="1" ClearCell="1" CellColIsNull="-1" OpenMode="new,edit"/>
+	  -->
+    <!--营改增非个体户才能填写第10、18栏-->
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,39" CellColRange="4," CellSRow="16" CellERow="16" DataType="DT_Num" Conditions="(A1=1)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,39" CellColRange="4," CellSRow="17" CellERow="17" DataType="DT_Num" Conditions="(A1=0)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <!--营改增非个体户才能填写第11、19栏-->
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[YSFWQZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="6,39" CellColRange="6," CellSRow="16" CellERow="16" DataType="DT_Num" Conditions="(A1=1)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[YSFWQZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="6,39" CellColRange="6," CellSRow="17" CellERow="17" DataType="DT_Num" Conditions="(A1=0)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,39" CellColRange="4," CellSRow="26" CellERow="26" DataType="DT_Num" Conditions="(A1=1)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,39" CellColRange="4," CellSRow="27" CellERow="27" DataType="DT_Num" Conditions="(A1=0)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[YSFWQZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="6,39" CellColRange="6," CellSRow="26" CellERow="26" DataType="DT_Num" Conditions="(A1=1)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <records Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[YSFWQZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="6,39" CellColRange="6," CellSRow="27" CellERow="27" DataType="DT_Num" Conditions="(A1=0)" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+    <!--河北非个体户才能填写第10、18栏-->
+    <!--<records AreaCode="13,62,63,65" Count="1" A1="WSXXS.[GTHBZ]" CellColRange="4,6," CellSRow="16" CellERow="16" DataType="DT_Num" Conditions="A1=1" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="13,62,63,65" Count="1" A1="WSXXS.[GTHBZ]" CellColRange="4,6," CellSRow="26" CellERow="26" DataType="DT_Num" Conditions="A1=1" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>-->
+    <!--新疆非个体户且未达起征点才能填写第7、15栏,新疆起征点判断是根据1、4、6、10与核定销售额取大值与核定QZD比较-->
+    <!--
+	  <records AreaCode="65" Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,36" CellColRange="4,6," CellSRow="13" CellERow="13" DataType="DT_Num" Conditions="not ((A1=0) and (if(A6&lt;A4+(A5),A6,A4+(A5))&lt;A3))" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="65" Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,36" CellColRange="4,6," CellSRow="23" CellERow="23" DataType="DT_Num" Conditions="not ((A1=0) and (if(A6&lt;A4+(A5),A6,A4+(A5))&lt;A3))" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+	  -->
+    <!--个体户才能填写第11、19栏-->
+    <!--<records AreaCode="13,62,63,65" Count="1" A1="WSXXS.[GTHBZ]" CellColRange="4,6," CellSRow="17" CellERow="17" DataType="DT_Num" Conditions="A1=0" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="13,62,63,65" Count="1" A1="WSXXS.[GTHBZ]" CellColRange="4,6," CellSRow="27" CellERow="27" DataType="DT_Num" Conditions="A1=0" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>-->
+    <!--新疆个体户才能填写第8、16栏起征点判断是根据1、4、6、10与核定销售额取大值与核定QZD比较-->
+    <!--
+	  <records AreaCode="65" Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,36" CellColRange="4,6," CellSRow="14" CellERow="14" DataType="DT_Num" Conditions="not ((A1=1) and (if(A6&lt;A4+(A5),A6,A4+(A5))&lt;A3))" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="65" Count="6" A1="WSXXS.[GTHBZ]" A2="WSXXS.[SZLBDM]" A3="WSXXS.[QZD]" A4="WSXXS.[YSHWHDXSE]" A5="WSXXS.[YSFWHDXSE]" A6="2,36" CellColRange="4,6," CellSRow="24" CellERow="24" DataType="DT_Num" Conditions="not ((A1=1) and (if(A6&lt;A4+(A5),A6,A4+(A5))&lt;A3))" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+	  -->
+    <!--<records Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6,10," CellSRow="7" CellERow="9" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>-->
+    <!--records AreaCode="13,62,63" Count="2" A1="2,36" A2="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="21" CellERow="21" DataType="DT_Num" Conditions="(A1&gt;0.00) and ((A2=01) or (A2=03))" ReadOnly="0" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="13,62,63" Count="2" A1="2,36" A2="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="21" CellERow="21" DataType="DT_Num" Conditions="(A1&gt;0.00) and ((A2=02) or (A2=03))" ReadOnly="0" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="13,62,63" Count="2" A1="2,36" A2="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="21" CellERow="21" DataType="DT_Num" Conditions="(A1&lt;=0.00) and ((A2=01) or (A2=03))" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="13,62,63" Count="2" A1="2,36" A2="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="21" CellERow="21" DataType="DT_Num" Conditions="(A1&lt;=0.00) and ((A2=02) or (A2=03))" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/-->
+
+    <records Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="7" CellERow="30" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+    <records Count="1" A1="WSXXS.[SZLBDM]" CellColRange="10," CellSRow="7" CellERow="28" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+    <!--<records AreaCode="13,62,63,65" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="7" CellERow="27" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>-->
+    <records Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="7" CellERow="30" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+    <records Count="1" A1="WSXXS.[SZLBDM]" CellColRange="8," CellSRow="7" CellERow="28" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+    <!--<records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="7" CellERow="28" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="7" CellERow="28" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="30" CellERow="30" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="30" CellERow="30" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=03" ReadOnly="0" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=03" ReadOnly="0" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=02" ReadOnly="0" OpenMode=""/>-->
+    <!--
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="4403," Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="29" CellERow="29" DataType="DT_Num" Conditions="A1=01" ReadOnly="0" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  -->
+    <!--
+	  <records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6,10," CellSRow="12" CellERow="26" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  <records AreaCode="65" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="4,8," CellSRow="7" CellERow="26" DataType="DT_Num" Conditions="A1=02" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+	  -->
+    <!--增值税小规模纳税人月季报/主表的第12栏本期应纳税额第1/2列次只读属性修改为"只读"-->
+    <records AreaCode="13,36,62,63,4403," Count="0" CellColRange="4,6," CellSRow="22" CellERow="22" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+  </DynamicSetCellReadOnly>
+
+  <StatisticalData>
+    <Records Count="2" A1="4,30" A2="6,30" Formula="round(A1+A2,2)" ResultNodeName="YGNSE"/>
+    <Records Count="2" A1="4,30" A2="6,30" Formula="round(A1+A2,2)" ResultNodeName="YKKJE"/>
+  </StatisticalData>
+
+  <BodyFromPreData>
+    <Records AreaCode="61" HeadName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_MXXX." NodeRange="3," CellColRange="8," CellSRow="21" CellERow="21" XmlSRow="14" XmlERow="14" DataType="DT_Num" WriteZero="0" NotDealYF="1," Rec_DependCol="4,7|4,13|4,24|4,22|4,21" OpenMode="new" LjsCol="4" Col="8" Calc="1"/>
+    <Records AreaCode="61" HeadName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_MXXX." NodeRange="3," CellColRange="8," CellSRow="23" CellERow="23" XmlSRow="16" XmlERow="16" DataType="DT_Num" WriteZero="0" NotDealYF="1," Rec_DependCol="4,7|4,13|4,24|4,22|4,21|4,23" OpenMode="new" LjsCol="4" Col="8" Calc="1"/>
+
+    <Records AreaCode="61" HeadName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_MXXX." NodeRange="4," CellColRange="10," CellSRow="21" CellERow="21" XmlSRow="14" XmlERow="14" DataType="DT_Num" WriteZero="0" NotDealYF="1," Rec_DependCol="6,7|6,13|6,24|6,22|6,21" OpenMode="new" LjsCol="6" Col="10" Calc="1"/>
+    <Records AreaCode="61" HeadName="SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBB_MXXX." NodeRange="4," CellColRange="10," CellSRow="23" CellERow="23" XmlSRow="16" XmlERow="16" DataType="DT_Num" WriteZero="0" NotDealYF="1," Rec_DependCol="6,7|6,13|6,24|6,22|6,21|6,23" OpenMode="new" LjsCol="6" Col="10" Calc="1"/>
+  </BodyFromPreData>
+
+  <SaveCheckData XmlFile="'006','008','031'">
+    <Records Count="2" A1="4,13" A2="4,14" Formula="(A1&lt;A2)" Range="true" Emsg="第7栏应税货物及劳务本期数【A1】小于第8栏【A2】，请检查！"/>
+    <!--逾期未认定企业第7、8栏必须都为0-->
+    <Records Count="4" A1="4,16" A2="4,17" A3="WSXXS.[YQWRDBZ]" A4="WSXXS.[SZLBDM]" Formula="(round(A1+A2,2)&lt;&gt;0.00) and (A3=1) and (A4=01 or A4=03)" Range="true" Emsg="逾期未认定企业第10、11栏应税货物及劳务必须都为0，请检查！"/>
+    <Records Count="4" A1="6,16" A2="6,17" A3="WSXXS.[YQWRDBZ]" A4="WSXXS.[SZLBDM]" Formula="(round(A1+A2,2)&lt;&gt;0.00) and (A3=1) and (A4=02 or A4=03)" Range="true" Emsg="逾期未认定企业第10、11栏应税服务、不动产和无形资产必须都为0，请检查！"/>
+    <Records Count="4" A1="6,26" A2="6,27" A3="WSXXS.[YQWRDBZ]" A4="WSXXS.[SZLBDM]" Formula="(round(A1+A2,2)&lt;&gt;0.00) and (A3=1) and (A4=02 or A4=03)" Range="true" Emsg="逾期未认定企业“其中：小微企业免税额”、“未达起征点免税额”应税服务、不动产和无形资产必须都为0，请检查！"/>
+    <!--非逾期未认定企业 当货物劳务销售额大于起征点时，10、11栏货物劳务本期数必须为0；-->
+    <Records Count="8" A1="2,0" A2="4,16" A3="4,17" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YQWRDBZ]" Formula="(A1=1) and (round(A2+A3,2) &lt;&gt;0) and (A4=01 or A4=03) and (A5=0)" Range="true" Emsg="您应税货物及劳务属于起征点以上申报，第10、11栏应税货物及劳务必须都为0，请检查！"/>
+    <!--非逾期未认定企业 当服务、不动产和无形资产销售额大于起征点时，10、11栏服务本期数必须为0；-->
+    <Records Count="8" A1="6,0" A2="6,16" A3="6,17" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YQWRDBZ]" Formula="(A1=1) and (round(A2+A3,2) &lt;&gt;0) and (A4=02 or A4=03) and (A5=0)" Range="true" Emsg="您应税服务属于起征点以上申报，第10、11栏应税服务、不动产和无形资产必须都为0，请检查！"/>
+    <!--非逾期未认定企业 增值税小规模纳税人/主表保存时增加保存校验(强制)：达到起征点，本期数服务、不动产和无形资产的18、19栏必须为0；-->
+    <Records Count="8" A1="6,0" A2="6,26" A3="6,27" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YQWRDBZ]" Formula="(A1=1) and (round(A2+A3,2) &lt;&gt;0) and (A4=02 or A4=03) and (A5=0)" Range="true" Emsg="您应税服务属于起征点以上申报，“其中：小微企业免税额”、“未达起征点免税额”应税服务、不动产和无形资产必须都为0，请检查！"/>
+    <!--主表第12栏“其他免税销售额”“本期数”之和【A1+A2】需等于本期减免税额明细表的第7行第1列【A3】-->
+    <Records Count="8" A1="4,18" A2="6,18" A3="008|4,15" Formula="(round(A1+A2,2) &lt;&gt;A3)" Range="true" Emsg="主表第12栏“其他免税销售额”“本期数”之和【A1+A2】需等于本期减免税额明细表的第7行第1列【A3】"/>
+    <!--主表第18栏“本期应纳税额减征额”“本期数”之和【A1+A2】需等于本期减免税额明细表的第1行第4列【A3】-->
+    <Records Count="8" A1="4,24" A2="6,24" A3="008|7,6" Formula="(round(A1+A2,2) &lt;&gt;A3)" Range="true" Emsg="主表第18栏“本期应纳税额减征额”“本期数”之和【A1+A2】需等于本期减免税额明细表的第1行第4列【A3】"/>
+    <!--非逾期未认定企业，且小于起征点，货劳第1栏=第2栏-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="2,0" A4="4,7" A5="4,8" A6="WSXXS.[GTHBZ]" Formula="(A1=0) and (A2=01 or A2=03) and (A3=0) and (A4 &lt;&gt;A5) and (A6=1)" Range="true" Emsg="您是属于【个体工商户和其他个人】，可享受的免税销售额，请将销售额调整到“货物及劳务”的【未达起征点销售额】栏中，如您开具或者代开了专用发票，请填写在第2栏，并且第一栏和第二栏需要相等。"/>
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="2,0" A4="4,7" A5="4,8" A6="WSXXS.[GTHBZ]" Formula="(A1=0) and (A2=01 or A2=03) and (A3=0) and (A4 &lt;&gt;A5) and (A6=0)" Range="true" Emsg="您是属于【小微企业】，可享受的免税销售额，请将销售额调整到“货物及劳务”的【其中：小微企业免税销售额】栏中，如您开具或者代开了专用发票，请填写在第2栏，并且第一栏和第二栏需要相等。"/>
+    <!--非逾期未认定企业，且小于起征点，货劳第3栏必须等于0-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="2,0" A4="4,9" Formula="(A1=0) and (A2=01 or A2=03) and (A3=0) and (A4 &lt;&gt;0)" Range="true" Emsg="您应税货物及劳务属于起征点以下申报，应税货物及劳务第3栏必须为0，请检查！"/>
+    <!--非逾期未认定企业，且小于起征点，货劳第7栏必须等于0-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="2,0" A4="4,13" Formula="(A1=0) and (A2=01 or A2=03) and (A3=0) and (A4 &lt;&gt;0)" Range="true" Emsg="您应税货物及劳务属于起征点以下申报，应税货物及劳务第7栏必须为0，请检查！"/>
+    <!--非逾期未认定企业，且小于起征点，服务第1栏=第2栏-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="6,0" A4="6,7" A5="6,8" A6="WSXXS.[GTHBZ]" Formula="(A1=0) and (A2=02 or A2=03) and (A3=0) and (A4 &lt;&gt;A5) and (A6=1)" Range="true" Emsg="您是属于【个体工商户和其他个人】，可享受的免税销售额，请将销售额调整到“服务、不动产和无形资产”的【未达起征点销售额】栏中，如您开具或者代开了专用发票，请填写在第2栏，并且第一栏和第二栏需要相等。"/>
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="6,0" A4="6,7" A5="6,8" A6="WSXXS.[GTHBZ]" Formula="(A1=0) and (A2=02 or A2=03) and (A3=0) and (A4 &lt;&gt;A5) and (A6=0)" Range="true" Emsg="您是属于【小微企业】，可享受的免税销售额，请将销售额调整到“服务、不动产和无形资产”的【其中：小微企业免税销售额】栏中，如您开具或者代开了专用发票，请填写在第2栏，并且第一栏和第二栏需要相等。"/>
+    <!--非逾期未认定企业，且小于起征点，服务第4栏=第5栏-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="6,0" A4="6,10" A5="6,11" Formula="(A1=0) and (A2=02 or A2=03) and (A3=0) and (A4 &lt;&gt;A5)" Range="true" Emsg="您应税服务属于起征点以下申报，应税服务、不动产和无形资产第4栏必须等于第5栏，请检查！"/>
+    <!--非逾期未认定企业，且小于起征点，货劳第3栏必须等于0-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="6,0" A4="6,9" Formula="(A1=0) and (A2=02 or A2=03) and (A3=0) and (A4 &lt;&gt;0)" Range="true" Emsg="您应税服务属于起征点以下申报，应税服务、不动产和无形资产第3栏必须为0，请检查！"/>
+    <!--非逾期未认定企业，且小于起征点，货劳第7栏必须等于0-->
+    <Records Count="8" A1="WSXXS.[YQWRDBZ]" A2="WSXXS.[SZLBDM]" A3="6,0" A4="6,12" Formula="(A1=0) and (A2=02 or A2=03) and (A3=0) and (A4 &lt;&gt;0)" Range="true" Emsg="您应税服务属于起征点以下申报，应税服务、不动产和无形资产第6栏必须为0，请检查！"/>
+    <Records Count="2" A1="4,19" A2="4,20" Formula="(A1&lt;A2)" Range="true" Emsg="第13栏应税货物及劳务本期数【A1】小于第14栏【A2】，请检查！"/>
+    <Records Count="2" A1="6,19" A2="6,20" Formula="(A1&lt;A2)" Range="true" Emsg="第13栏应税服务、不动产和无形资产本期数【A1】小于第14栏【A2】，请检查！"/>
+    <!--14=6*YSHWYNZSL-->
+    <!--2016-05-16变更(所有地区，“本期数”“服务、不动产和无形资产”17、18、19栏改为手工录入。)-->
+    <Records AreaCode="65" Count="6" A1="4,15" A2="WSXXS.[YSHWYNZSL]" A3="4,25" A4="6,15" A5="6,25" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;0.1)" Range="true" Emsg="本期免税额应等于第9栏免税销售额乘以征收率，并且允许1角钱误差!"/>
+
+    <!--15=7*YSHWYNZSL-->
+
+    <Records AreaCode="65" Count="6" A1="4,16" A2="WSXXS.[YSHWYNZSL]" A3="4,26" A4="6,16" A5="6,26" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;0.1)" Range="true" Emsg="本期小微企业免税额应等于第10栏小微企业免税销售额乘以征收率，并且允许1角钱误差!"/>
+
+    <!--16=8*YSHWYNZSL-->
+
+    <Records AreaCode="65" Count="6" A1="4,17" A2="WSXXS.[YSHWYNZSL]" A3="4,27" A4="6,17" A5="6,27" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;0.1)" Range="true" Emsg="本期未达起征点免税额应等于第11栏未达起征点销售额乘以征收率，并且允许1角钱误差!"/>
+    <Records Count="7" A1="6,7" A2="006|4,11" A3="WSXXS.[SZLBDM]" A4="6,16" A5="6,17" A6="6,10" A7="006|4,19" Formula="(round(A2+A7,2)&gt;0) and (round(A1+A4+A5+A6,2)&lt;round(A2+A7,2)) and (A3=02 or A3=03)" Range="true" Emsg="第1栏应税服务、不动产和无形资产不含税销售额+第4栏应税服务、不动产和无形资产不含税销售额(5%)+第10栏小微企业免税销售额或者第11栏未达起征点销售额不能小于附列资料中的扣除后不含税销售额，请核实!"/>
+    <Records AreaCode="61,36" Count="6" A1="4,15" A2="WSXXS.[YSHWYNZSL]" A3="4,25" A4="6,15" A5="6,25" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;1.0)" Range="true" Emsg="本期免税额应等于第9栏免税销售额乘以征收率，并且允许1元钱误差!"/>
+
+    <!--15=7*YSHWYNZSL-->
+
+    <Records AreaCode="61,36" Count="6" A1="4,16" A2="WSXXS.[YSHWYNZSL]" A3="4,26" A4="6,16" A5="6,26" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;1.0)" Range="true" Emsg="本期小微企业免税额应等于第10栏小微企业免税销售额乘以征收率，并且允许1元钱误差!"/>
+
+    <!--16=8*YSHWYNZSL-->
+
+    <Records AreaCode="61,36" Count="6" A1="4,17" A2="WSXXS.[YSHWYNZSL]" A3="4,27" A4="6,17" A5="6,27" A6="WSXXS.[YSFWYNZSL]" Formula="(round(abs(A1*A2-(A3)),2)&gt;1.0)" Range="true" Emsg="本期未达起征点免税额应等于第11栏未达起征点销售额乘以征收率，并且允许1元钱误差!"/>
+
+    <Records Count="1" A1="4,28" Formula="(round(A1,2)&lt;0.00)" Range="true" Emsg="“应纳税额合计”应税货物及劳务本月数不能小于0"/>
+    <Records Count="1" A1="6,28" Formula="(round(A1,2)&lt;0.00)" Range="true" Emsg="“应纳税额合计”应税服务、不动产和无形资产本月数不能小于0"/>
+
+    <!--12新疆误差1分钱-->
+    <!--<Records AreaCode="65" Count="11" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" A7="2,39" A8="4,23" A9="4,7" A10="4,22" A11="4,13" Formula="((A4=01) or (A4=03)) and (A6&lt;&gt;1) and ((A2)&gt;A5 or (A7&gt;A5)) and (A8&lt;round(A9*A1+A11*0.02,2)) and (abs(A10-round(A9*A1+A11*0.03,2))&gt;0.100001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税货物及劳务“本期应纳税额”=1栏×税率[A1]+7栏×3%，并且允许误差0.1元！"/>
+		<Records AreaCode="65" Count="12" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="6,39" A8="6,23" A9="6,7" A10="6,22" A11="WSXXS.[YSBDCZSL]" A12="6,10" Formula="((A4=02) or (A4=03)) and (A6&lt;&gt;1) and ((A3)&gt;A5 or (A7&gt;A5)) and (A8&lt;round(A9*A1+A12*A11,2)) and (abs(A10-round(A9*A1+A12*A11,2))&gt;0.10001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税服务、不动产和无形资产“本期应纳税额”=1栏×税率[A1]+4栏×征收率[A11]，并且允许误差0.1元！！"/>
+	  <Records AreaCode="65" Count="11" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" A7="2,39" A8="4,23" A9="4,8" A10="4,22" A11="4,13" Formula="((A4=01) or (A4=03)) and (A6&lt;&gt;1) and ((A2)&lt;=A5 and (A7&lt;=A5))and (abs(A10-round(A9*A1,2))&gt;0.100001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计小于[A5]时，应满足校验规则：应税货物及劳务“本期应纳税额”=2栏×税率[A1]，并且允许误差0.1元！"/>
+		<Records AreaCode="65" Count="12" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="6,39" A8="6,23" A9="6,8" A10="6,22" A11="WSXXS.[YSBDCZSL]" A12="6,11" Formula="((A4=02) or (A4=03)) and (A6&lt;&gt;1) and ((A3)&lt;=A5 and (A7&lt;=A5)) and (abs(A10-round(A9*A1+A12*A11,2))&gt;0.100001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计小于[A5]时，应满足校验规则：应税服务、不动产和无形资产“本期应纳税额”=2栏×税率[A1]+5栏×征收率[A11]，并且允许误差0.1元！"/>
+
+		<Records AreaCode="61" Count="11" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" A7="2,39" A8="4,23" A9="4,7" A10="4,22" A11="4,13" Formula="((A4=01) or (A4=03)) and (A6&lt;&gt;1) and ((A2)&gt;A5 or (A7&gt;A5)) and (A8&lt;round(A9*A1+A11*0.02,2)) and (abs(A10-round(A9*A1+A11*0.03,2))&gt;1.000001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税货物及劳务“本期应纳税额”=1栏×税率[A1]+7栏×3%，并且允许误差1元！"/>
+		<Records AreaCode="61" Count="12" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="6,39" A8="6,23" A9="6,7" A10="6,22" A11="WSXXS.[YSBDCZSL]" A12="6,10" Formula="((A4=02) or (A4=03)) and (A6&lt;&gt;1) and ((A3)&gt;A5 or (A7&gt;A5)) and (A8&lt;round(A9*A1+A12*A11,2)) and (abs(A10-round(A9*A1+A12*A11,2))&gt;1.00001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税服务、不动产和无形资产“本期应纳税额”=1栏×税率[A1]+4栏×征收率[A11]，并且允许误差1元！！"/>
+	  <Records AreaCode="61" Count="11" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" A7="2,39" A8="4,23" A9="4,8" A10="4,22" A11="4,13" Formula="((A4=01) or (A4=03)) and (A6&lt;&gt;1) and ((A2)&lt;=A5 and (A7&lt;=A5))and (abs(A10-round(A9*A1,2))&gt;1.000001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计小于[A5]时，应满足校验规则：应税货物及劳务“本期应纳税额”=2栏×税率[A1]，并且允许误差1元！"/>
+		<Records AreaCode="61" Count="12" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="6,39" A8="6,23" A9="6,8" A10="6,22" A11="WSXXS.[YSBDCZSL]" A12="6,11" Formula="((A4=02) or (A4=03)) and (A6&lt;&gt;1) and ((A3)&lt;=A5 and (A7&lt;=A5)) and (abs(A10-round(A9*A1+A12*A11,2))&gt;1.000001)"  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计小于[A5]时，应满足校验规则：应税服务、不动产和无形资产“本期应纳税额”=2栏×税率[A1]+5栏×征收率[A11]，并且允许误差1元！"/>
+
+		<Records AreaCode="65,61" Count="11" A1="WSXXS.[YSHWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[QZD]"  A6="WSXXS.[YQWRDBZ]" A7="2,39" A8="4,23" A9="4,7" A10="4,22" A11="4,13" Formula="((A4=01) or (A4=03)) and (A6&lt;&gt;1) and ((A2)&gt;A5 or (A7&gt;A5)) and (A8&gt;=round(A9*A1+A11*0.02,2))and (abs(A10-round(A8,2))&gt;0.000001) "  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税货物及劳务“本期应纳税额”=应税货物核定应纳税额，并且不允许误差"/>
+		<Records AreaCode="65,61" Count="12" A1="WSXXS.[YSFWYNZSL]" A2="WSXXS.[YSHWHDXSE]" A3="WSXXS.[YSFWHDXSE]" A4="WSXXS.[SZLBDM]" A5="WSXXS.[YSFWQZD]"  A6="WSXXS.[YQWRDBZ]" A7="6,39" A8="6,23" A9="6,7" A10="6,22" A11="WSXXS.[YSBDCZSL]" A12="6,10" Formula="((A4=02) or (A4=03)) and (A6&lt;&gt;1) and ((A3)&gt;A5 or (A7&gt;A5)) and (A8&gt;=round(A9*A1+A12*A11,2)) and (abs(A10-round(A8,2))&gt;0.000001) "  Range="true" Emsg="当前报表数据第1，4，7，9，13栏合计大于[A5]时，应满足校验规则：应税服务、不动产和无形资产“本期应纳税额”=应税服务、不动产和无形资产核定应纳税额，并且不允许误差"/>
+-->
+    <!--2016-05-16变更-->
+    <Records Count="3" A1="6,25" A2="6,26" A3="6,27" Formula="(round(A2+A3,2)&gt;round(A1,2))" Range="true" Emsg="“本期数”“应税服务、不动产和无形资产”“其中：小微企业免税额”+“未达起征点免税额”之和需小于等于“本期免税额”，请检查!"/>
+    <Records Count="3" A1="6,25" A2="6,26" A3="6,16" Formula="(round(A3,2)&gt;0) and ((round(A1,2)&lt;=0) or (round(A2,2)&lt;=0))" Range="true" Emsg="当主表第10栏“其中：小微企业免税销售额”第2列大于0时，主表“本期免税额”、“其中：小微企业免税额”必须大于0，请按实际征收率计算小微企业免税额进行填写。"/>
+    <Records Count="3" A1="6,25" A2="6,27" A3="6,17" Formula="(round(A3,2)&gt;0) and ((round(A1,2)&lt;=0) or (round(A2,2)&lt;=0))" Range="true" Emsg="当主表第11栏“未达起征点销售额”第2列大于0时，主表“本期免税额”、“未达起征点免税额”必须大于0，请按实际征收率计算未达起征点免税额进行填写。"/>
+
+    <Records Count="2" A1="6,15" A2="6,25" Formula="(round(A2,2)&lt;round(A1*0.03,2)) or (round(A2,2)&gt;round(A1*0.05,2))" Range="true" Emsg="服务、不动产和无形资产本期数，第19栏本期免税额必须小于等于第9栏免税销售额*5%并且大于等于第9栏免税销售额*3%。"/>
+    <Records Count="2" A1="6,16" A2="6,26" Formula="(round(A2,2)&lt;round(A1*0.03,2)) or (round(A2,2)&gt;round(A1*0.05,2))" Range="true" Emsg="服务、不动产和无形资产本期数，第20栏小微企业免税额必须小于等于第10栏小微企业免税销售额*5%并且大于等于第10栏小微企业免税销售额*3%。"/>
+    <Records Count="2" A1="6,17" A2="6,27" Formula="(round(A2,2)&lt;round(A1*0.03,2)) or (round(A2,2)&gt;round(A1*0.05,2))" Range="true" Emsg="服务、不动产和无形资产本期数，第21栏未达起征点免税额必须小于等于第11栏未达起征点销售额*5%并且大于等于第11栏未达起征点销售额*3%。"/>
+  </SaveCheckData>
+
+  <DoShowMessage XmlFile = "'006','008'">
+    <Records AreaCode="65" Count="1" A1="WSXXS.[YQWRDBZ]"  Conditions="A1=1" ActionTime="save" ErrMsg="尊敬的纳税人，您已达到增值税一般纳税人认定标准且逾期未认定，需要到主管税务机关核实处理！" InfoMsg= ""/>
+    <Records AreaCode="4403" Count="2" A1="4,30" A2="6,30" Conditions="((round(A1,2)&lt;0) or (round(A2,2)&lt;0))" ActionTime="save" ErrMsg="主表“本期应补（退）税额”为负数，可抵减后期税款或可申请退税，请前往主管税务机关进行处理。" InfoMsg= ""/>
+
+    <!--检验已经修改如需放开要和通用里面的对比下<Records AreaCode="13,61,62,63,65,4403" Count="9" A1="4,7" A2="4,13"  A3="4,15" A4="4,19" A5="6,7" A6="6,15" A7="6,19" A8="WSXXS.[DKFPJE]" A9="6,10" Conditions="(round(round((A1+A2)*1.03,2)+round(A3*1.03,2)+A4+round(A9*1.05,2)+round(A5*1.03,2)+round(A6*1.03,2)+A7,2)&lt;round(A8,2))" ActionTime="save" ErrMsg="您的申报表销售额小于代开发票金额【A8】，校验不符！" InfoMsg= ""/>-->
+    <Records Count="3" A1="4,18" A2="6,18" A3="008|4,15" Conditions="(round(A1+A2,2)&gt;=0) and (A3&lt;&gt;round(A1+A2,2))" ActionTime="save" ErrMsg="主表第12行“其他免税销售额”“本期数”应等于“增值税减免税申报明细表”中免征增值税项目销售额“合计”！" InfoMsg= ""/>
+    <Records Count="3" A1="4,24" A2="6,24" A3="008|7,6" Conditions="(round(A1+A2,2)&gt;=0) and (A3&lt;&gt;round(A1+A2,2))" ActionTime="save" ErrMsg="主表“本期应纳税额减征额”“本期数”应等于“增值税减免税申报明细表”中减税项目本期实际抵减税额“合计”！" InfoMsg= ""/>
+    <Records AreaCode="13," Count="3" A1="4,8" A2="6,8" A3="6,11" Conditions="((round(A1,2)&lt;&gt;0) or (round(A2,2)&lt;&gt;0) or (round(A3,2)&lt;&gt;0))" ActionTime="save" ErrMsg="您在申报表第2栏或第5栏填有数据，请确认您本期是否在主管国税机关、主管地税机关或外出经营代开专用发票、鉴证咨询业代自开专用发票和住宿业代自开专用发票。如果是请确认；否则请点击取消，并调整相应数据。" InfoMsg= ""/>
+    <!--<Records AreaCode="36," Count="5" A1="4,29" A2="4,8" A3="6,29" A4="6,8" A5="6,11" Conditions="((round(A1,2)&lt;&gt;0) AND (round(A2,2)=0)) or ((round(A3,2)&lt;&gt;0) and (round(A4,2)=0) and (round(A5,2)=0))" ActionTime="save" ErrMsg="请将本期代开专用发票金额填入第2栏或第5栏对应列次。" InfoMsg= ""/>-->
+  </DoShowMessage>
+
+  <SendCheckData XmlFile = "'001','006','008'">
+    <Records Count="4" A1="4,18" A2="6,18" A3="008|4,15" Formula="(round(A1+A2,2)&lt;&gt;A3)" Range="true" Emsg="主表第12行“其他免税销售额”“本期数”应等于“增值税减免税申报明细表”中免征增值税项目销售额“合计”！"/>
+    <Records Count="4" A1="4,24" A2="6,24" A3="008|7,6" Formula="(round(A1+A2,2)&lt;&gt;A3)" Range="true" Emsg="主表“本期应纳税额减征额”“本期数”应等于“增值税减免税申报明细表”中减税项目本期实际抵减税额“合计”！"/>
+    <!--chenjunj 注释掉，注释原因:找不到对应单元格-->
+    <!--<Records Count="4" A1="001.xml|SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBBFB.[0].SB_ZZSNSXGMSBB_FB5L." A2="001.xml|SB_ZZSNSXGMSBB.SB_ZZSNSXGMSBBFB.[0].SB_ZZSNSXGMSBB_FB13L." A3="006|0,11" A4="006|0,19" Formula="(A1&lt;&gt;A3) or (A2&lt;&gt;A4)" Range="true" Emsg="附列资料中第5栏或者第13栏数据已变更，将影响小规模起征点的判断，请核实主表相关栏次数据！"/>-->
+    <!--chenjunj 注释掉，注释原因：网厅无法用cfg来实现，需js计算实现-->
+    <Records AreaCode="36," Count="8" A1="4,25" A2="6,25" A3="4,26" A4="6,26" A5="4,27" A6="6,27" A7="008|8,15" A8="1,0" Formula="(abs(ROUND(A1+A2-A3-A4-A5-A6,2)-ROUND(A7,2))&gt;1) and (A8>0)" Range="true" Emsg="《本期减免税额申报明细表》二、免税项目部分：合计栏第5列免税额【A7】必须＝主表本期数免税额【A1+A2】-小微企业免税额【A3+A4】-未达起征点免税额【A5+A6】。"/>
+  </SendCheckData>
+</XmlRWConfig>

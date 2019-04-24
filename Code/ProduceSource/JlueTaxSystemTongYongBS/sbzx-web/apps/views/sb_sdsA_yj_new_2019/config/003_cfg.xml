@@ -1,0 +1,119 @@
+<XmlRWConfig>
+    <Head>
+        <Records NodeName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_BTXX.SB_GDZCJSZJYJQKTJB_QSRQ." Col="1" Row="1"
+                 HeadStr="" DataType="税款所属时期 月报"/>
+        <Records NodeName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_BTXX.SB_GDZCJSZJYJQKTJB_NSRSBH." Col="1" Row="2"
+                 HeadStr="纳税人识别号：" DataType="纳税人识别号"/>
+        <Records NodeName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_BTXX.SB_GDZCJSZJYJQKTJB_NSRMC." Col="3" Row="2"
+                 HeadStr="纳税人名称：" DataType="纳税人名称"/>
+        <Records NodeName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_BTXX.SB_GDZCJSZJYJQKTJB_TBRQ." Col="4" Row="2"
+                 HeadStr="" DataType="填表时间"/>
+        <Records NodeName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_BTXX.SB_GDZCJSZJYJQKTJB_LDHY_DM." Col="23" Row="7"
+                 HeadStr="" DataType=""/>
+    </Head>
+    <Body>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="1," CellColRange="1," CellSRow="7"
+                 CellERow="20" XmlSRow="0" XmlERow="13" DataType="DT_String" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..18," CellColRange="3..19,"
+                 CellSRow="7" CellERow="7" XmlSRow="0" XmlERow="0" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..8,10..11,13,15..16,18,"
+                 CellColRange="3..9,11..12,14,16..17,19," CellSRow="8" CellERow="8" XmlSRow="1" XmlERow="1"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..9,11..12,14,16..17,"
+                 CellColRange="3..10,12..13,15,17..18," CellSRow="9" CellERow="9" XmlSRow="2" XmlERow="2"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..18," CellColRange="6..19,"
+                 CellSRow="10" CellERow="10" XmlSRow="3" XmlERow="3" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..8,10..11,13,15..16,18,"
+                 CellColRange="6..9,11..12,14,16..17,19," CellSRow="11" CellERow="11" XmlSRow="4" XmlERow="4"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..9,11..12,14,16..17,"
+                 CellColRange="6..10,12..13,15,17..18," CellSRow="12" CellERow="12" XmlSRow="5" XmlERow="5"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..18," CellColRange="3..19,"
+                 CellSRow="13" CellERow="13" XmlSRow="6" XmlERow="6" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..18," CellColRange="6..19,"
+                 CellSRow="14" CellERow="14" XmlSRow="7" XmlERow="7" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..8,10..11,13,15..16,18,"
+                 CellColRange="6..9,11..12,14,16..17,19," CellSRow="15" CellERow="15" XmlSRow="8" XmlERow="8"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="5..9,11..12,14,16..17,"
+                 CellColRange="6..10,12..13,15,17..18," CellSRow="16" CellERow="16" XmlSRow="9" XmlERow="9"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..18," CellColRange="3..19,"
+                 CellSRow="17" CellERow="17" XmlSRow="10" XmlERow="10" DataType="DT_Num" WriteZero="1"
+                 IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..8,10..11,13,15..16,18,"
+                 CellColRange="3..9,11..12,14,16..17,19," CellSRow="18" CellERow="18" XmlSRow="11" XmlERow="11"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..9,11..12,14,16..17,"
+                 CellColRange="3..10,12..13,15,17..18," CellSRow="19" CellERow="19" XmlSRow="12" XmlERow="12"
+                 DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+        <Records HeadName="SB_GDZCJSZJYJQKTJB.SB_GDZCJSZJYJQKTJB_MXXX." NodeRange="2..18," CellColRange="3..19,"
+                 CellSRow="20" CellERow="20" XmlSRow="13" XmlERow="13" DataType="DT_Num" WriteZero="1"
+                 IDentifyCol="-1"/>
+    </Body>
+
+    <SaveCheckData XmlFile="'001'">
+        <Records Count="3" A1="003|6,8" A2="001|5,14" A3="001|1,4" Formula="(A1&lt;&gt;A2 and A3=1)" Range="true" Emsg="主表第7行应等于表A201020第5行第5列。"/>
+        <!-- 第2列小于等于第1列 -->
+        <Records Count="2" A1="3,4" A2="2,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行第2列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="3,5" A2="2,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行第2列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="3,6" A2="2,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行第2列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="3,7" A2="2,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行第2列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="3,8" A2="2,8" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第5行第2列应小于等于同行第1列，请检查！"/>
+        <!-- 第4列小于等于第1列 -->
+        <Records Count="2" A1="5,4" A2="2,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行第4列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="5,5" A2="2,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行第4列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="5,6" A2="2,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行第4列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="5,7" A2="2,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行第4列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="5,8" A2="2,8" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第5行第4列应小于等于同行第1列，请检查！"/>
+        <!-- 第3列小于等于第4列 -->
+        <Records Count="2" A1="4,4" A2="5,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行第3列应小于等于同行第4列，请检查！"/>
+        <Records Count="2" A1="4,5" A2="5,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行第3列应小于等于同行第4列，请检查！"/>
+        <Records Count="2" A1="4,6" A2="5,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行第3列应小于等于同行第4列，请检查！"/>
+        <Records Count="2" A1="4,7" A2="5,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行第3列应小于等于同行第4列，请检查！"/>
+        <Records Count="2" A1="4,8" A2="5,8" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第5行第3列应小于等于同行第4列，请检查！"/>
+        <!-- 第4列大于0时，第3列应大于0 -->
+        <Records Count="2" A1="4,5" A2="5,5" Formula="(A2&gt;0) and (A1&lt;=0)" Range="true" Emsg="表A201020第2行第4列的值大于0，则第3列的值应该大于0，请修改！"/>
+        <Records Count="2" A1="4,6" A2="5,6" Formula="(A2&gt;0) and (A1&lt;=0)" Range="true" Emsg="表A201020第3行第4列的值大于0，则第3列的值应该大于0，请修改！"/>
+        <!--<Records Count="2" A1="4,7" A2="5,7" Formula="(A2&gt;0) and (A1&lt;=0)" Range="true" Emsg="表A201020第4行第4列的值大于0，则第3列的值应该大于0，请修改！"/>-->
+        <!-- 第5列小于等于第1列 -->
+        <Records Count="2" A1="6,4" A2="2,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行第5列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="6,5" A2="2,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行第5列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="6,6" A2="2,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行第5列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="6,7" A2="2,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行第5列应小于等于同行第1列，请检查！"/>
+        <Records Count="2" A1="6,8" A2="2,8" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第5行第5列应小于等于同行第1列，请检查！"/>
+        <!--大于等于核定上期数据的校验-->
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJZCYZ]" A2="2,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行1列应大于等于上期申报本表第1行1列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJZZZJJELJ]" A2="3,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行2列应大于等于上期申报本表第1行2列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJAZSSYBGDJSDZJJELJ]" A2="4,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行3列应大于等于上期申报本表第1行3列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJXSJSZJYHJSDZJJELJ]" A2="5,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行4列应大于等于上期申报本表第1行4列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJNSTJJELJ]" A2="6,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行5列应大于等于上期申报本表第1行5列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCJSZJXSJSZJYHJELJ]" A2="7,4" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第1行6列应大于等于上期申报本表第1行6列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJZCYZ]" A2="2,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行1列应大于等于上期申报本表第2行1列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJZZZJJELJ]" A2="3,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行2列应大于等于上期申报本表第2行2列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJAZSSYBGDJSDZJJELJ]" A2="4,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行3列应大于等于上期申报本表第2行3列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJXSJSZJYHJSDZJJELJ]" A2="5,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行4列应大于等于上期申报本表第2行4列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJNSTJJELJ]" A2="6,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行5列应大于等于上期申报本表第2行5列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQZYHYGDZCJSZJXSJSZJYHJELJ]" A2="7,5" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第2行6列应大于等于上期申报本表第2行6列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJZCYZ]" A2="2,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行1列应大于等于上期申报本表第3行1列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJZZZJJELJ]" A2="3,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行2列应大于等于上期申报本表第3行2列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJAZSSYBGDJSDZJJELJ]" A2="4,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行3列应大于等于上期申报本表第3行3列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJXSJSZJYHJSDZJJELJ]" A2="5,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行4列应大于等于上期申报本表第3行4列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJNSTJJELJ]" A2="6,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行5列应大于等于上期申报本表第3行5列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQQTHYYFSBJSZJXSJSZJYHJELJ]" A2="7,6" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第3行6列应大于等于上期申报本表第3行6列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCZCYZ]" A2="2,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行1列应大于等于上期申报本表第4行1列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCZZZJJELJ]" A2="3,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行2列应大于等于上期申报本表第4行2列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCAZSSYBGDJSDZJJELJ]" A2="4,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行3列应大于等于上期申报本表第4行3列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCXSJSZJYHJSDZJJELJ]" A2="5,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行4列应大于等于上期申报本表第4行4列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCNSTJJELJ]" A2="6,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行5列应大于等于上期申报本表第4行5列金额[A1]，请检查！"/>
+        <Records Count="2" A1="LSXXS.[SQGDZCYCXKCXSJSZJYHJELJ]" A2="7,7" Formula="(A1&gt;A2)" Range="true" Emsg="表A201020第4行6列应大于等于上期申报本表第4行6列金额[A1]，请检查！"/>
+    </SaveCheckData>
+    <DoShowMessage>
+        <Records Count="7" A1="LSXXS.[ZYHYBZ]" A2="2,5" A3="3,5" A4="4,5" A5="5,5" A6="6,5" A7="7,5" Conditions="(&quot;A1&quot;=&quot;N&quot;) and (round(A2+A3+A4+A5+A6+A7,2)&gt;0)" ActionTime="save"
+                 ErrMsg="表A201020第2行为享受6大行业4大领域固定资产加速折旧政策的企业录入，当前企业登记信息显示不属于可以享受该项政策的行业，若行业信息有误，请及时变更登记信息，按确定可继续填报" InfoMsg=""/>
+        <Records Count="7" A1="2,6" Conditions="(A1&gt;0) and (A1&lt;1000000)" ActionTime="save"
+                 ErrMsg="表A201020第3行1列用于填报100万元以上研发设备，请检查自查原值是否正确" InfoMsg=""/>
+    </DoShowMessage>
+</XmlRWConfig>

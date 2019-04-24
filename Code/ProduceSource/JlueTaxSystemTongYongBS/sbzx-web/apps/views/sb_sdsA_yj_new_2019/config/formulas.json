@@ -1,0 +1,50 @@
+{
+  "001": [
+      "F25 = round(F26+F27+F28,2)"
+  ],
+  "002": [
+      "G7 = if(A7-C7-E7>0,A7-C7-E7,0)"
+  ],
+  "003": [
+      "C5 = round(C6+C7,2)",
+      "C9 = round(C5+C8,2)",
+      "D5 = round(D6+D7,2)",
+      "D9 = round(D5+D8,2)",
+      "E5 = round(E6+E7,2)",
+      "E9 = round(E5+E8,2)",
+      "F5 = round(F6+F7,2)",
+      "F9 = round(F5+F8,2)",
+      "G5 = round(G6+G7,2)",
+      "G9 = round(G5+G8,2)",
+      "H5 = round(F5-E5,2)",
+      "H6 = round(F6-E6,2)",
+      "H7 = round(F7-E7,2)",
+      "H8 = round(F8-E8,2)",
+      "H9 = round(F9-E9,2)"
+    ],
+  "005": [
+      "B1 = round(sum(C4:C30),2)",
+      "C1 = round(sum(C4:C30)-C25,2)",
+      "C32 = round(sum(C3:C31),2)"
+    ],
+  "006": [],
+  "004":[
+      "C3 = round(C4+C5+(sum(C8:C17)),2)",
+      "C18 = round(C19+C20+C24+C25,2)",
+      "C20 = round(C21+C22+C23,2)",
+      "C31 = round(C32+(sum(C35:C42)),2)",
+      "C32 = round(C33+C34,2)",
+      "C43 = round(C3+C18+C26+C31,2)"
+    ],
+  "007": [
+      "H6=round(sum(E6-F6),2)",
+      "H7=round(sum(E7-F7),2)",
+      "H8=round(sum(E8-F8),2)",
+      "H9=round(sum(E9-F9),2)",
+      "H10=round(sum(E10-F10),2)",
+      "H11=round(sum(E11-F11),2)",
+      "E12=round(sum(E6:E11),2)",
+      "F12=round(sum(F6:F11),2)",
+      "H12=round(sum(E12-F12),2)"
+    ]
+}

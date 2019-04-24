@@ -1,0 +1,64 @@
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_XQYZCFZB.SB_XQYZCFZB_BTXX.SB_XQYZCFZB_NSRSBH." Col="1" Row="1" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_XQYZCFZB.SB_XQYZCFZB_BTXX.SB_XQYZCFZB_NSR." Col="1" Row="2" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_XQYZCFZB.SB_XQYZCFZB_BTXX.SB_XQYZCFZB_TBRQ." Col="9" Row="2" HeadStr="填表日期：" DataType="填表时间"/>
+		<Records NodeName="SB_XQYZCFZB.SB_XQYZCFZB_BTXX.SB_XQYZCFZB_QSRQ." Col="7" Row="1" HeadStr="税款所属期：" DataType="税款所属时期 月报" />
+	</Head>
+	<Body>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2,3,4," CellColRange="4,5,12,13," CellSRow="5" CellERow="15" XmlSRow="0" XmlERow="10" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2," CellColRange="4,5," CellSRow="16" CellERow="16" XmlSRow="11" XmlERow="11" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2,3,4," CellColRange="4,5,12,13," CellSRow="17" CellERow="19" XmlSRow="12" XmlERow="14" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="3,4," CellColRange="12,13," CellSRow="20" CellERow="20" XmlSRow="15" XmlERow="15" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2,3,4," CellColRange="4,5,12,13," CellSRow="21" CellERow="22" XmlSRow="16" XmlERow="17" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2," CellColRange="4,5," CellSRow="23" CellERow="29" XmlSRow="18" XmlERow="24" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,2,3,4," CellColRange="4,5,12,13," CellSRow="30" CellERow="35" XmlSRow="25" XmlERow="30" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+	</Body>
+	<!--1月份取上年期末-->
+	<!--2~12月份取上期年初-->
+
+	<BodyFromPreData>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,3," CellColRange="5,13," CellSRow="5" CellERow="15" XmlSRow="0" XmlERow="10" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1," CellColRange="5," CellSRow="16" CellERow="16" XmlSRow="11" XmlERow="11" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,3," CellColRange="5,13," CellSRow="17" CellERow="19" XmlSRow="12" XmlERow="14" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="3," CellColRange="13," CellSRow="20" CellERow="20" XmlSRow="15" XmlERow="15" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,3," CellColRange="5,13," CellSRow="21" CellERow="22" XmlSRow="16" XmlERow="17" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1," CellColRange="5," CellSRow="23" CellERow="29" XmlSRow="18" XmlERow="24" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="1,3," CellColRange="5,13," CellSRow="30" CellERow="35" XmlSRow="25" XmlERow="30" DataType="DT_Num" WriteZero="0" NotDealYF="2..12," OpenMode="new"/>	
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2,4," CellColRange="5,13," CellSRow="5" CellERow="15" XmlSRow="0" XmlERow="10" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2," CellColRange="5," CellSRow="16" CellERow="16" XmlSRow="11" XmlERow="11" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2,4," CellColRange="5,13," CellSRow="17" CellERow="19" XmlSRow="12" XmlERow="14" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="4," CellColRange="13," CellSRow="20" CellERow="20" XmlSRow="15" XmlERow="15" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2,4," CellColRange="5,13," CellSRow="21" CellERow="22" XmlSRow="16" XmlERow="17" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2," CellColRange="5," CellSRow="23" CellERow="29" XmlSRow="18" XmlERow="24" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+		<Records AreaCode="13,62" HeadName="SB_XQYZCFZB.SB_XQYZCFZB_MXXX." NodeRange="2,4," CellColRange="5,13," CellSRow="30" CellERow="35" XmlSRow="25" XmlERow="30" DataType="DT_Num" WriteZero="0" NotDealYF="1," OpenMode="new"/>
+	</BodyFromPreData>
+	<!--
+	<CalcSum openmode="new">
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="0"  DependCol="-1" Col="5" CellSRow="5" CellERow="19" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="15"  DependCol="-1" Col="5" CellSRow="21" CellERow="35" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="30"  DependCol="-1" Col="13" CellSRow="5" CellERow="15" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="41"  DependCol="-1" Col="13" CellSRow="17" CellERow="22" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records AreaCode="65," HeadName="LSXXS." NodeSIndex="47"  DependCol="-1" Col="13" CellSRow="30" CellERow="35" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+	</CalcSum>
+	-->
+
+  <SaveCheckData>
+		<!--
+		<Records Count="5" A1="4,13" A2="4,14" A3="4,15" A4="4,16" A5="4,17" Formula="((A2)+(A3)+(A4)+(A5)-(A1)&gt;0.001)" Range="true" Emsg="资产负债表第9栏中存货：期末余额【A1】应大于等于第10-13栏【(A2)+(A3)+(A4)+(A5)】之和！" />
+		<Records Count="5" A1="5,13" A2="5,14" A3="5,15" A4="5,16" A5="5,17" Formula="((A2)+(A3)+(A4)+(A5)-(A1)&gt;0.001)" Range="true" Emsg="资产负债表第9栏中存货：年初余额【A1】应大于等于第10-13栏【(A2)+(A3)+(A4)+(A5)】之和！" />
+		-->
+		<Records Count="2" A1="12,35" A2="4,35" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="资产负债表第30栏中资产总计期末余额【A2】应等于第53栏负债和所有者权益（或股东权益）总计期末余额【A1】！" />
+		<Records Count="2" A1="13,35" A2="5,35" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="资产负债表第30栏中资产总计年初余额【A2】应等于第53栏负债和所有者权益（或股东权益）总计年初余额【A1】！" />
+		<!--
+		<Records AreaCode="65," Count="1" A1="4,35" Formula="(A1&lt;0)" Range="true" Emsg="资产负债表第30栏中资产总计期末余额【A1】必须大于等于0！" />
+		<Records AreaCode="65," Count="1" A1="5,35" Formula="(A1&lt;0)" Range="true" Emsg="资产负债表第30栏中资产总计年初余额【A1】必须大于等于0！" />
+		<Records AreaCode="65," Count="1" A1="12,35" Formula="(A1&lt;0)" Range="true" Emsg="资产负债表第53栏中负债和所有者权益(或股东权益)合计期末余额【A1】必须大于等于0！" />
+		<Records AreaCode="65," Count="1" A1="13,35" Formula="(A1&lt;0)" Range="true" Emsg="资产负债表第53栏中负债和所有者权益(或股东权益)合计年初余额【A1】必须大于等于0！" />
+	-->
+	</SaveCheckData>
+	<DoShowMessage>
+		<Records Count="5" A1="4,13" A2="4,14" A3="4,15" A4="4,16" A5="4,17" Conditions="(round(A1,2)&lt;round(A2+A3+A4+A5,2))" ActionTime="save" ErrMsg="资产负债表第9栏期末余额应大于等于第10+11+12+13栏期末余额！" InfoMsg= ""/>
+		<Records Count="5" A1="5,13" A2="5,14" A3="5,15" A4="5,16" A5="5,17" Conditions="(round(A1,2)&lt;round(A2+A3+A4+A5,2))" ActionTime="save" ErrMsg="资产负债表第9栏年初余额应大于等于第10+11+12+13栏年初余额！" InfoMsg= ""/>
+	</DoShowMessage>
+</XmlRWConfig>

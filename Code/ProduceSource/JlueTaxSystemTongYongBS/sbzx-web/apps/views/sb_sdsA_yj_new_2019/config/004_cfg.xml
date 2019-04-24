@@ -1,0 +1,21 @@
+
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_BTXX.SB_BZSSRJMMXB_QSRQ." Col="2" Row="2" HeadStr="" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_BTXX.SB_BZSSRJMMXB_NSRSBH." Col="2" Row="1" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_BTXX.SB_BZSSRJMMXB_NSRMC." Col="3" Row="1" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_BTXX.SB_BZSSRJMMXB_TBRQ." Col="3" Row="2" HeadStr="" DataType="填表时间"/>
+	</Head>
+	<Body>
+		<Records AreaCode="36,13,62,4403,65" HeadName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_MXXX." NodeRange="1," CellColRange="1," CellSRow="4" CellERow="37" XmlSRow="0" XmlERow="33" DataType="DT_String" WriteZero="-1" IDentifyCol="-1" Ignore="1"/>
+		<Records HeadName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_MXXX." NodeRange="2,3," CellColRange="2,3," CellSRow="4" CellERow="37" XmlSRow="0" XmlERow="33" DataType="DT_Num" WriteZero="-1" IDentifyCol="-1"/>
+		<Records HeadName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_MXXX." NodeRange="0," CellColRange="0," CellSRow="4" CellERow="37" XmlSRow="0" XmlERow="33" DataType="DT_String" WriteZero="-1" IDentifyCol="-1"/>
+		<Records AreaCode="36,13,62,4403,65" HeadName="SB_BZSSRJMMXB.SB_BZSSRJMMXB_MXXX." NodeRange="4," CellColRange="4," CellSRow="4" CellERow="37" XmlSRow="0" XmlERow="33" DataType="DT_String" WriteZero="-1" IDentifyCol="-1" NoShowErrmsg="1"/>
+	</Body>
+	<SaveCheckData>
+		<Records Count="7" A1="004|2,30" A2="001|5,10" A3="001|5,11" A4="001|5,12" A5="004|2,2" A6="004|2,17" A7="004|2,25" Formula="(round(A2+A3-A4-(A5+A6+A7),2)&gt;0 and A1&gt;round(A2+A3-A4-(A5+A6+A7),2))" Range="true" Emsg="主表第3+4-5行-本表第1+16+24行大于0时，A201010表第29行应小于等于主表第3+4-5行-本表第1+16+24行，请重新填写数据！"/>
+		<Records Count="7" A1="004|2,30" A2="001|5,10" A3="001|5,11" A4="001|5,12" A5="004|2,2" A6="004|2,17" A7="004|2,25" Formula="(round(A2+A3-A4-(A5+A6+A7),2)&lt;=0 and A1&lt;&gt;0)" Range="true" Emsg="主表第3+4-5行-本表第1+16+24行小于等于0时，A201010表第29行应等于0，请重新填写数据！"/>
+		<Records Count="3" A1="004|2,42" A2="001|5,13" A3="001|1,4" Formula="(A1&lt;&gt;A2 and A3=1)" Range="true" Emsg="主表第6行应等于表A201010第41行。"/>
+		<Records Count="3" A1="004|2,4" A2="004|2,5" A3="004|2,6" Formula="(A1&lt;round(A2+A3,2))" Range="true" Emsg="附表一第3行应大于大于等于第4行+第5行的值。"/>
+	</SaveCheckData>
+</XmlRWConfig>
