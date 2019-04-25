@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="JlueTaxSystemTongYongBS.bszm_web.apps.views_zj.home.home" %>
 
-<!DOCTYPE html><html lang=zh-CN><head><meta charset=UTF-8><title>国家税务总局河北省电子税务局</title><link rel=stylesheet href="../../styles/style.css?v=1553688651582_2.0.0"><link rel=stylesheet href="home.css?v=1553688651582_2.0.0"><link rel=stylesheet href="../../styles/fit.css?v=1553688651582_2.0.0"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=UTF-8><title>国家税务总局XX省电子税务局</title><link rel=stylesheet href="../../styles/style.css?v=1553688651582_2.0.0"><link rel=stylesheet href="home.css?v=1553688651582_2.0.0"><link rel=stylesheet href="../../styles/fit.css?v=1553688651582_2.0.0"><!--[if lt IE 9]>
  <link href="../../styles/ie8-fix.css" rel="stylesheet">
  <script src="../../../lib/html5shiv/html5shiv.min.js"></script>
  <script src="../../../lib/respond/respond.min.js"></script>
