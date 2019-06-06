@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="GBK" ?>
+<XmlRWConfig>
+	<Head>
+		<Records AreaCode="13,65,36,61,62,63," NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_NSRSBH." Col="0" Row="2" HeadStr="纳税人识别号：" DataType="纳税人识别号"/>
+		<Records AreaCode="13,65,36,61,62,63," NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_NSRMC." Col="0" Row="4" HeadStr="纳税人名称：" DataType="纳税人名称"/>
+		<Records AreaCode="13,65,36,61,62,63," NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_QSRQ." Col="3" Row="2" HeadStr="税款所属期：" DataType="税款所属时期 月报"/>
+		<Records AreaCode="13,65,36,61,62,63," NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_ZGSWJGMC." Col="0" Row="3" HeadStr="主管税务机关名称：" DataType="主管税务机关名称"/>
+		<Records AreaCode="13,65,36,61,62,63," NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_ZGSWJGDM." Col="3" Row="3" HeadStr="主管税务机关编码：" DataType="主管税务机关"/>
+
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_NSRSBH." Col="6" Row="2" HeadStr="" DataType="纳税人识别号"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_NSRMC." Col="2" Row="2" HeadStr="" DataType="纳税人名称"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_QSRQ." Col="3" Row="4" HeadStr="税款所属期：" DataType="税款所属时期 月报"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_ZGSWJGMC." Col="2" Row="3" HeadStr="" DataType="主管税务机关名称"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_ZGSWJGDM." Col="6" Row="3" HeadStr="" DataType="主管税务机关"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_BTXX.SB_DKDJSSTYJKSMX_TBRQ." Col="2" Row="4" HeadStr="" DataType="填表时间"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_FB2SE_3_7." Col="6" Row="31" HeadStr="" DataType="DT_Num"/>
+		<Records AreaCode="4403" NodeName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_FB2FS_1_7." Col="10" Row="31" HeadStr="" DataType="DT_Num"/>
+	</Head>
+	<Body>
+		<Records AreaCode="13,65,36,61,62,63," HeadName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_MXXX." NodeRange="0,1,2,3,4," CellColRange="0,2,3,4,5," CellSRow="6" CellERow="30" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="-1" IDentifyCol="-1"/>
+		<Records AreaCode="13,65,36,61,62,63," HeadName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_MXXX." NodeRange="5," CellColRange="6," CellSRow="6" CellERow="30" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="-1"/>
+
+		<Records AreaCode="4403" HeadName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_MXXX." NodeRange="0..4," CellColRange="1..5," CellSRow="6" CellERow="30" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="-1" IDentifyCol="2"/>
+		<Records AreaCode="4403" HeadName="SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_MXXX." NodeRange="5," CellColRange="6," CellSRow="6" CellERow="30" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="0" IDentifyCol="2"/>
+	</Body>
+	<CanFillCells>
+		<Records AreaCode="4403" DependColRange ="2," ColRange="3,4,5,6," CellSRow="6" CellERow="30" Describe ="是否可编辑"/>
+		<Records AreaCode="13,65,36,61,62,63," DependColRange ="0," ColRange="2,3,4,5,6," CellSRow="6" CellERow="30" Describe ="是否可编辑"/>
+	</CanFillCells>
+	<Edited>
+		<Records AreaCode="4403" EditedCol="2" CellSRow="6" CellERow="30" ReadOnly="0" ClearCell="1" DependCol="2,3,4,5,6," DependSRow="-1" DependERow="-1" oData="" DataType="DT_String"/>
+
+		<Records AreaCode="13,65,36,61,62,63," EditedCol="0" CellSRow="6" CellERow="30" ReadOnly="0" ClearCell="1" DependCol="2,3,4,5,6," DependSRow="-1" DependERow="-1" oData="" DataType="DT_String"/>
+	</Edited>
+	<Constrain>
+		<Page from="1" to="-1">
+			<Row from="6" to="30">
+				<Rule against-warn="第page页第row行扣缴人名称、征收机关名称、代扣代缴项目及代扣代缴凭证编号都必须要填写，请检查！" DeductRow="6">
+					<items>
+						<item>3</item>
+						<item>4</item>
+						<item>5</item>
+						<item>6</item>
+					</items>
+					<cell-formula>(TRIMLEFT("#1")&lt;&gt;"" and TRIMLEFT("#2")&lt;&gt;"" and TRIMLEFT("#3")&lt;&gt;"" and TRIMLEFT("#4")&lt;&gt;"") or TRIMLEFT("#1")=""</cell-formula>
+				</Rule>
+			</Row>
+		</Page>
+	</Constrain>
+</XmlRWConfig>

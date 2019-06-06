@@ -74,7 +74,7 @@
         {
             "id":"15",
             "name":"增值税一般纳税人申报",
-            "url":"https://ybs.he-n-tax.gov.cn:8888/sbzx-web/apps/views/sb_ybnsr/sb_ybnsr.html?sbzlDm=10101",
+            "url":"https://etax.hebei.chinatax.gov.cn/sbzx-web/apps/views/sb_ybnsr_201905/sb_ybnsr.html?sbzlDm=10101",
             "category":"sb",
             "code":"10101",
             "content":null,
@@ -84,10 +84,10 @@
             "priority":0,
             "blqx":null,
             "ysbbz":"N",
-            "sbqx":"2019-04-18",
+            "sbqx":"2019-05-21",
             "gdsBz":"1"
         },
-        {
+                {
             "id":"303",
             "name":"居民企业（查账征收）企业所得税月（季） 度申报",
             "url":"/sbzx-web/apps/views/sb_sdsA_yj_new_2019/sb_sdsA_yj_new.html?sbzlDm=10442",

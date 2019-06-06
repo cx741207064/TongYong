@@ -1,0 +1,176 @@
+<XmlRWConfig>
+    <Head>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_QSRQ." Col="0" Row="1" HeadStr="税款所属时间："
+                 DataType="税款所属时期 月报"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_NSRSBH." Col="1" Row="2" HeadStr=""
+                 DataType="纳税人识别号"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_NSRMC." Col="0" Row="2"
+                 HeadStr="纳税人名称（公章）：" DataType="纳税人名称"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_SFYTXJMMXB." Col="1" Row="1" HeadStr=""
+                 DataType="其他"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_JSHJ1." Col="4" Row="6" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_JSHJ2." Col="5" Row="6" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_JSHJ3." Col="6" Row="6" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_JSHJ4." Col="7" Row="6" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_JSHJ5." Col="8" Row="6" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_CKMSE." Col="4" Row="16" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_CKMSE2." Col="9" Row="16" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_KJFWE." Col="4" Row="17" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_MSHJ1." Col="4" Row="15" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_MSHJ2." Col="5" Row="15" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_MSHJ3." Col="6" Row="15" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_MSHJ4." Col="7" Row="15" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_MSHJ5." Col="8" Row="15" HeadStr=""
+                 DataType="DT_Num"/>
+        <Records AreaCode="4403" NodeName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_BTXX.SB_ZZSJMSSBMXB_IMAGE." Col="0" Row="0"
+                 HeadStr="" DataType="LOADIMAGE" ImageSrc="Image\WSSB.jpg"/>
+    </Head>
+    <Body>
+        <Records HeadName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_JSMXXX." NodeRange="1,7," CellColRange="0,1," CellSRow="7"
+                 CellERow="11" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="-1" IDentifyCol="0"/>
+        <Records HeadName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_JSMXXX." NodeRange="2..6," CellColRange="4..8," CellSRow="7"
+                 CellERow="11" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="-1" IDentifyCol="0"/>
+
+        <Records HeadName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_MSMXXX." NodeRange="1,7," CellColRange="0,1," CellSRow="18"
+                 CellERow="24" XmlSRow="0" XmlERow="-1" DataType="DT_String" WriteZero="-1" IDentifyCol="0"/>
+        <Records HeadName="SB_ZZSJMSSBMXB.SB_ZZSJMSSBMXB_MSMXXX." NodeRange="2..6," CellColRange="4..8," CellSRow="18"
+                 CellERow="24" XmlSRow="0" XmlERow="-1" DataType="DT_Num" WriteZero="-1" IDentifyCol="0"/>
+    </Body>
+    <CanFillCells>
+        <Records DependColRange="0," ColRange="4,5,7," CellSRow="7" CellERow="11" Describe="是否可编辑"/>
+        <Records DependColRange="0," ColRange="4,5,7,8," CellSRow="18" CellERow="24" Describe="是否可编辑"/>
+    </CanFillCells>
+    <SaveCheckData XmlFile="'001'">
+        <!--  <Records AreaCode="13,36,65,61,62,63" Count="2" A1="001.xml|SB_NSSBB.SB_NSSBB_MXXX.[22].SB_NSSBB_YBBYS." A2="7,6" Formula="A1&lt;&gt;A2" Range="true" Emsg="减税项目本期实际抵减税额“合计”应等于主表第23行“一般货物、劳务和应税服务”列“本月数”！"/>
+             <Records AreaCode="13,36,65,61,62,63" Count="2" A1="001.xml|SB_NSSBB.SB_NSSBB_MXXX.[7].SB_NSSBB_YBBYS." A2="4,15" Formula="A1&lt;&gt;A2" Range="true" Emsg="免征增值税项目销售额“合计”应等于主表第8行“一般货物、劳务和应税服务”列“本月数”！"/>-->
+        <Records Count="2" A1="4,16" A2="4,17" Formula="(A1&lt;A2)" Range="true" Emsg="其中：跨境服务小于等于此表第8栏第1列出口免税"/>
+    </SaveCheckData>
+    <Edited>
+        <Records EditedCol="0" CellSRow="7" CellERow="11" ReadOnly="0" ClearCell="1" DependCol="4,5,7," DependSRow="-1"
+                 DependERow="-1" oData="" DataType="DT_Num"/>
+        <Records EditedCol="0" CellSRow="7" CellERow="11" ReadOnly="0" ClearCell="1" DependCol="1," DependSRow="-1"
+                 DependERow="-1" oData="" DataType="DT_String"/>
+        <Records EditedCol="0" CellSRow="18" CellERow="24" ReadOnly="0" ClearCell="1" DependCol="4,5,7,8,"
+                 DependSRow="-1" DependERow="-1" oData="" DataType="DT_Num"/>
+        <Records EditedCol="0" CellSRow="18" CellERow="24" ReadOnly="0" ClearCell="1" DependCol="1," DependSRow="-1"
+                 DependERow="-1" oData="" DataType="DT_String"/>
+    </Edited>
+    <Select XmlFile="'',">
+        <Option AreaCode="36,65,61,62,63,4403," cap="减免项目选择" locations="|0,7|0,8|0,9|0,10|0,11|"
+                srcs="减免性质代码=Report\Bmzd\SysBmzd.xml|ROOT.ZZSJSXX.ZSPM.PMBM,减免项目名称=Report\Bmzd\SysBmzd.xml|ROOT.ZZSJSXX.ZSPM.MC"
+                srcsType="xml" maps="opt-row=col:2-0,1-1" multi="false" SearchIndex="1," CtlType="T," LblCap="名称筛选,"
+                SearchCondition="" unique="0" uniquemsg="减税性质代码及名称不允许重复，请检查！" deleteIfEmpty="multicol:0,1"/>
+        <Option AreaCode="36,65,61,62,63,4403," cap="减免项目选择" locations="|0,18|0,19|0,20|0,21|0,22|0,23|0,24|"
+                srcs="减免性质代码=Report\Bmzd\SysBmzd.xml|ROOT.ZZSJMXX.ZSPM.PMBM,减免项目名称=Report\Bmzd\SysBmzd.xml|ROOT.ZZSJMXX.ZSPM.MC"
+                srcsType="xml" maps="opt-row=col:2-0,1-1" multi="false" SearchIndex="1," CtlType="T," LblCap="名称筛选,"
+                SearchCondition="" unique="0" uniquemsg="免税性质代码及名称不允许重复，请检查！" deleteIfEmpty="multicol:0,1"/>
+        <Option AreaCode="13," cap="减免项目选择" locations="|0,7|0,8|0,9|0,10|0,11|"
+                srcs="减免性质代码=ssjmxzhzDm,减免项目名称=ssjmxzhzDm|swsxMc|jmxzMc"
+                srcsType="hdxx01" maps="opt-row=col:2-0,1-1" multi="false" SearchIndex="1," CtlType="T," LblCap="名称筛选,"
+                SearchCondition="" unique="0" uniquemsg="减税性质代码及名称不允许重复，请检查！" deleteIfEmpty="multicol:0,1"/>
+        <Option AreaCode="13," cap="减免项目选择" locations="|0,18|0,19|0,20|0,21|0,22|0,23|0,24|"
+                srcs="减免性质代码=ssjmxzhzDm,减免项目名称=ssjmxzhzDm|swsxMc|jmxzMc"
+                srcsType="hdxx02" maps="opt-row=col:2-0,1-1" multi="false" SearchIndex="1," CtlType="T," LblCap="名称筛选,"
+                SearchCondition="" unique="0" uniquemsg="免税性质代码及名称不允许重复，请检查！" deleteIfEmpty="multicol:0,1"/>
+    </Select>
+    <Constrain>
+        <Page from="1" to="-1">
+            <Row from="7" to="12">
+                <Rule against-warn="第page页第row行本期实际抵减税额应大于等于0且小于等于本期应抵减税额。" DeductRow="6">
+                    <items>
+                        <item>7</item>
+                        <item>8</item>
+                    </items>
+                    <cell-formula>(value("#1")&gt;=value("#2")) and (value("#2")&gt;=0)</cell-formula>
+                </Rule>
+                <Rule AreaCode="4403" against-warn="第page页第row栏减免性质代码及名称不能修改。" DeductRow="6">
+                    <items>
+                        <item>1</item>
+                        <item>3</item>
+                        <item>10</item>
+                    </items>
+                    <cell-formula>((value("#1")=value("#3")) and (value("#2") = 1)) or (value("#2")&lt;&gt;1)
+                    </cell-formula>
+                </Rule>
+            </Row>
+            <Row from="19" to="25">
+                <Rule against-warn="第page页第row栏免税项目免税额应大于等于0。" DeductRow="9">
+                    <items>
+                        <item>9</item>
+                    </items>
+                    <cell-formula>value("#1")&gt;=0</cell-formula>
+                </Rule>
+                <Rule AreaCode="4403," against-warn="第page页第row栏第1列免征增值税项目销售额应大于等于0。" DeductRow="9">
+                    <items>
+                        <item>5</item>
+                    </items>
+                    <cell-formula>value("#1")&gt;=0</cell-formula>
+                </Rule>
+                <Rule AreaCode="4403,"
+                      against-warn="第page页第row栏:第1列免征增值税项目销售额大于0时，第5列免税额应大于0;第1列免征增值税项目销售额等于0时，第5列免税额应等于0。"
+                      DeductRow="9">
+                    <items>
+                        <item>5</item>
+                        <item>9</item>
+                    </items>
+                    <cell-formula>((value("#1")&gt;0) and (value("#2")&gt;0)) or ((value("#1")=0) and (value("#2")=0))
+                        or ((value("#1")&lt;0) or (value("#2")&lt;0))
+                    </cell-formula>
+                </Rule>
+                <Rule AreaCode="4403," against-warn="第page页第row栏:第5列免税额不能大于第1列免征增值税项目销售额*17%。" DeductRow="9">
+                    <items>
+                        <item>5</item>
+                        <item>9</item>
+                    </items>
+                    <cell-formula>round(value("#2"),2)&lt;=round(value("#1")*0.17,2)</cell-formula>
+                </Rule>
+                <Rule against-warn="第page页第row栏第4列免税销售额对应的进项税额应小于等于第3列扣除后免税销售额。" DeductRow="9">
+                    <items>
+                        <item>7</item>
+                        <item>8</item>
+                    </items>
+                    <cell-formula>value("#1")&gt;=value("#2")</cell-formula>
+                </Rule>
+                <Rule AreaCode="36,"
+                      against-warn="第page页二、免税项目部分第row栏：第5列免税额 必须小于等于第3栏扣除后免税销售额*17%-第4列免税销售额对应的进项税额并且第5列免税额大于等于第3列扣除后免税销售额*6%-第4列免税销售额对应的进项税额，或者 第5列免税额等于第3栏扣除后免税销售额*3%并且第4列免税销售额对应的进项税额等于0。"
+                      DeductRow="9">
+                    <items>
+                        <item>7</item>
+                        <item>8</item>
+                        <item>9</item>
+                    </items>
+                    <cell-formula>((value("#3")&gt;=value("#1")*0.06-value("#2")-0.01) and (value("#3")&lt;=value("#1")*0.17-value("#2")+0.01))
+                        or ((value("#3")=round(value("#1")*0.03,2)) and (value("#2")=0))
+                    </cell-formula>
+                </Rule>
+                <Rule AreaCode="36," against-warn="第page页二、免税项目部分第row栏：第3列“扣除后免税销售额”＞0，请填写免税销售额对应的进项税额。" DeductRow="9">
+                    <items>
+                        <item>7</item>
+                        <item>8</item>
+                        <item>2</item>
+                        <item>9</item>
+                    </items>
+                    <cell-formula>(not ((value("#1")&gt;0) and (value("#2")=0))) or ((value("#3")=0001092303) or
+                        (value("#3")=0001092308)) or (value("#1")*0.03=value("#4"))
+                    </cell-formula>
+                </Rule>
+            </Row>
+        </Page>
+    </Constrain>
+    <DoShowOpenMessage>
+        <Records AreaCode="13," Count="0" Conditions="1=1" OpenMode="new," ErrMsg=""
+                 InfoMsg="根据《税收减免管理办法》规定，您在首次填报本申报表的减免项目前，需向税务机关提交相应的报备资料、履行备案手续。如您已完成备案，请继续填报。"/>
+    </DoShowOpenMessage>
+</XmlRWConfig>

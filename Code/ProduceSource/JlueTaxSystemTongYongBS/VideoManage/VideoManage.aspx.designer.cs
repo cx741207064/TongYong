@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace JlueTaxSystemTongYongBS {
+namespace JlueTaxSystemHeBeiBS {
     
     
     public partial class VideoManage1 {

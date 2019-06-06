@@ -1,0 +1,107 @@
+{
+    "message": null,
+    "value": {
+        "jxfpdata": {
+            "jxfpTjxx": {
+                "hzfs": "0",
+                "hzse": "0.00",
+                "hzje": "0.00",
+                "nsqxDm": "06",
+                "fdqBz": "N",
+                "sggjBz": "N",
+                "sbdkse": {
+                    "zyfpxx": {
+                        "fs": "0",
+                        "se": "0.00",
+                        "je": "0.00"
+                    },
+                    "hgpxx": {
+                        "fs": "0",
+                        "se": "0.00",
+                        "je": "0.00"
+                    }
+                },
+                "uuid": "0ea38657c9364c92123b8d696f43eff1",
+                "jxfpsjcs": null,
+                "fplbTjxxs": {
+                    "fplbTjxx": [
+                    ]
+                }
+            },
+            "jxFps": {
+                "jxFp": [
+                ]
+            },
+            "sgGjMxs": {
+                "sgGjMx": [
+                ]
+            }
+        },
+        "digest": "0ea38657c9364c92123b8d696f43eff1",
+        "xxfpdata": {
+            "xxfpTjxx": {
+                "hzfs": "4",
+                "hzse": "2709.06",
+                "hzje": "20838.94",
+                "nsqxDm": "06",
+                "sggjBz": "N",
+                "fplbTjxxs": {
+                    "fplbTjxx": [
+                        {
+                            "fplb": "1",
+                            "fs": "1",
+                            "se": "0.00",
+                            "je": "0.00"
+                        },
+                        {
+                            "fplb": "2",
+                            "fs": "3",
+                            "se": "0.00",
+                            "je": "0.00"
+                        }
+                    ]
+                },
+                "uuid": "0ea38657c9364c92123b8d696f43eff1",
+                "xxfpsjcs": null
+            },
+            "xxFps": {
+                "xxFp": [
+                    {
+                        "djxh": "",
+                        "sl": "0.13",
+                        "fplb": "2",
+                        "kpyfId": "",
+                        "jsfsId": "1",
+                        "zzszsxmId": "1",
+                        "je": "0.00",
+                        "se": "0.00",
+                        "fpmxs": null,
+                        "fs": "3"
+                    },
+                    {
+                        "djxh": "",
+                        "sl": "0.13",
+                        "fplb": "1",
+                        "kpyfId": "",
+                        "jsfsId": "1",
+                        "zzszsxmId": "1",
+                        "je": "0.00",
+                        "se": "0.00",
+                        "fpmxs": null,
+                        "fs": "1"
+                    }
+                ]
+            },
+            "sgGjMxs": {
+                "sgGjMx": [
+                ]
+            }
+        }
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {
+    },
+    "msgParams": null,
+    "jylsh": "828e1d70881347b0ae945ac259c460e5"
+}

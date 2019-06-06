@@ -1,0 +1,63 @@
+<XmlRWConfig>
+	<DoShowMessage>
+		<Records AreaCode="65" Count="3" A1="3,6" A2="4,6" A3="5,6" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第1栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查！" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,7" A2="4,7" A3="5,7" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第2栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查！" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,8" A2="4,8" A3="5,8" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第3栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查！" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,11" A2="4,11" A3="5,11" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第6栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查！" InfoMsg= ""/>
+
+		<Records AreaCode="4403" Count="4" A1="3,8" A2="3,10" A3="3,14" A4="WSXXS.[FDQQY]" Conditions="(A1=0 or A2=0 or A3=0) and (&quot;A4&quot;=&quot;Y&quot;)" ActionTime="save"
+				 ErrMsg="第5、8b行中发票份数需要据实填写，请检查！" InfoMsg= ""/>
+
+
+		<Records AreaCode="65" Count="3" A1="3,35" A2="4,35" A3="5,35" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第25栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,36" A2="4,36" A3="5,36" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第26栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,37" A2="4,37" A3="5,37" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第27栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,38" A2="4,38" A3="5,38" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第28栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,39" A2="4,39" A3="5,39" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第29栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,40" A2="4,40" A3="5,40" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第30栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,41" A2="4,41" A3="5,41" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第31栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,43" A2="4,43" A3="5,43" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第33栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+		<Records AreaCode="65" Count="3" A1="3,47" A2="4,47" A3="5,47" Conditions="not ((A1=0.00 and A2=0.00 and A3=0.00) or (A1&gt;0.00 and A2&gt;0.00 and A3&gt;0.00))" ActionTime="save"
+				 ErrMsg="第35栏“份数”、“金额”、“税额”项只能同时为零或同时不为零，请检查!" InfoMsg= ""/>
+
+        <Records AreaCode="65" Count="3" A1="3,11" A2="4,11" A3="5,11" A4="3,41" A5="4,41" A6="5,41" A7="WSXXS.[NCPQYBZ]" Conditions="((A1&gt;0 or A2&gt;0 or A3&gt;0) and A4=0 and A5=0 and A6=0 and A7=0)" ActionTime="save"
+                 ErrMsg="已取得但截至本期期末仍未申报抵扣的农产品收购发票和农产品销售普通发票，应填入31栏“农产品收购发票或者销售发票”" InfoMsg= ""/>
+        <!--421921  added by chenjunj begin-->
+        <Records AreaCode="65" Count="3" A1="5,14" A2="5,16" Conditions="(A1&gt;0) and (A2=0)" ActionTime="save"
+                 ErrMsg="您本期未填写用于抵扣的旅客运输服务扣税凭证，请确认是否填写准确" InfoMsg= ""/>
+        <!--421921  added by chenjunj end-->
+    </DoShowMessage>
+	<SaveCheckData XmlFile="'032'">
+		<Records AreaCode="13" Count="1" A1="3,29" Formula="(A1&lt;0)" Range="true" Emsg="第21行税额栏次不能输入负数！"/>
+		<Records AreaCode="13" Count="1" A1="3,30" Formula="(A1&lt;0)" Range="true" Emsg="第22行税额栏次不能输入负数！"/>
+		<Records AreaCode="13" Count="1" A1="5,35" Formula="(A1&lt;0)" Range="true" Emsg="第25行税额栏次为负数，不允许保存，请核实！"/>
+		<Records AreaCode="13" Count="1" A1="5,36" Formula="(A1&lt;0)" Range="true" Emsg="第26行税额栏次为负数，不允许保存，请核实！"/>
+		<Records AreaCode="13" Count="1" A1="5,37" Formula="(A1&lt;0)" Range="true" Emsg="第27行税额栏次为负数，不允许保存，请核实！"/>
+		<Records AreaCode="13" Count="1" A1="5,38" Formula="(A1&lt;0)" Range="true" Emsg="第28行税额栏次为负数，不允许保存，请核实！"/>
+		<Records AreaCode="65" Count="3" A1="WSXXS.[YBHWFWQCLDDQSE]" A2="WSXXS.[JZJTQCLDDQSE]" A3="3,29"  Formula="(A3&lt;&gt;(A1+A2))" Range="true" Emsg="第21栏上期留抵税额抵减欠税必须等于核定值【A1】+核定值【A2】，请检查！"/>
+		<Records AreaCode="65" Count="1" A1="3,27" Formula="(A1&gt;0)" Range="true" Emsg="您在19栏次“纳税检查调减进项税额”填有数据，根据税务机关规定，须到办税大厅办理申报，请检查！"/>
+
+		<Records AreaCode="65" Count="10" A1="3,22" A2="3,23" A3="3,24" A4="3,25" A5="3,26" A6="3,27" A7="3,28" A8="3,29" A9="3,30" A10="3,31" Formula="(A1&lt;0) or (A2&lt;0) or (A3&lt;0) or (A4&lt;0) or (A5&lt;0) or (A6&lt;0) or (A7&lt;0) or (A8&lt;0) or (A9&lt;0) or (A10&lt;0)" Range="true" Emsg="第13至23栏进项税转出额不能为负数，请检查！"/>
+
+		<Records AreaCode="13,61,62,4403,63,65" Count="2" A1="3,29" A2="WSXXS.[YBHWFWQCLDDQSE]"  Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第21栏上期留抵税额抵减欠税不等于核定中期初留抵税额抵减欠税【A2】，请检查！"/>
+		<Records AreaCode="36,65" Count="3" A1="3,29" A2="WSXXS.[YBHWFWQCLDDQSE]" A3="WSXXS.[JZJTQCLDDQSE]" Formula="(A1&lt;&gt;A2+A3)" Range="true" Emsg="第21栏上期留抵税额抵减欠税不等于核定中期初留抵税额抵减欠税【A2+A3】，请检查！"/>
+        <Records Count="3" A1="4,15" A2="4,6" A3="4,9" Formula="round(A1,2)&gt;round(A2+A3,2)" Range="true" Emsg="《附列资料二》第9栏“(三）本期用于购建不动产的扣税凭证”的“金额”应该小于等于《附列资料二》第1栏+第4栏的“金额”！"/>
+        <Records Count="3" A1="5,15" A2="5,6" A3="5,9" Formula="round(A1,2)&gt;round(A2+A3,2)" Range="true" Emsg="《附列资料二》第9栏“(三）本期用于购建不动产的扣税凭证”的“税额”应该小于等于《附列资料二》第1栏+第4栏的“税额”！"/>
+        <!--2019-05版新增校验-->
+        <Records Count="3" A1="4,16" A2="4,6" A3="4,9" Formula="round(A1,2)&gt;round(A2+A3,2)" Range="true" Emsg="《附列资料二》第10栏 “（四）本期用于抵扣的旅客运输服务扣税凭证”的“金额”应该小于等于《附列资料二》第1栏+第4栏的“金额”！"/>
+        <Records Count="3" A1="5,16" A2="5,6" A3="5,9" Formula="round(A1,2)&gt;round(A2+A3,2)" Range="true" Emsg="《附列资料二》第10栏 “（四）本期用于抵扣的旅客运输服务扣税凭证”的“税额”应该小于等于《附列资料二》第1栏+第4栏的“税额”！"/>
+        <Records Count="3" A1="5,16" A2="5,6" A3="5,9" A4="5,15" Formula="round(A1+A4,2)&gt;round(A2+A3,2)" Range="true" Emsg="《附列资料二》（第9栏+第10栏）税额之和应该小于等于《附列资料二》（第1栏+第4栏）税额之和！"/>
+	</SaveCheckData>
+</XmlRWConfig>

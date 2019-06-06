@@ -1,0 +1,465 @@
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_TBRQ." Col="7" Row="4" HeadStr="填表日期：" DataType="填表时间"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_NSRSBH." Col="1" Row="5" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_HY." Col="8" Row="5" HeadStr="" DataType="所属行业" SectionName="hyxx" DispType="mc" SaveType="dm" GivenType="dm"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_NSRMC." Col="1" Row="6" HeadStr="" DataType="纳税人名称"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_FRXM." Col="6" Row="6" HeadStr="" DataType="法人代表"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_ZCDZ." Col="8" Row="6" HeadStr="" DataType="注册地址"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_YYDZ." Col="11" Row="6" HeadStr="" DataType="营业地址"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_KHYH." Col="1" Row="8" HeadStr="" DataType="开户银行"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_YHZH." Col="5" Row="8" HeadStr="" DataType="开户帐号"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_DJLX." Col="7" Row="8" HeadStr="" DataType="登记类型" SectionName="djzclx" DispType="mc" SaveType="dm" GivenType="dm"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_LXDH." Col="11" Row="8" HeadStr="" DataType="电话号码"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_SQR." Col="6" Row="53" HeadStr="" DataType="其他"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_SMR." Col="12" Row="53" HeadStr="" DataType="其他"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_QSRQ." Col="0" Row="4" HeadStr="税款所属时间：" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_QYLX." Col="4" Row="56" HeadStr="" DataType="企业类型"/>
+		<Records NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_SQLDGZ." Col="5" Row="56" HeadStr="" DataType="上期留抵挂账"/>
+		<Records AreaCode="4403" NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_YWM." Col="7" Row="1" HeadStr="" DataType="SETYWM"/>
+		<Records AreaCode="4403" NodeName="SB_NSSBB.SB_NSSBB_BTXX.SB_NSSBB_IMAGE." Col="0" Row="0" HeadStr="" DataType="LOADIMAGE" ImageSrc="Image\WSSB.jpg" />
+	</Head>
+	<Body>
+		<Records HeadName="zzssyyybnsr_zb.zbGrid." NodeRange="2..39" CellColRange="6" CellSRow="11" CellERow="48" XmlSRow="0" XmlERow="0" XmlAsCol="true" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+		<Records HeadName="zzssyyybnsr_zb.zbGrid." NodeRange="2..39" CellColRange="9" CellSRow="11" CellERow="48" XmlSRow="2" XmlERow="2" XmlAsCol="true" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+	</Body>
+	<CalcSum openmode="new,edit">
+		<!--<Records AreaCode="4403" HeadName="WSXXS.[FCYJSE]" NodeSIndex="-1"  DependCol="5" Col="6" CellSRow="38" CellERow="38" Calc="0" Rec_DependCol="" Count="1" A1="(string)WSXXS.[WSYYS_DJZG]" Conditions="A1=&quot;N&quot;" ReadOnly="1"/>-->
+		<Records AreaCode="13,36,61,62,63,65," HeadName="WSXXS.[YBHWFWQCLD]" NodeSIndex="-1"  DependCol="5" Col="6" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="1"/>
+		<Records AreaCode="13,36,61,62,63,65," HeadName="WSXXS.[SQLDSE]" NodeSIndex="-1"  DependCol="5" Col="7" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="1"/>
+		<Records AreaCode="4403," HeadName="WSXXS.[YBHWFWQCLD]" NodeSIndex="-1"  DependCol="5" Col="6" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records AreaCode="4403," HeadName="WSXXS.[SQLDSE]" NodeSIndex="-1"  DependCol="5" Col="7" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="1"/>
+
+		<Records HeadName="WSXXS.[JZJTQCLD]" NodeSIndex="-1"  DependCol="5" Col="9" CellSRow="23" CellERow="23" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="1"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="0"  DependCol="6" Col="7" CellSRow="11" CellERow="20" Calc="1" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="10"  DependCol="6" Col="7" CellSRow="21" CellERow="22" Calc="1" Rec_DependCol="6,21|6,22|6,24|6,25|6,26|6,29|6,31|6,32|6,33|6,38|6,39|6,40|6,41|" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="13"  DependCol="6" Col="7" CellSRow="24" CellERow="34" Calc="1" Rec_DependCol="6,21|6,22|6,24|6,25|6,26|6,29|6,31|6,32|6,33|6,38|6,39|6,40|6,41|" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="24"  DependCol="6" Col="7" CellSRow="35" CellERow="35" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="25"  DependCol="6" Col="7" CellSRow="36" CellERow="45" Calc="1" Rec_DependCol="6,21|6,29|6,31|6,33|6,22|6,23|6,24|6,25|6,26|6,38|6,39|6,40|6,41|" Count="0" Conditions="" ReadOnly="0"/>
+
+
+		<Records HeadName="LSXXS." NodeSIndex="35"  DependCol="6" Col="7" CellSRow="46" CellERow="46" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="36"  DependCol="6" Col="7" CellSRow="47" CellERow="47" Calc="1" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="38"  DependCol="9" Col="11" CellSRow="11" CellERow="25" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="54"  DependCol="9" Col="11" CellSRow="27" CellERow="34" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|" Count="0" Conditions="" ReadOnly="0"/>
+
+		<Records HeadName="LSXXS." NodeSIndex="62"  DependCol="9" Col="11" CellSRow="35" CellERow="35" Calc="0" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="63"  DependCol="9" Col="11" CellSRow="36" CellERow="42" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|" Count="0" Conditions="" ReadOnly="0"/>
+		<Records HeadName="LSXXS." NodeSIndex="72"  DependCol="9" Col="11" CellSRow="45" CellERow="45" Calc="1" Rec_DependCol="" Count="0" Conditions="" ReadOnly="0"/>
+
+
+	</CalcSum>
+	<DynamicSetCellFormula>
+		<!--上期留底不挂账的情况下，肯定是0-->
+		<Records Count="1" A1="WSXXS.[GZLX]"  Conditions="(A1&lt;&gt;1)" Col="7" Row="23" DataType="DT_Num" Formula="0.00"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+		<!--18栏累计数，非挂账，肯定是0-->
+		<Records Count="1" A1="WSXXS.[GZLX]"  Conditions="(A1&lt;&gt;1)" Col="7" Row="28" DataType="DT_Num" Formula="0.00"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+		<!--18栏累计数，挂账-->
+		<Records Count="1" A1="WSXXS.[GZLX]"  Conditions="(A1=1)" Col="7" Row="28" DataType="DT_Num" Formula="ROUND(if(H24&lt;(G22-G29)*E58,H24,(G22-G29)*E58),2)"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+
+		<!--对于特殊企业，19栏，自己填写，不控制-->
+		<!--
+		<Records AreaCode="13,62,63,4403," Count="1" A1="4,56"  Conditions="(A1=4)or(A1=5)or(A1=6)or(A1=10)" Col="6" Row="29" DataType="DT_Num" Formula="0.00"  ReadOnly="0" DependCol="" OpenMode="new" Caption="显示信息"/>
+		<Records AreaCode="13,62,63,4403," Count="1" A1="4,56"  Conditions="(A1=4)or(A1=5)or(A1=6)or(A1=10)" Col="9" Row="29" DataType="DT_Num" Formula="0.00"  ReadOnly="0" DependCol="" OpenMode="new" Caption="显示信息"/>
+		-->
+		<Records AreaCode="13,36,61,62,63,4403,65" Count="1" A1="4,56"  Conditions="1=1" Col="6" Row="29" DataType="DT_Num" Formula="ROUND(G22-G29-H29,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		<Records AreaCode="13,36,61,62,63,4403,65" Count="1" A1="4,56"  Conditions="1=1" Col="9" Row="29" DataType="DT_Num" Formula="ROUND(J22-J29,2)"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+		<!--新疆根据YBNSRhzjnzg判断是否需要公式，Y不需要，N需要-->
+
+		<!--
+            <Records AreaCode="65" Count="1" A1="WSXXS.[YBNSRHZJNZG]"  Conditions="(A1=2)or(A1=0)" Col="6" Row="29" DataType="DT_Num" Formula="G22-G29-H29"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+            <Records AreaCode="65" Count="1" A1="WSXXS.[YBNSRHZJNZG]"  Conditions="(A1=2)or(A1=0)" Col="9" Row="29" DataType="DT_Num" Formula="J22-J29"  ReadOnly="1" DependCol="" OpenMode="new" Caption="显示信息"/>
+            -->
+
+		<!--对于20栏的本年累计，不管是否挂账，都可以使用13-18来计算，当然，特殊企业，由他自己填写-->
+		<!--
+		<Records Count="1" A1="4,56"  Conditions="(A1=4)or(A1=5)or(A1=6)or(A1=10)" Col="7" Row="30" DataType="DT_Num" Formula="0.00"  ReadOnly="0" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+		-->
+		<Records Count="1" A1="4,56"  Conditions="1=1" Col="7" Row="30" DataType="DT_Num" Formula="H24-H29"  ReadOnly="1" DependCol="" OpenMode="new,edit" Caption="显示信息"/>
+	</DynamicSetCellFormula>
+	<!--
+	042:无票视同销售
+	018:普通发票
+	019:废旧物资发票
+	-->
+	<AutoFill XmlFile = "'002','003','004','005','008','009','016','017','018','019','020','021','025','027','029','030','031','032','033','037','038','042','043','044','052','006','506','507',">
+		<!--附表1的1和3行，主要是计算公式的时候，需要使用到-->
+		<Records Col="0" Row="57" Count="3" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJSE." A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE." Formula="round(A1+A2-A3,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="0" Row="57" Count="3" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJSE." A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJSE."  A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE." Formula="round(A1+A2-A3,2)" Conditions="" OpenMode="new,edit"/>-->
+		<!--第1行，从表一取数，ok-->
+		<Records Col="6" Row="11" Count="7" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJXSE." A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJXSE." A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJXSE." A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_HJXSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_HJXSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJXSE."  A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_HJXSE." Formula="round(A1+A2+A3+A4+A5-A6-A7,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="6" Row="11" Count="7" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJXSE." A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJXSE." A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJXSE." A4="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_HJXSE." A5="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_HJXSE."  A6="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJXSE."  A7="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_HJXSE." Formula="round(A1+A2+A3+A4+A5-A6-A7,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<Records Col="9" Row="11" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJXSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="9" Row="11" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJXSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<!--第2行，从发票取数OK-->
+		<Records Col="6" Row="12" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_2_1." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_2_1."  A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_2_1." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_2_1." Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+		<Records Col="9" Row="12" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_2_3." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_2_3."  A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_2_1." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_2_3." Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+		<!--第3行，从发票取数OK-->
+		<Records Col="6" Row="13" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_3_1." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_3_1." A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_3_1." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_3_1."  Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+		<Records Col="9" Row="13" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_3_3." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_3_3." A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_3_3." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_3_3." Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+
+		<!--第4行，从表一取数-->
+		<Records Col="6" Row="14" Count="5" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_NSJCTZXSE." A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_NSJCTZXSE." A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_NSJCTZXSE." A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_NSJCTZXSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_NSJCTZXSE."  Formula="round(A1+A2+A3+A4+A5,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="6" Row="14" Count="5" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_NSJCTZXSE." A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_NSJCTZXSE." A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_NSJCTZXSE." A4="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_NSJCTZXSE." A5="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_NSJCTZXSE."  Formula="round(A1+A2+A3+A4+A5,2)" Conditions="" OpenMode="new,edit"/>-->
+		<!--第5行，从表一取数，该栏允许修改，因为填表说明中是大于等于OK;“一般货物及劳务和应税服务”的“本期数”等于《附表一本期销售情况明细》第9列第8至13c行之和-第9列第14、15行之和。-->
+		<Records Col="6" Row="15" Count="10" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJXSE." A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJXSE." A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJXSE." A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJXSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_HJXSE." A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_HJXSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_HJXSE." A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJXSE."  A9="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_HJXSE." A10="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_HJXSE." Formula="round(A1+A2+A3+A4+A5+A6+A7+A10-A8-A9,2)"  Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="6" Row="15" Count="11" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJXSE." A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJXSE." A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJXSE." A4="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJXSE." A5="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_HJXSE." A6="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_HJXSE." A7="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_HJXSE." A8="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJXSE." A9="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_HJXSE." A10="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[14].SB_FLZLY_HJXSE." A11="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_HJXSE." Formula="round(A1+A2+A3+A4+A5+A6+A7+A10+A11-A8-A9,2)" Conditions="" OpenMode="new,edit"/>-->
+		<Records AreaCode="13,36,61,62,4403,63," Col="9" Row="15" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJXSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65," Col="9" Row="15" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJXSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new"/>
+		<!--<Records AreaCode="4403" Col="9" Row="15" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJXSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<!--第6行，从发票取数OK-->
+		<Records Col="6" Row="16" Count="1" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_ZB_6_1." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<Records Col="9" Row="16" Count="1" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZ_ZB_6_3." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+
+		<!--第7行，从表一取数OK-->
+		<Records Col="6" Row="17" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[17].SB_FLZLY_HJXSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[18].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="6" Row="17" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[17].SB_FLZLY_HJXSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[18].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+		<!--第8行，从表一取数OK-->
+		<Records Col="6" Row="18" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[19].SB_FLZLY_HJXSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[20].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="6" Row="18" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[19].SB_FLZLY_HJXSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[20].SB_FLZLY_HJXSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<!--第9行，从发票取数OK-->
+		<Records Col="6" Row="19" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_9_1." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_9_1."  A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_9_1." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_9_1." Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+		<!--第10行，从发票取数OK-->
+		<Records Col="6" Row="20" Count="4" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_WPSTXS_HJXX.SB_WPSTXS_ZB_10_1." A2="018.xml|SB_ZZSPTFPCGLMX.SB_ZZSPTFPCGLMX_HJXX.SB_ZZSPTFPCGLMX_ZB_10_1." A3="019.xml|SB_XSFJWZKJPTFPCGLMX.SB_XSFJWZKJPTFPCGLMX_HJXX.SB_XSFJWZKJPTFPCGLMX_ZB_10_1." A4="005.xml|SB_FLZL4.SB_FLZL4_HJXX.SB_FLZL4_ZB_10_1." Formula="round(A1+A2+A3+A4,2)" Conditions="" OpenMode="new"/>
+		<!--第11行，从表一取数 ok-->
+		<Records AreaCode="13,36,61,62,4403,63," Col="6" Row="21" Count="8" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJSE." A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_KCHSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_KCHSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_KCHSE." A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE."
+				 Formula="round(A1+A3-A4+A5+A6+A7-A8,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65," Col="6" Row="21" Count="8" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJSE." A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_KCHSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_KCHSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_KCHSE." A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE."
+				 Formula="round(A1+A3-A4+A5+A6+A7-A8,2)" Conditions="" OpenMode="new"/>
+		<!--<Records AreaCode="4403" Col="6" Row="21" Count="8" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_HJSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_HJSE."  A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_HJSE." A4="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE." A5="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_KCHSE."  A6="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_KCHSE." A7="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_KCHSE." A8="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE."
+		Formula="round(A1+A3-A4+A5+A6+A7-A8,2)" Conditions="" OpenMode="new,edit"/>-->
+		<Records AreaCode="13,36,61,62,4403,63," Col="9" Row="21" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65," Col="9" Row="21" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new"/>
+		<!--<Records AreaCode="4403" Col="9" Row="21" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[5].SB_FLZLY_HJSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[6].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<Records Count="0" Conditions="" Col="7" Row="36" DataType="DT_Num" Formula="round(G37,2)" ReadOnly="0" DependCol="8,37" OpenMode="new,edit" Caption=""/>
+		<!--第12行ok-->
+		<!--当需要填写农产品报表时，第12栏一般货物及劳务原从农副产品收购发票和农副产品取得发票中取数用汇总表取合计税额替换-->
+		<!--
+		004：专用
+		008：运输发票
+		017：进口货物完税凭证
+		021：农产品取得
+		020：农产品收到
+		023：废旧物资取得，这个已不需要
+		022：废旧物资收购，这个已不需要
+		032：代扣代缴税收通用缴款书
+		-->
+		<!--<Records AreaCode="13" Col="6" Row="22" Count="17"
+			A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_6_22."
+			A2="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_6_22."
+			A3="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_6_22."
+			A4="021.xml|SB_ZYDKJXSEDNFCPPTFPMX.SB_ZYDKJXSEDNFCPPTFPMX_HJXX.SB_ZYDKJXSEDNFCPPTFPMX_ZBJE_6_22."
+			A5="020.xml|SB_ZYDKJXSEDNFCPSGFPMX.SB_ZYDKJXSEDNFCPSGFPMX_HJXX.SB_ZYDKJXSEDNFCPSGFPMX_ZBJE_6_22." A6="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_6_22."
+			A7="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_GTFD."
+			A8="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_GTFD."
+			A9="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_GTFD."
+			A10="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_GTFD." A11="020.xml|SB_ZYDKJXSEDNFCPSGFPMX.SB_ZYDKJXSEDNFCPSGFPMX_HJXX.SB_ZYDKJXSEDNFCPSGFPMX_ZBJE_GTFD." A12="021.xml|SB_ZYDKJXSEDNFCPPTFPMX.SB_ZYDKJXSEDNFCPPTFPMX_HJXX.SB_ZYDKJXSEDNFCPPTFPMX_ZBJE_GTFD."
+			A16="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_YB."
+			A17="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_GTFD."
+			A13="6,11" A14="9,11" A15="WSXXS.[NCPQYBZ]"
+		Formula="round(A1+A2+A3+A4+A5+A6+A16+(A7+A8+A9+A10+A11+A12+A17)*(if(A13+A14=0,1,A13/(A13+A14))),2)" Conditions="#A15#&lt;&gt;1" OpenMode="new,edit"/>
+
+		<Records AreaCode="13" Col="6" Row="22" Count="14" A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_6_22."
+			A2="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_6_22."
+			A3="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_6_22."
+			A4="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_6_22."
+			A5="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_GTFD."
+			A6="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_GTFD."
+			A7="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_GTFD."
+			A8="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_GTFD."
+			A9="052.xml|SB_NCPHDKCJSBHZB.SB_NCPHDKCJSBHZB_HJXX.[0].SB_NCPHDKCJSBHZB_HJJE."
+			A13="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_YB."
+			A14="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_GTFD."
+			A10="6,11" A11="9,11" A12="WSXXS.[NCPQYBZ]"
+		Formula="round(A1+A2+A3+A4+A9+A13+(A5+A6+A7+A8+A14)*(if(A10+A11=0,1,A10/(A10+A11))),2)" Conditions="#A12#=1" OpenMode="new,edit"/>
+		<Records AreaCode="4403" Col="6" Row="22" Count="2" A1="003.xml|SB_FLZLE.SB_FLZLE_MXXX.SB_FLZLE_SBDKDJXSE.[11].[3]." A2="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22."		Formula="round(A1-A2,2)" Conditions="" OpenMode="new"/>
+		<Records AreaCode="62,63,65" Col="6" Row="22" Count="3" A1="003.xml|SB_FLZLE.SB_FLZLE_MXXX.SB_FLZLE_SBDKDJXSE.[11].[3]." A2="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22." A3="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_9_22."
+		Formula="round(A1-A2-A3,2)" Conditions="" OpenMode="new"/>-->
+		<!--当需要填写农产品报表时，第12栏即征即退不需从农副产品收购发票和农副产品取得发票中取数-->
+		<Records AreaCode="13" Col="9" Row="22" Count="17" A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22." A2="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_9_22." A3="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_9_22." A4="021.xml|SB_ZYDKJXSEDNFCPPTFPMX.SB_ZYDKJXSEDNFCPPTFPMX_HJXX.SB_ZYDKJXSEDNFCPPTFPMX_ZBJE_9_22."
+				 A5="020.xml|SB_ZYDKJXSEDNFCPSGFPMX.SB_ZYDKJXSEDNFCPSGFPMX_HJXX.SB_ZYDKJXSEDNFCPSGFPMX_ZBJE_9_22." A6="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_9_22."
+				 A7="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_GTFD." A8="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_GTFD." A9="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_GTFD."
+				 A10="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_GTFD." A11="020.xml|SB_ZYDKJXSEDNFCPSGFPMX.SB_ZYDKJXSEDNFCPSGFPMX_HJXX.SB_ZYDKJXSEDNFCPSGFPMX_ZBJE_GTFD." A12="021.xml|SB_ZYDKJXSEDNFCPPTFPMX.SB_ZYDKJXSEDNFCPPTFPMX_HJXX.SB_ZYDKJXSEDNFCPPTFPMX_ZBJE_GTFD."
+				 A16="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_JZJT."
+				 A17="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_GTFD."
+				 A13="6,11" A14="9,11" A15="WSXXS.[NCPQYBZ]"
+				 Formula="round(A1+A2+A3+A4+A5+A6+A16+(A7+A8+A9+A10+A11+A12+A17)*(1-if(A13+A14=0,1,A13/(A13+A14))),2)" Conditions="#A15#&lt;&gt;1" OpenMode="new,edit"/>
+		<Records AreaCode="13" Col="9" Row="22" Count="13" A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22."
+				 A2="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_9_22."
+				 A3="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_9_22."
+				 A4="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_9_22."
+				 A5="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_GTFD."
+				 A6="008.xml|SB_ZZSYSFPDKQD.SB_ZZSYSFPDKQD_HJXX.SB_ZZSYSFPDKQD_ZBJE_GTFD."
+				 A7="017.xml|SB_JKHWWSZMX.SB_JKHWWSZMX_HJXX.SB_JKHWWSZMX_ZBJE_GTFD."
+				 A8="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_GTFD."
+				 A12="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_JZJT."
+				 A13="044.xml|SB_Wmqyjxse_MXXX.SB_Wmqyjxse_GTFD."
+				 A9="6,11" A10="9,11" A11="WSXXS.[NCPQYBZ]"
+				 Formula="round(A1+A2+A3+A4+A12+(A5+A6+A7+A8+A13)*(1-if(A9+A10=0,1,A9/(A9+A10))),2)" Conditions="#A11#=1" OpenMode="new,edit"/>
+		<!--<Records AreaCode="4403" Col="9" Row="22" Count="1" A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22."
+		Formula="round(A1,2)" Conditions="" OpenMode="new"/>-->
+		<Records AreaCode="36,61,62,4403,63,65" Col="9" Row="22" Count="2" A1="004.xml|SB_FLZL3.SB_FLZL3_HJXX.SB_FLZL3_ZBJE_9_22." A2="032.xml|SB_DKDJSSTYJKSMX.SB_DKDJSSTYJKSMX_HJXX.SB_DKDJSSTYJKSMX_ZBJE_9_22."
+				 Formula="round(A1+A2,2)" Conditions="" OpenMode="new"/>
+
+		<Records Col="6" Row="22" Count="2" A1="003.xml|SB_FLZLE.SB_FLZLE_MXXX.SB_FLZLE_SBDKDJXSE.[11].[3]." A2="9,22"
+				 Formula="round(A1-A2,2)" Conditions="" OpenMode="new,edit"/>
+		<!--第14行，进项税额转出，从发票取数ok-->
+		<Records AreaCode="13,36,61,62,63,4403" Col="6" Row="24" Count="1" A1="043.xml|SB_JXSEZCEMX.SB_JXSEZCEMX_HJXX.SB_JXSEZCEMX_ZBJE_6_24."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="13,36,61,62,63,4403" Col="9" Row="24" Count="1" A1="043.xml|SB_JXSEZCEMX.SB_JXSEZCEMX_HJXX.SB_JXSEZCEMX_ZBJE_9_24."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<!--新疆没有进项税额转出额，从附表二取值-->
+
+		<Records AreaCode="65," Col="6" Row="24" Count="1" A1="003.xml|SB_FLZLE.SB_FLZLE_MXXX.SB_FLZLE_JXSEZCE.[0].SB_FLZLE_JXSEZCE_SE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+
+		<!--15行，深圳取核定的MDTSE节点，ok-->
+		<!--<Records AreaCode="4403" Col="6" Row="25" Count="2" A1="WSXXS.[MDTSE]" A2="WSXXS.[CKQYBZ]"  Formula="round(A1,2)" Conditions="A2=1" OpenMode="new"/>-->
+		<!--15行，河北取核定的MDTYTSEBYS节点-->
+		<Records AreaCode="13,36,61,62,4403,63" Col="6" Row="25" Count="1" A1="WSXXS.[MDTYTSEBYS]"  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65" Col="6" Row="25" Count="1" A1="WSXXS.[MDTYTSEBYS]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+		<!--16行-->
+		<!--
+		主表1601≤《附列资料（一）》第8列第1至5行之和+《附列资料（二）》第19栏；
+		-->
+		<Records Col="6" Row="26" Count="6" A1="003.xml|SB_FLZLE.SB_FLZLE_MXXX.SB_FLZLE_JXSEZCE.[6].SB_FLZLE_JXSEZCE_SE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[0].SB_FLZLY_NSJCTZSE."
+				 A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[1].SB_FLZLY_NSJCTZSE."
+				 A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[2].SB_FLZLY_NSJCTZSE."
+				 A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[3].SB_FLZLY_NSJCTZSE."
+				 A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[4].SB_FLZLY_NSJCTZSE." Formula="round(A1+A2+A3+A4+A5+A6,2)" Conditions="" OpenMode="new,edit"/>
+		<!--第21行，从表一取数ok-->
+		<!--
+		《附列资料（一）》（第10列第8至11行之和-第10列第14行）+（第14列第12行至13b行之和-第14列第15行）
+		-->
+		<Records AreaCode="13,36,61,62,4403,63," Col="6" Row="31" Count="10" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJSE."  A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_KCHSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE."  A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_KCHSE." A9="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_KCHSE." A10="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_KCHSE."
+				 Formula="round(A1+A2+A3+A4-A5+A6+A8+A9+A10-A7,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65," Col="6" Row="31" Count="10" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJSE."  A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_KCHSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE."  A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_KCHSE." A9="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_KCHSE." A10="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_KCHSE."
+				 Formula="round(A1+A2+A3+A4-A5+A6+A8+A9+A10-A7,2)" Conditions="" OpenMode="new"/>
+		<!--<Records AreaCode="65," Col="6" Row="31" Count="9" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJSE."  A3="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJSE."  A4="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJSE." A5="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A6="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_KCHSE." A7="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE."  A8="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_KCHSE." A9="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_KCHSE."
+		Formula="round(A1+A2+A3+A4-A5+A6+A8+A9-A7,2)" Conditions="" OpenMode="new"/>-->
+		<!--<Records AreaCode="4403" Col="6" Row="31" Count="11" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[7].SB_FLZLY_HJSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[8].SB_FLZLY_HJSE."  A3="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[9].SB_FLZLY_HJSE."  A4="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[10].SB_FLZLY_HJSE." A5="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A6="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[11].SB_FLZLY_KCHSE." A7="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE."  A8="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[12].SB_FLZLY_KCHSE." A9="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[13].SB_FLZLY_KCHSE."  A10="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[14].SB_FLZLY_KCHSE." A11="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[21].SB_FLZLY_KCHSE."
+		Formula="round(A1+A2+A3+A4-A5+A6+A8+A9+A10+A11-A7,2)" Conditions="" OpenMode="new,edit"/>-->
+
+		<Records AreaCode="13,36,61,62,4403,63," Col="9" Row="31" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="65," Col="9" Row="31" Count="2" A1="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A2="002.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new"/>
+		<!--<Records AreaCode="4403" Col="9" Row="31" Count="2" A1="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[15].SB_FLZLY_HJSE."  A2="506.xml|SB_FLZLY.SB_FLZLY_MXXX.[16].SB_FLZLY_KCHSE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>-->
+		<!--第22行，从发票取数ok-->
+		<Records Col="6" Row="32" Count="1" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZMX_ZBJE_6_32."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<Records Col="9" Row="32" Count="1" A1="042.xml|SB_WPSTXSORNSJCTZMX.SB_NSJCTZ_HJXX.SB_NSJCTZMX_ZBJE_9_32."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<!--23行，深圳取值附表4 增值税税控系统专用设备费及技术维护费本期实际抵减税额-->
+		<!--<Records AreaCode="4403" Col="6" Row="33" Count="1" A1="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[0].SB_FLZL4_BQSJDJSE." Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>-->
+		<!--24行，无须取数，ok-->
+		<!--深圳,河北、新疆25栏期初未缴税款从核定获取-->
+		<Records Row="35" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBJSQCWJSEBYS]" Conditions="" OpenMode="new" ignore="1"/>
+		<Records Row="35" Col="9" Count="1" Formula="round(A1,2)" A1="WSXXS.[JZJTQCWJSEBYS]" Conditions="" OpenMode="new"  ignore="1"/>
+		<!--<Records AreaCode="4403" Row="35" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBHWQCWJSE]" Conditions="" OpenMode="new"/>-->
+		<!--
+		<Records AreaCode="65," Row="35" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[QCWJ]" Conditions="" OpenMode="new"/>
+		-->
+		<!--28行是外省营业税等级资格（wsyys_djzg=y）时，取值：=fcyjse +附表4分支机构预征缴纳的税额第4列值(深圳)-->
+		<!--<Records AreaCode="4403" Col="6" Row="38" Count="6" A1="WSXXS.[FCYJSE]" A2="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A3="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A4="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A5="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." A6="WSXXS.[SZLBDM]" Formula="round(A1+A2+A3+A4+A5,2)" Conditions="A6=01" OpenMode="new"/>
+		<Records AreaCode="4403" Col="6" Row="38" Count="2" A1="WSXXS.[FCYJSE]" A2="WSXXS.[SZLBDM]" Formula="round(A1,2)" Conditions="(A2=02) or (A2=03)" OpenMode="new"/>-->
+		<!--<Records AreaCode="4403" Col="6" Row="38" Count="5" A1="WSXXS.[FCYJSE]" A2="(string)WSXXS.[WSYYS_DJZG]" A3="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A4="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A5="507.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A1+A3+A4+A5,2)" Conditions="A2=&quot;N&quot;" OpenMode="new"/>-->
+		<!--28行=核定货物劳务预缴数值+对应税服务预缴数+附表4 的分支机构预征缴纳税款本期实际抵减税额(新疆)-->
+		<!--
+		<Records AreaCode="65," Col="6" Row="38" Count="3" A1="WSXXS.[YSHWYJS]" A2="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A3="WSXXS.[YSFWYJS]" Formula="round(A1+A2+A3,2)" Conditions="" OpenMode="new"/>
+		-->
+		<Records AreaCode="65," Col="6" Row="38" Count="6" A1="WSXXS.[YSFWYJS]" A2="WSXXS.[YSHWYJS]" A3="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A4="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A5="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A6="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A1+A3+A4+A5+A6,2)" Conditions="" OpenMode="new"  ignore="1"/>
+		<!--28行=核定货物劳务预缴数值(河北)，根据核定的即征即退标志判断填写到第一列还是第三列-->
+		<Records AreaCode="13,36,61,62,65,63," Col="6" Row="38" Count="6" A1="WSXXS.[BQFCYJSE]" A2="(string)WSXXS.[JZJTBZ]" A3="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A4="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A5="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A6="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A1+A3+A4+A5+A6,2)" Conditions="A2=&quot;N&quot;" OpenMode="new"  ignore="1"/>
+		<Records AreaCode="13,36,61,62,65,63," Col="9" Row="38" Count="6" A1="WSXXS.[BQFCYJSE]" A2="(string)WSXXS.[JZJTBZ]" A3="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A4="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A5="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A6="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A1+A3+A4+A5+A6,2)" Conditions="A2=&quot;Y&quot;" OpenMode="new"  ignore="1"/>
+		<Records AreaCode="4403" Col="6" Row="38" Count="6" A1="WSXXS.[BQFCYJSE]" A2="(string)WSXXS.[JZJTBZ]" A3="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A4="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A5="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A6="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A3+A4+A5+A6,2)" Conditions="A2=&quot;N&quot;" OpenMode="new"  ignore="1"/>
+		<Records AreaCode="4403" Col="9" Row="38" Count="6" A1="WSXXS.[BQFCYJSE]" A2="(string)WSXXS.[JZJTBZ]" A3="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[1].SB_FLZL4_BQSJDJSE." A4="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[2].SB_FLZL4_BQSJDJSE." A5="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[3].SB_FLZL4_BQSJDJSE." A6="031.xml|SB_FLZL4.SB_FLZL4_MXXX.[4].SB_FLZL4_BQSJDJSE." Formula="round(A3+A4+A5+A6,2)" Conditions="A2=&quot;Y&quot;" OpenMode="new"  ignore="1"/>
+		<!--河北29栏出口开具专用缴款书预缴税额从核定获取-->
+		<Records Row="39" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[CKKJZYJKSYJSE]" Conditions="" OpenMode="new" ignore="1"/>
+		<!--深圳30栏本期缴纳上期应纳税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="40" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBHWBQJNSQYNSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳31栏本期缴纳欠缴税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="41" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBHWBQJNQJSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳36栏期初未缴查补税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="46" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBHWQCWJCBSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳37栏本期入库查补税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="47" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[YBHWBQRKCBSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳25栏期初未缴税款从核定获取-->
+		<!--<Records AreaCode="4403" Row="35" Col="9" Count="1" Formula="round(A1,2)" A1="WSXXS.[JZJTQCWJSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳30栏本期缴纳上期应纳税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="40" Col="9" Count="1" Formula="round(A1,2)" A1="WSXXS.[JZJTBQJNSQYNSE]" Conditions="" OpenMode="new"/>-->
+		<!--深圳31栏本期缴纳欠缴税额从核定获取-->
+		<!--<Records AreaCode="4403" Row="41" Col="9" Count="1" Formula="round(A1,2)" A1="WSXXS.[JZJTBQJNQJSE]" Conditions="" OpenMode="new"/>-->
+		<!--河北35栏即征即退实际退税额从核定获取-->
+		<!--Records AreaCode="13,62,63" Row="45" Col="9" Count="1" Formula="round(A1,2)" A1="WSXXS.[JZJTSJTSE]" Conditions="" OpenMode="new"/-->
+		<!--河北36栏期初未缴查补税额从核定获取-->
+		<Records Row="46" Col="6" Count="1" Formula="round(A1,2)" A1="WSXXS.[QCWJCBSEBYS]" Conditions="" OpenMode="new" ignore="1"/>
+		<Records AreaCode="4403" Row="53" Col="12" Count="1" Formula="A1" A1="(string)${frdb}" Conditions="" DataType="DT_String" DStscl="0" OpenMode="new"/>
+	</AutoFill>
+	<DynamicSetCellReadOnly>
+		<!--WSYYS_DJZG外省营业税登记资格为Y时主表28栏可修改，N时只读-->
+		<!--<records AreaCode="4403" Count="1" A1="(string)WSXXS.[WSYYS_DJZG]" CellColRange="6," CellSRow="38" CellERow="38" DataType="DT_Num" Conditions="A1=&quot;N&quot;" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>-->
+		<!--<records AreaCode="4403" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="38" CellERow="38" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+		<records AreaCode="4403" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="9," CellSRow="38" CellERow="38" DataType="DT_Num" Conditions="A1=01" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>-->
+		<records AreaCode="4403" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="6," CellSRow="23" CellERow="23" DataType="DT_Num" Conditions="A1&lt;&gt;03" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+		<records AreaCode="4403" Count="1" A1="WSXXS.[SZLBDM]" CellColRange="7," CellSRow="23" CellERow="23" DataType="DT_Num" Conditions="A1=03" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+
+		<!--深圳第4栏第3列不是只读的-->
+		<records Count="0" CellColRange="9," CellSRow="14" CellERow="14" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		<!--河北金三15栏从核定取值，只读。-->
+		<records AreaCode="13,36,61,62,63" Count="0" CellColRange="6," CellSRow="25" CellERow="25" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		<!--深圳主表18栏都是只读的-->
+		<!--<records AreaCode="4403" Count="0" CellColRange="7,11," CellSRow="28" CellERow="28" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>-->
+		<!--河北金三25栏从核定取值，只读。-->
+		<records Count="0" CellColRange="6,9," CellSRow="35" CellERow="35" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		<!--深圳、新疆主表26栏累计值不应该从核定取值。主表26栏应控制不允许填写，也不取值，默认为0.00，只读。-->
+		<!--<records AreaCode="4403" Count="0" CellColRange="6,7," CellSRow="36" CellERow="36" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="1" CellColIsNull="-1" OpenMode=""/>-->
+		<!--河北主表35、36栏应控制只读，从核定取值。-->
+		<!--records AreaCode="13,62,63" Count="0" CellColRange="9," CellSRow="45" CellERow="45" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/-->
+		<records Count="0" CellColRange="6," CellSRow="46" CellERow="46" DataType="DT_Num" Conditions="1=1" ReadOnly="0" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		<!--累计数只读-->
+		<!--
+		<records AreaCode="13,62,63" Count="0" CellColRange="7,11," CellSRow="11" CellERow="48" DataType="DT_Num" Conditions="1=1" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		-->
+		<!--深圳15栏根据出口退税标志判断是否只读。-->
+		<records AreaCode="4403" Count="1" CellColRange="6," CellSRow="25" CellERow="25" A1="WSXXS.[CKQYBZ]" DataType="DT_Num" Conditions="A1=0" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>
+		<!--29栏,河北放开,其他只读-->
+		<!--<records AreaCode="4403" Count="0" CellColRange="6," CellSRow="39" CellERow="39" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="-1" OpenMode=""/>-->
+
+	</DynamicSetCellReadOnly>
+	<BodyFromPreData>
+		<!--已跟原来一致-->
+		<!--
+		六、25栏本月数据，从上个月的32栏取数；
+		-->
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2," CellColRange="7," CellSRow="11" CellERow="22" XmlSRow="0" XmlERow="11" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="6" Col="7" Calc="1" Rec_DependCol="6,21|6,29|6,31|6,33|6,22|6,23|6,24|6,25|6,26|6,38|6,39|6,40|6,41|"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2," CellColRange="7," CellSRow="24" CellERow="34" XmlSRow="13" XmlERow="23" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="6" Col="7" Calc="1" Rec_DependCol="6,21|6,29|6,31|6,33|6,22|6,23|6,24|6,25|6,26|6,38|6,39|6,40|6,41|"/>
+
+		<!--Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2," CellColRange="7," CellSRow="35" CellERow="35" XmlSRow="24" XmlERow="24" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="6" Col="7" Calc="0" Rec_DependCol=""/-->
+		<!--25栏金三之后从核定取值-->
+		<!--Records AreaCode="13,62,63" HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="1," CellColRange="6," CellSRow="35" CellERow="35" XmlSRow="31" XmlERow="31" DataType="DT_Num" WriteZero="0" NotDealYF=""  OpenMode="new" Rec_DependCol=""/>
+		<Records AreaCode="13,62,63" HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="3," CellColRange="9," CellSRow="35" CellERow="35" XmlSRow="31" XmlERow="31" DataType="DT_Num" WriteZero="0" NotDealYF=""  OpenMode="new" Rec_DependCol=""/-->
+
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2," CellColRange="7," CellSRow="36" CellERow="45" XmlSRow="25" XmlERow="34" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="6" Col="7" Calc="1" Rec_DependCol="6,21|6,29|6,31|6,33|6,22|6,23|6,24|6,25|6,26|6,38|6,39|6,40|6,41|"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="2," CellColRange="7," CellSRow="47" CellERow="48" XmlSRow="36" XmlERow="37" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="6" Col="7" Calc="1" Rec_DependCol="6,21|6,29|6,31|6,33|6,22|6,23|6,24|6,25|6,26|6,38|6,39|6,40|6,41|"/>
+		<!--
+        <Records AreaCode="13,62,63" HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="4," CellColRange="11," CellSRow="11" CellERow="34" XmlSRow="0" XmlERow="23" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="9" Col="11" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|"/>
+        -->
+		<!--折成2条，主要是16栏，会根据11和12栏计算，这样不对-->
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="4," CellColRange="11," CellSRow="11" CellERow="25" XmlSRow="0" XmlERow="14" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="9" Col="11" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|"/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="4," CellColRange="11," CellSRow="27" CellERow="34" XmlSRow="16" XmlERow="23" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="9" Col="11" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|"/>
+
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="4," CellColRange="11," CellSRow="35" CellERow="35" XmlSRow="24" XmlERow="24" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="9" Col="11" Calc="0" Rec_DependCol=""/>
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="4," CellColRange="11," CellSRow="36" CellERow="48" XmlSRow="25" XmlERow="37" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" LjsCol="9" Col="11" Calc="1" Rec_DependCol="9,21|9,29|9,31|9,33|9,22|9,24|9,26|9,38|9,40|9,41|"/>
+		<!--这一条和上面的重复了-->
+		<!--Records AreaCode="13,62,63" HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="3," CellColRange="9," CellSRow="35" CellERow="35" XmlSRow="31" XmlERow="31" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new" />
+        <Records AreaCode="13,62,63" HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="1," CellColRange="6," CellSRow="46" CellERow="46" XmlSRow="37" XmlERow="37" DataType="DT_Num" WriteZero="0" NotDealYF=""  OpenMode="new" /-->
+		<!--
+        3：本月的30栏2个数之和，需要和上月的34栏2个数之和做比较，如果不一致，要有提示但是可以不管该提示，继续保存；，提示信息如下：
+        主表30栏数据建议您填写上个月的应纳税额[?]，按确定填写，按取消不填写保存报表！
+        以下几种情况，不校验此要求
+        1）：无法取到上月34栏应补退税额；
+        2）：上月应补退税额为负数；
+        3）：会计年月为1月；
+        -->
+		<Records HeadName="SB_NSSBB.SB_NSSBB_MXXX." NodeRange="1,3," CellColRange="0,2," CellSRow="56" CellERow="56" XmlSRow="33" XmlERow="33" DataType="DT_Num" WriteZero="0" NotDealYF="1,"  OpenMode="new,edit" />
+	</BodyFromPreData>
+	<SaveCheckData XmlFile="'507','503','506','003','081','031','002'">
+		<!--
+		2：30栏，本期缴纳上期应纳税额，必须大于等于0；如不符合，不能保存报表[一般和即征即退都需要符合]，并出现如下提示：
+		30栏 本期缴纳上期应纳税额必须大于等于零！
+		-->
+		<Records Count="4" A1="6,40" A2="7,40" A3="9,40" A4="11,40"  Formula="(A1&lt;0)or(A2&lt;0)or(A3&lt;0)or(A4&lt;0)" Range="true" Emsg="30栏 本期缴纳上期应纳税额必须大于等于零！"/>
+		<!--<Records AreaCode="4403" Count="2" A1="6,24" A2="WSXXS.[ZBJXZCFSSHBZ]" Formula="(A1&lt;0) and (&quot;A2&quot;=&quot;N&quot;)" Range="true" Emsg="请确认14栏“进项税额转出”第1列数据填写是否正确，出现负数填报的请填写情况说明（进项转出为负数的具体原因），并到主管税务机关经审核后申报!"/>-->
+		<!--<Records AreaCode="4403" Count="2" A1="9,24" A2="WSXXS.[ZBJXZCFSSHBZ]" Formula="(A1&lt;0) and (&quot;A2&quot;=&quot;N&quot;)" Range="true" Emsg="请确认14栏“进项税额转出”第3列数据填写是否正确，出现负数填报的请填写情况说明（进项转出为负数的具体原因），并到主管税务机关经审核后申报!"/>-->
+		<!--
+		当本期减征额小于或等于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和时，按本期减征额实际填写；当然，必须A1+A2>0
+		当本期减征额大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和时，按本期第19栏与第21栏之和填写。
+		-->
+		<Records AreaCode="13,36,62,4403,63,65" Count="3" A1="6,29" A2="6,31" A3="6,33" Formula="(A1+A2&gt;0) and (A1+A2&lt;A3)" Range="true" Emsg="23栏一般货物及劳务和应税服务应纳税额减征额本月数不能大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和！"/>
+		<Records AreaCode="13,36,62,4403,63,65" Count="3" A1="9,29" A2="9,31" A3="9,33" Formula="(A1+A2&gt;0) and (A1+A2&lt;A3)" Range="true" Emsg="23即征即退货物及劳务和应税服务栏应纳税额减征额本月数不能大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和！"/>
+		<!--<Records AreaCode="61" Count="3" A1="6,29" A2="6,31" A3="6,33" Formula="(A1+A2&lt;A3)" Range="true" Emsg="23栏一般货物及劳务和应税服务应纳税额减征额本月数不能大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和！"/>-->
+		<!--<Records AreaCode="61" Count="3" A1="9,29" A2="9,31" A3="9,33" Formula="(A1+A2&lt;A3)" Range="true" Emsg="23即征即退货物及劳务和应税服务栏应纳税额减征额本月数不能大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和！"/>-->
+		<!--主表2301大于等于附表4 增值税税控系统专用设备费及技术维护费本期实际抵减税额。-->
+		<!--当一般货物及劳务本月数的19栏+21栏-23栏<0，则提示用户不能网上申报-->
+		<!--<Records AreaCode="4403" Count="3" A1="6,29" A2="6,31" A3="6,33" Formula="(A1+(A2)-(A3)&lt;0)" Range="true" Emsg="您所填写的第23栏“应纳税额减征额”大于第19栏“应纳税额”与第21栏“简易征收办法计算的应纳税额”之和，请到税局前台申报！" />-->
+		<!--当即征即退本月数的19栏+21栏-23栏<0，则提示用户不能网上申报-->
+		<!--<Records AreaCode="4403" Count="3" A1="9,29" A2="9,31" A3="9,33" Formula="(A1+(A2)-(A3)&lt;0)" Range="true" Emsg="您所填写的即征即退第23栏“应纳税额减征额”大于即征即退第19栏“应纳税额”与即征即退第21栏“简易征收办法计算的应纳税额”之和，请到税局前台申报！" />-->
+		<!--<Records AreaCode="4403" Count="3" A1="WSXXS.[DEKZ_YNSJZE]" A2="6,31" A3="6,33" Formula="(A3-(A2/2)&gt;A1)" Range="true" Emsg="您所填写的第23栏“应纳税额减征额”减（第21栏“简易征收办法计算的应纳税额”÷2）大于税务局核定控制[A1]，请到税局前台申报！"/>-->
+		<!--河北28栏增加校验1+3列不能大于核定的分次预缴税额-->
+		<!--河北29栏小于等于核定-->
+		<Records Count="2" A1="WSXXS.[CKKJZYJKSYJSE]" A2="6,39" Formula="(round(A1,2)&lt;round(A2,2))" Range="true" Emsg="您所填写的第29栏“出口开具专用缴款书预缴税额”不能大于核定值[A1]！" ignore="1"/>
+
+		<Records AreaCode="4403" Count="4" A1="6,38" A2="9,38" A3="6,34" A4="9,34" Formula="(A1&gt;A3) or (A2&gt;A4)" Range="true" Emsg="主表第28栏“分次预缴税额”应小于等于第24栏应纳税额合计。"/>
+		<!--必须大于附表4 的分支机构预征缴纳税款本期实际抵减税额(新疆)-->
+		<!--<Records AreaCode="4403" Count="1" A1="6,25" Formula="(A1&lt;0)" Range="true" Emsg="您填写的主表15栏数值小于0，请到主管税务机关前台申报!"/>-->
+		<!--如果主表第16栏按适用税率计算的纳税检查应补缴税额第1列数值不等于0，则主表第4栏纳税检查调整的销售额第1列必须大于等于主表第16栏按适用税率计算的纳税检查应补缴税额第1列数值。-->
+		<!--<Records AreaCode="4403" Count="2" A1="6,26" A2="6,14" Formula="(A1&lt;&gt;0.00) and (A2&lt;A1)" Range="true" Emsg="主表第16栏按适用税率计算的纳税检查应补缴税额本月数不为0，请补全主表第4栏纳税检查调整的销售额本月数！"/>-->
+		<!--如果主表第22栏按适用税率计算的纳税检查应补缴税额第1列数值不等于0，则主表第6栏纳税检查调整的销售额第1列必须大于等于主表第22栏按适用税率计算的纳税检查应补缴税额第1列数值-->
+		<!--<Records AreaCode="4403" Count="2" A1="6,32" A2="6,16" Formula="(A1&lt;&gt;0.00) and (A2&lt;A1)" Range="true" Emsg="主表第22栏按适用税率计算的纳税检查应补缴税额本月数不为0，请补全主表第6栏纳税检查调整的销售额本月数！"/>-->
+
+		<Records Count="2" A1="WSXXS.[YBJSQCWJSEBYS]" A2="6,35" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="主表第25栏一般项目期初未缴税额（多缴为负数）本月数【A2】不等于核定值【A1】！"/>
+		<Records Count="2" A1="WSXXS.[JZJTQCWJSEBYS]" A2="9,35" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="主表第25栏即征即退项目期初未缴税额（多缴为负数）本月数【A2】不等于核定值【A1】！"/>
+		<!--15行，河北取核定的MDTYTSEBYS节点-->
+		<Records AreaCode="13,36,61,62,63," Count="2" A1="WSXXS.[MDTYTSEBYS]" A2="6,25" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="主表第15栏一般项目免、抵、退应退税额本月数【A2】不等于核定值【A1】！"/>
+	</SaveCheckData>
+	<!--
+	校验
+	统一修改，特殊企业和出口企业等也需要校验了
+	-->
+	<DoShowMessage XmlFile = "'002','003','006','506','507','073','031',">
+		<!--当主表第25栏期初未缴税额本期数（注：第1/3列之和）大于0时，而第30栏本期缴纳上期应纳税额为0-->
+		<Records AreaCode="36,61,62,63,4403," Count="4" A1="6,35" A2="9,35" A3="6,40" A4="9,40" Conditions="(A1+A2&gt;0.00) and (A3+A4=0.00)" ActionTime="save" ErrMsg="您当前存在期初未缴税额，请核实是否填写第30栏本期缴纳上期应纳税额！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,11" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第1栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,12" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第2栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,13" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第3栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,14" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第4栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,15" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第5栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,16" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第6栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,21" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第11栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,22" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第12栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,23" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第13栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,24" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第14栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,27" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第17栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,28" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第18栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,29" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第19栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,30" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第20栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,31" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第21栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,33" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第23栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,34" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第24栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,37" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第27栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,38" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第28栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,40" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第30栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,41" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第31栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,42" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第32栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,43" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第33栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,44" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第34栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<Records AreaCode="65," Count="1" A1="9,45" Conditions="(A1&lt;&gt;0.00)" ActionTime="save" ErrMsg="第35栏即征即退本月数填有非0.00数据，请确定您具有退税资格并认真核对后确认！" InfoMsg= ""/>
+		<!--<Records AreaCode="13" Count="4" A1="6,40" A2="9,40" A3="0,56" A4="2,56" Conditions="(A3&lt;&gt;&quot;&quot;)and(A4&lt;&gt;&quot;&quot;)and(A4+A3&gt;0)and(A4+A3&lt;&gt;A1+A2)" ActionTime="save" ErrMsg="请根据您上月申报情况，核实主表30栏数据。" InfoMsg= ""/>-->
+		<!--主表1201+主表1203=《附列资料（二）》第12栏“税额”；-->
+		<Records AreaCode="4403" Count="2" A1="6,25" A2="WSXXS.[MDTYTSEBYS]" Conditions="A1&lt;&gt;A2" ActionTime="save" ErrMsg="“第15行“免抵退货物应退税额”本月数与出口退税系统终审通过的数据合计【A2】不一致" InfoMsg= ""/>
+	    <!--add by liun-->
+		<Records Count="7" A1="9,11" A2="9,12" A3="9,13" A4="9,14" A5="9,15" A6="9,16" A7="WSXXS.[JZJTBZ]" A8="9,21" A9="9,22" A10="9,31"
+				 Conditions="(&quot;A7&quot;=&quot;Y&quot; and round(A1+A2+A3+A4+A5+A6+A8+A9+A10,2)=0)" ActionTime="save"
+				 ErrMsg="您是属于享受即征即退优惠政策纳税人，享受即征即退优惠政策的数据应填写申报表主表的“即征即退项目”栏,请核实即征即退栏次是否正确？" InfoMsg=""/>
+	    <!--add by liun-->
+	</DoShowMessage >
+
+	<SendCheckData XmlFile = "'002','001','003','006','030','052','053','054','055','056','059','060','061','033','503','506','507','081','031','801','082','083','085','409','073',">
+		<Records Count="2" A1="7,23" A2="7,30"  Formula="((round(A1,2)&lt;&gt;0) or (round(A2,2)&lt;&gt;0))" Range="true" Emsg="根据国家税务总局2016年第75号文，增值税（一般纳税人）主表一般项目列13栏本年累计及20栏本年累计只能为0，请检查！请重新下载核定->删除主表->重新填写主表->发送报表。"/>
+	</SendCheckData>
+
+	<!--<MustFill>
+		<Records AreaCode="4403" Describe="声明人" Col="12" Row="53" IDentifyCol="-1"/>
+	</MustFill>-->
+
+	<StatisticalData>
+		<Records Count="2" A1="6,44" A2="9,44"  Formula="A1+A2" ResultNodeName="YGNSE"/>
+		<Records Count="2" A1="6,35" A2="9,35"  Formula="A1+A2" ResultNodeName="ZDDJJE"/>
+	</StatisticalData>
+
+</XmlRWConfig>

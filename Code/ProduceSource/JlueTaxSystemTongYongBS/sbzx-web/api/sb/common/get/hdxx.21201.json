@@ -1,0 +1,174 @@
+﻿{
+    "message": null,
+    "value": {
+        "nsrsbh": "91130623MA08HWCK4R",
+        "kjny": "201811",
+        "qssj": "@@skssqq",
+        "jzsj": "@@skssqz",
+        "hbsj": "N",
+        "cajmbz": "N",
+        "sbzl": [
+            {
+                "sbzlcode": "21201",
+                "sbzlxlcode": "21201",
+                "ysbbbz": "N",
+                "sksssqZ": "@@skssqz",
+                "sksssqQ": "@@skssqq",
+                "sbzlmc": "城镇土地使用税",
+                "sbqj": "",
+                "nsqxdm": "08",
+                "qccgbz": "Y",
+                "qccgbzms": "",
+                "sbqx": "",
+                "zsxmbm": "10112",
+                "zsxmpy": "",
+                "zsxmmc": "城镇土地使用税",
+                "pdfversion": "",
+                "wsxxs": {
+                    "wsxx": [
+                        {
+                            "code": "nsrlx",
+                            "name": "纳税人类型",
+                            "value": "0"
+                        },
+                        {
+                            "code": "djzclxdm",
+                            "name": "纳税人类型",
+                            "value": "173"
+                        },
+                        {
+                            "code": "hydm",
+                            "name": "行业代码",
+                            "value": "5273"
+                        },
+                        {
+                            "code": "sfzjlxdm",
+                            "name": "身份证件类型",
+                            "value": "201"
+                        },
+                        {
+                            "code": "sfzjhm",
+                            "name": "身份证件号码",
+                            "value": "130623199207183818"
+                        },
+                        {
+                            "code": "lxdh",
+                            "name": "联系方式",
+                            "value": "15203228688"
+                        },
+                        {
+                            "code": "lxr",
+                            "name": "联系人",
+                            "value": "闫贺鹏"
+                        },
+                        {
+                            "code": "yjse",
+                            "name": "预缴税额",
+                            "value": "0.00"
+                        }
+                    ]
+                },
+                "zspms": {
+                    "zspmList": [
+                    ]
+                },
+                "lsxxs": {
+                    "lsxx": [
+                    ]
+                },
+                "sbbs": {
+                    "sbb": [
+                        "001",
+                        "002"
+                    ]
+                },
+                "jmxx": [
+                ],
+                "ssdc": null,
+                "yyssecsxx": null,
+                "nsrgrtsxx": null,
+                "mdktzs": null,
+                "hzsbxx": null,
+                "kshztlZzskfpdjbsVo": null,
+                "ncpxx": null,
+                "fzjgxx": null,
+                "dsdjmx": null,
+                "zzsjmxxbs": null,
+                "djxxs": null,
+                "fzjgsdsfpb": null,
+                "dkdjgrid": null,
+                "dqdefyhzGrid": null,
+                "cjjzsymxbGrid": null,
+                "czjzsymxbGrid": null,
+                "fcsjmxxGrid": null,
+                "nsrxxform": null,
+                "cpmcs": null,
+                "qysdshdjgs": {
+                    "qysdshdjg": [
+                    ]
+                },
+                "fjmkjsds": {
+                    "fjmkjsdsGrid": [
+                    ]
+                },
+                "skfpswsxtzs": null,
+                "ycdkpzswsxtzs": null,
+                "xkzzszyfpswsxtzs": null,
+                "ssyhmx": [
+                ],
+                "skxxgrid": null,
+                "tdzzsxmxxgrid": null,
+                "clsymxGrid": null,
+                "cbsymxGrid": null,
+                "zysxxGrid": null,
+                "dqyjskxxGrid": {
+                    "cztdsysZbxxGridlb": [
+                        {
+                            "tdsybh": "T13062320170001132",
+                            "dh1": "",
+                            "tddjdm": "302",
+                            "tddjmc": "二级土地",
+                            "skssqq": "2018-10-01",
+                            "skssqz": "2018-12-31",
+                            "jsyj": "133.33",
+                            "sl1": "1.5",
+                            "ynse": "50.00",
+                            "jmse": "0.00",
+                            "yjse": "0.00",
+                            "ybtse": "50.00"
+                        }
+                    ],
+                    "cztdsysJmxxGridlb": [
+                    ],
+                    "cztdsysMxxxGridlb": [
+                    ]
+                },
+                "sbxxGrid": null,
+                "yjxxGrid": null,
+                "dqwrGrid": null,
+                "dqdeGrSdsQcVO": null,
+                "sbcxsfcjyjbxxGrid": null,
+                "swrGrid": null,
+                "gfwrGrid": null,
+                "zswrGrid": null,
+                "dqswrpwxxGrid": null,
+                "sb030QssbSyxxVO": null,
+                "resbxxGrid": null,
+                "yqtGrid": null,
+                "zlfSkxxGrid": null,
+                "sbsbxxGrid": null,
+                "yqtfpGrid": null,
+                "gdsBz": "2",
+                "csbzspms": null
+            }
+        ],
+        "nsrs": null,
+        "jyhdbz": ""
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {
+    },
+    "msgParams": null,
+    "jylsh": "0a1f87de9d0b487798b37db5d9a4f726"
+}

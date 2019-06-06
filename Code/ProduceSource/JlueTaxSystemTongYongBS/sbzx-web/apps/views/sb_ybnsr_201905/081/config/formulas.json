@@ -1,0 +1,31 @@
+{
+  "081": [
+    "G22 = round(E22-F22,2)",
+    "I9 = round(G9-H9,2)",
+    "G9 = round(E9+F9,2)",
+    "G21 = round(E21-F21,2)",
+    "I8 = round(G8-H8,2)",
+    "G8 = round(E8+F8,2)",
+    "G25 = round(E25-F25,2)",
+    "I12 = round(G12-H12,2)",
+    "G12 = round(E12+F12,2)",
+    "E16 = round(sum3d(E19:E25)+E17,2)",
+    "G16 = round(sum3d(G19:G25),2)",
+    "F16 = round(sum3d(F19:F25),2)",
+    "H16 = round(sum3d(H19:H25),2)",
+    "I16 = round(sum3d(I19:I25),2)",
+    "G20 = round(E20-F20,2)",
+    "I7 = round(G7-H7,2)",
+    "G7 = round(E7+F7,2)",
+    "E7 = round(sum3d(E8:E12),2)",
+    "F7 = round(sum3d(F8:F12),2)",
+    "H7 = round(sum3d(H8:H12),2)",
+    "G24 = round(E24-F24,2)",
+    "I11 = round(G11-H11,2)",
+    "G11 = round(E11+F11,2)",
+    "G19 = round(E19-F19,2)",
+    "G23 = round(E23-F23,2)",
+    "I10 = round(G10-H10,2)",
+    "G10 = round(E10+F10,2)"
+  ]
+}

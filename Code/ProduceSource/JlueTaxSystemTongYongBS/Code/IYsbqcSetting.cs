@@ -25,27 +25,27 @@ namespace JlueTaxSystemTongYongBS.Code
         /// </summary>
         string FunctionNotOpen { get; set; }
 
-        List<GDTXTongYongUserYSBQC> getUserYSBQC();
+        List<GDTXUserYSBQC> getUserYSBQC();
 
-        GDTXTongYongUserYSBQC getUserYSBQC(Type controller);
+        GDTXUserYSBQC getUserYSBQC(Type controller);
 
-        GDTXTongYongUserYSBQC getUserYSBQC(string dm);
+        GDTXUserYSBQC getUserYSBQC(string dm);
 
         /// <summary>
         /// 获取已申报的清册
         /// </summary>
         /// <returns></returns>
-        List<GDTXTongYongUserYSBQC> getYsbUserYSBQC();
+        List<GDTXUserYSBQC> getYsbUserYSBQC();
 
         /// <summary>
         /// 获取未申报的清册
         /// </summary>
         /// <returns></returns>
-        List<GDTXTongYongUserYSBQC> getWsbUserYSBQC();
+        List<GDTXUserYSBQC> getWsbUserYSBQC();
 
         GTXResult saveUserYSBQCReportData(JToken json, string userYsbqcId, string reportCode, string dataKey = "data");
 
-        GTXResult saveUserYSBQCReportData(string strJson, string userYsbqcId, string reportCode, string dataKey = "data");
+        GTXResult saveUserYSBQCListReportData(JToken json, string userYsbqcId, string reportCode, string dataKey = "data");
 
         string getUserYSBQCReportData_String(int id, string reportCode, string dataKey = "data");
 

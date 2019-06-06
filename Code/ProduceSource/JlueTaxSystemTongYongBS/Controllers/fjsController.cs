@@ -20,7 +20,7 @@ namespace JlueTaxSystemTongYongBS.Controllers
 
         GDTXDate date { get; set; }
 
-        GDTXTongYongUserYSBQC qc { get; set; }
+        GDTXUserYSBQC qc { get; set; }
 
         public fjsController(IYsbqcSetting _is)
         {

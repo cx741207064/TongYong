@@ -1,0 +1,83 @@
+<XmlRWConfig>
+	<Head>
+		<Records NodeName="SB_FLZL4.SB_FLZL4_BTXX.SB_FLZL4_QSRQ." Col="2" Row="2" HeadStr="" DataType="税款所属时期 月报"/>
+		<Records NodeName="SB_FLZL4.SB_FLZL4_BTXX.SB_FLZL4_NSRSBH." Col="2" Row="3" HeadStr="" DataType="纳税人识别号"/>
+		<Records NodeName="SB_FLZL4.SB_FLZL4_BTXX.SB_FLZL4_NSRMC." Col="2" Row="4" HeadStr="" DataType="纳税人名称"/>
+		<Records AreaCode="4403" NodeName="SB_FLZL4.SB_FLZL4_BTXX.SB_FLZL4_IMAGE." Col="1" Row="0" HeadStr="" DataType="LOADIMAGE" ImageSrc="Image\WSSB.jpg" />
+	</Head>
+	<Body>
+		<Records HeadName="SB_FLZL4.SB_FLZL4_MXXX." NodeRange="1," CellColRange="2," CellSRow="8" CellERow="12" XmlSRow="0" XmlERow="4" DataType="DT_String" WriteZero="0" IDentifyCol="-1"/>
+		<Records HeadName="SB_FLZL4.SB_FLZL4_MXXX." NodeRange="2,3,4,5,6," CellColRange="3,4,6,8,10," CellSRow="8" CellERow="12" XmlSRow="0" XmlERow="4" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>
+		<!--<Records AreaCode="4403" HeadName="SB_FLZL4.SB_FLZL4_MXXX." NodeRange="1," CellColRange="2," CellSRow="10" CellERow="11" XmlSRow="2" XmlERow="3" DataType="DT_String" WriteZero="0" IDentifyCol="-1"/>
+		<Records AreaCode="4403" HeadName="SB_FLZL4.SB_FLZL4_MXXX." NodeRange="3," CellColRange="4," CellSRow="10" CellERow="11" XmlSRow="2" XmlERow="3" DataType="DT_Num" WriteZero="1" IDentifyCol="-1"/>-->
+	</Body>
+	<AutoFill XmlFile="'504','501',">
+		<Records Col="3" Row="8" Count="1" A1="WSXXS.[FB4JZEQCYE]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+		<Records Col="3" Row="9" Count="3" A1="WSXXS.[FB4FZJGYJQCYE]" A2="WSXXS.[ZGLXDM]" A3="WSXXS.[YBNSRZFJGBZ]" Formula="round(A1,2)" Conditions="((A2=543) and (A3=1))" OpenMode="new"  ignore="1"/>
+		<Records Col="3" Row="10" Count="1" A1="WSXXS.[FB4JZFWYJQCYE]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+		<Records Col="3" Row="11" Count="1" A1="WSXXS.[FB4XSBDCYJQCYE]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+		<Records Col="3" Row="12" Count="1" A1="WSXXS.[FB4CZBDCYJQCYE]"  Formula="round(A1,2)" Conditions="" OpenMode="new"/>
+		<!--
+		<Records AreaCode="65" Col="3" Row="9" Count="2" A1="WSXXS.[FB4FZJGYJQCYE]" A2="WSXXS.[YBNSRHZJNZG]" Formula="round(A1,2)" Conditions="A2=0" OpenMode="new"/>
+		-->
+		<!--<Records AreaCode="4403" Col="3" Row="9" Count="1" A1="WSXXS.[FB4FZJGYJQCYE]" Formula="round(A1,2)" Conditions="" OpenMode="new"/>-->
+		<!--modify by cmb 20150410 下面2条，金三下，取不到值，所以有错误发生的话，略过-->
+		<Records Col="4" Row="8" Count="1" A1="WSXXS.[FB4JZEBQFSE]"  Formula="round(A1,2)" Conditions="" OpenMode="new" ignore="1"/>
+		<!--
+		<Records AreaCode="13,65,62,63" Col="4" Row="9" Count="2" A1="WSXXS.[FZJGCDDYJNSEHZ]" A2="WSXXS.[YBNSRHZJNZG]"  Formula="round(A1,2)" Conditions="A2=0" OpenMode="new"  ignore="1"/>
+		-->
+		<!--
+		<Records AreaCode="65" Col="4" Row="9" Count="2" A1="WSXXS.[FZJGCDDYJNSEHZ]" A2="WSXXS.[YBNSRHZJNZG]"  Formula="round(A1,2)" Conditions="A2=0" OpenMode="new"  ignore="1"/>
+	-->
+		<!--<Records AreaCode="4403" Col="4" Row="8" Count="2" A1="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_ZYSBFYNSJZE." A2="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_JSFWFYNSJZE." Formula="round(A1+A2,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="4403" Col="4" Row="9" Count="1" A1="504.xml|SB_FBFZJGCDD.SB_FBFZJGCDD_HJXX.SB_FBFZJGCDD_YJNZZSE."  Formula="round(A1,2)" Conditions="" OpenMode="new"/>-->
+		<!--<Records AreaCode="4403" Col="4" Row="10" Count="1" A1="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_GDZCYNSJZE."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+		<Records AreaCode="4403" Col="4" Row="11" Count="1" A1="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_JHYNSJZE."  Formula="round(A1,2)" Conditions="" OpenMode="new,edit"/>
+    -->
+	</AutoFill>
+	<DynamicSetCellReadOnly>
+		<!--cmb 有可能第2列取不到值，此时不能设置只读
+		<Records AreaCode="13,62,63" Count="0" CellColRange="3,4," CellSRow="8" CellERow="8" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+		<Records AreaCode="4403" Count="0" CellColRange="3," CellSRow="8" CellERow="9" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+		<Records AreaCode="13,62,63" Count="1" A1="WSXXS.[YBNSRHZJNZG]" CellColRange="3,4,8," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="A1&lt;&gt;0" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+		-->
+		<Records Count="0" CellColRange="3," CellSRow="8" CellERow="8" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>
+		<Records Count="1" A1="WSXXS.[FB4JZEBQFSE]" CellColRange="4," CellSRow="8" CellERow="8" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode="" ignore="1"/>
+		<!--<Records AreaCode="4403" Count="0" CellColRange="3," CellSRow="8" CellERow="9" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode=""/>-->
+		<!--
+		<Records AreaCode="13,65,62,63" Count="1" A1="WSXXS.[YBNSRHZJNZG]" CellColRange="3,4,8," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="A1&lt;&gt;0" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+		-->
+		<!--
+		<Records AreaCode="65" Count="1" A1="WSXXS.[YBNSRHZJNZG]" CellColRange="3,4,8," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="A1&lt;&gt;0" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode=""/>
+-->
+		<Records Count="0" CellColRange="3," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="" ReadOnly="1" ClearCell="0" CellColIsNull="0" OpenMode="" ignore="1"/>
+		<Records Count="2" A1="WSXXS.[ZGLXDM]" A2="WSXXS.[YBNSRZFJGBZ]" CellColRange="4,8," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="not ((A1=543) and (A2=1))" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode="" ignore="1"/>
+		<!--直接不只读
+		<Records AreaCode="13,62,63" Count="2" A1="WSXXS.[YBNSRHZJNZG]" A2="WSXXS.[FB4JZEBQFSE]" CellColRange="4," CellSRow="9" CellERow="9" DataType="DT_Num" Conditions="A1&lt;&gt;0" ReadOnly="1" ClearCell="1" CellColIsNull="0" OpenMode="" ignore="1"/>	
+		-->
+	</DynamicSetCellReadOnly>
+	<SaveCheckData XmlFile="'504',">
+		<Records Count="2" A1="6,8" A2="8,8" Formula="(A1&lt;A2)" Range="true" Emsg="第1行，第4列[A2]必须小于等于第3列[A1]。"/>
+		<Records Count="2" A1="6,9" A2="8,9" Formula="(A1&lt;A2)" Range="true" Emsg="第2行，第4列[A2]必须小于等于第3列[A1]。"/>
+		<Records Count="2" A1="6,10" A2="8,10" Formula="(A1&lt;A2)" Range="true" Emsg="第3行，第4列[A2]必须小于等于第3列[A1]。"/>
+		<Records Count="2" A1="6,11" A2="8,11" Formula="(A1&lt;A2)" Range="true" Emsg="第4行，第4列[A2]必须小于等于第3列[A1]。"/>
+		<Records Count="2" A1="6,12" A2="8,12" Formula="(A1&lt;A2)" Range="true" Emsg="第5行，第4列[A2]必须小于等于第3列[A1]。"/>
+
+		<!--<Records AreaCode="4403" Count="1" A1="8,8" Formula="(A1&lt;0)" Range="true" Emsg="第1行，第4列必须大于0。"/>
+		<Records AreaCode="4403" Count="1" A1="8,9" Formula="(A1&lt;0)" Range="true" Emsg="第2行，第4列必须大于0。"/>		
+		<Records AreaCode="4403" Count="1" A1="8,10" Formula="(A1&lt;0)" Range="true" Emsg="第3行，第4列必须大于0。"/>
+		<Records AreaCode="4403" Count="1" A1="8,11" Formula="(A1&lt;0)" Range="true" Emsg="第4行，第4列必须大于0。"/>	
+		<Records AreaCode="4403" Count="1" A1="8,12" Formula="(A1&lt;0)" Range="true" Emsg="第5行，第4列必须大于0。"/>-->
+
+		<!--<Records AreaCode="4403" Count="3" A1="4,8" A2="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_ZYSBFYNSJZE." A3="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_JSFWFYNSJZE." Formula="(A1&lt;&gt;A2+A3)" Range="true" Emsg="第1行，第2列[A1]必须等于本期应纳税减征额清单表专用设备费和技术服务费减征额之和[A2+A3]。"/>
+		<Records AreaCode="4403" Count="2" A1="4,9" A2="504.xml|SB_FBFZJGCDD.SB_FBFZJGCDD_HJXX.SB_FBFZJGCDD_YJNZZSE." Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第2行，第2列[A1]必须等于总机构接收或录入分支机构传递单同所属时期的已缴纳增值税合计额[A2]。"/>-->
+		<!--<Records AreaCode="4403" Count="2" A1="4,10" A2="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_GDZCYNSJZE." Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第3行，第2列[A1]必须等于本期应纳税减征额清单表固定资产减征额[A2]。"/>
+		<Records AreaCode="4403" Count="2" A1="4,11" A2="501.xml|SB_BQYNSJZEMXB.SB_BQYNSJZEMXB_BTXX.SB_BQYNSJZEMXB_JHYNSJZE." Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第4行，第2列[A1]必须等于本期应纳税减征额清单表旧货减征额[A2]。"/>
+		-->
+		<!--
+		<Records AreaCode="65" Count="1" A1="8,8" Formula="(A1&lt;0)" Range="true" Emsg="第1行本期实际抵减税额不能小于零。"/>
+		-->
+		<Records Count="2" A1="WSXXS.[FB4JZEQCYE]" A2="3,8" Formula="(A1&lt;&gt;A2)" Range="true" Emsg="第1行期初余额[A2]必须等于核定值[A1]。"/>
+		<Records Count="4" A1="WSXXS.[FB4FZJGYJQCYE]" A2="WSXXS.[ZGLXDM]" A3="WSXXS.[YBNSRZFJGBZ]" A4="3,9" Formula="((A2=543) and (A3=1)) and (A1&lt;&gt;A4)" Range="true" Emsg="第2行期初余额A4必须等于核定值A1。"  ignore="1"/>
+	</SaveCheckData >
+</XmlRWConfig>

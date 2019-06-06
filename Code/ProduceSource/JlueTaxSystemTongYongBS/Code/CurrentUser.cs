@@ -29,6 +29,10 @@ namespace JlueTaxSystemTongYongBS.Code
         {
             get { return System.Web.HttpContext.Current.Session["reportCode"].ToString(); }
         }
+        public string GetTypeName
+        {
+            get { return System.Web.HttpContext.Current.Session["Name"].ToString(); }
+        }
         /// <summary>
         /// 获取当前用户id
         /// </summary>

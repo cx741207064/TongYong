@@ -842,7 +842,7 @@ sbcommon.sbtj_normal = function (request) {
  * */
 sbcommon.sbtj_year = function (request) {
     // return true;//用于本地测试
-    var url = '/sbzx-web/api/sb/common/submit/sbcl/zlk';
+    var url = '/sbzx-web/api/sb/common/submit/sbcll/zlk';
     return Api.getIfSuccess(url, request);
 };
 /**
@@ -927,6 +927,7 @@ sbcommon.getPreviewListData = function (request) {
  * */
 sbcommon.updateListData = function (request) {
     // return true;//用于本地测试
+    return false;
     var url = '/sbzx-web/api/sb/common/updaterules';
     return Api.getIfSuccess(url, request);
 };
@@ -1004,6 +1005,24 @@ sbcommon.sbtj_batch = function (request) {
 sbcommon.ycsCheck = function (request) {
     var url = '/sbzx-web/api/sb/sbbd/zzsbd';
     return Api.getData(url, request);
+};
+/**
+ * 判断redis中是否存在缓存
+ * @param request
+ * @returns {*|Object}
+ */
+sbcommon.hasCache = function (request) {
+    var url = '/sbzx-web/api/sb/common/hdxx/canBeRemove';
+    return Api.getData(url, request, 'post', false);
+};
+/**
+ * 清除redis缓存
+ * @param request
+ * @returns {*|boolean}
+ */
+sbcommon.redisRefresh = function (request) {
+    var url = '/sbzx-web/api/sb/common/remove/hdxx';
+    return Api.getIfSuccess(url, request);
 };
 /**
  * Created by chenjunj on 2018/9/9 20:43.
@@ -1214,7 +1233,7 @@ var Api = {
         return result;
     },
     getDsNsrxxVo: function () {
-        return this.getData('/sbzx-web/api/base/dsnsrxx/get', {});
+        return this.getData('/sbzx-web/api/sb/common/dsnsrxx/get', {});
     }
 };
 

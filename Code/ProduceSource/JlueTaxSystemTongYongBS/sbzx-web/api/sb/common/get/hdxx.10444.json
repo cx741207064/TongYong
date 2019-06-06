@@ -1,0 +1,156 @@
+﻿{
+    "message": null,
+    "value": {
+        "nsrsbh": "91130623MA08324CXA",
+        "kjny": "201809",
+        "qssj": "@@skssqq",
+        "jzsj": "@@skssqz",
+        "hbsj": "N",
+        "cajmbz": "N",
+        "sbzl": [
+            {
+                "sbzlcode": "10419",
+                "sbzlxlcode": "10444",
+                "ysbbbz": "N",
+                "sksssqZ": "@@skssqz",
+                "sksssqQ": "@@skssqq",
+                "sbzlmc": "企业所得税B类季报",
+                "sbqj": "2",
+                "nsqxdm": "08",
+                "qccgbz": "Y",
+                "qccgbzms": "",
+                "sbqx": "2018-10-24",
+                "zsxmbm": "10104",
+                "zsxmpy": "",
+                "zsxmmc": "企业所得税B类季报",
+                "pdfversion": "",
+                "wsxxs": {
+                    "wsxx": [
+                        {
+                            "code": "DJRQ",
+                            "name": "登记日期",
+                            "value": "2017-01-06"
+                        },
+                        {
+                            "code": "BQYJ",
+                            "name": "本期预缴",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "YJZE",
+                            "name": "预缴总额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "YSSDL",
+                            "name": "核定应税所得率",
+                            "value": "0.04"
+                        },
+                        {
+                            "code": "XWJMMAXVALUE",
+                            "name": "小微减免最大值",
+                            "value": "1000000"
+                        },
+                        {
+                            "code": "HDZSFS",
+                            "name": "核定征收方式",
+                            "value": "2"
+                        },
+                        {
+                            "code": "HDYNSE",
+                            "name": "税务机关核定应纳税额",
+                            "value": "0.0"
+                        },
+                        {
+                            "code": "XXWLBZ_CQ",
+                            "name": "小型微利企业标志_重庆",
+                            "value": "1"
+                        },
+                        {
+                            "code": "XXWLBZ",
+                            "name": "小型微利企业标志",
+                            "value": "1"
+                        }
+                    ]
+                },
+                "zspms": {
+                    "zspmList": [
+                    ]
+                },
+                "lsxxs": {
+                    "lsxx": [
+                    ]
+                },
+                "sbbs": {
+                    "sbb": [
+                        "001",
+                        "002"
+                    ]
+                },
+                "jmxx": [
+                ],
+                "ssdc": null,
+                "yyssecsxx": null,
+                "nsrgrtsxx": null,
+                "mdktzs": null,
+                "hzsbxx": null,
+                "kshztlZzskfpdjbsVo": null,
+                "ncpxx": null,
+                "fzjgxx": null,
+                "dsdjmx": null,
+                "zzsjmxxbs": null,
+                "djxxs": null,
+                "fzjgsdsfpb": null,
+                "dkdjgrid": null,
+                "dqdefyhzGrid": null,
+                "cjjzsymxbGrid": null,
+                "czjzsymxbGrid": null,
+                "fcsjmxxGrid": null,
+                "nsrxxform": null,
+                "cpmcs": null,
+                "qysdshdjgs": {
+                    "qysdshdjg": [
+                    ]
+                },
+                "fjmkjsds": {
+                    "fjmkjsdsGrid": [
+                    ]
+                },
+                "skfpswsxtzs": null,
+                "ycdkpzswsxtzs": null,
+                "ssyhmx": [
+                ],
+                "skxxgrid": null,
+                "tdzzsxmxxgrid": null,
+                "clsymxGrid": null,
+                "cbsymxGrid": null,
+                "zysxxGrid": null,
+                "dqyjskxxGrid": null,
+                "sbxxGrid": null,
+                "yjxxGrid": null,
+                "dqwrGrid": null,
+                "dqdeGrSdsQcVO": null,
+                "sbcxsfcjyjbxxGrid": null,
+                "swrGrid": null,
+                "gfwrGrid": null,
+                "zswrGrid": null,
+                "dqswrpwxxGrid": null,
+                "sb030QssbSyxxVO": null,
+                "resbxxGrid": null,
+                "yqtGrid": null,
+                "zlfSkxxGrid": null,
+                "yqtfpGrid": null,
+                "gdsBz": "1",
+                "csbzspms": null
+            }
+        ],
+        "nsrs": null,
+        "jyhdbz": ""
+    },
+    "success": true,
+    "msgCode": null,
+    "resultMap": {
+    },
+    "msgParams": null,
+    "jylsh": "38060a5f06124b0ebf533c1b4cb7e5ce"
+}

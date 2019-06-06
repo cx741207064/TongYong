@@ -1,0 +1,17 @@
+﻿<XmlRWConfig>
+  <SaveCheckData>
+    <Records Count="2" A1="5,6" A2="5,7" Formula="A1&lt;A2" Range="true" Emsg="不征税收入必须小于等于收入总额！"/>
+    <Records Count="2" A1="WSXXS.[HDZSFS]" A3="5,17" A4="3,23" A7="WSXXS.[XWJMMAXVALUE]"
+             Formula="(A1=2 or A1=3) and (A3&lt;A7) and (&quot;A4&quot;=&quot;N&quot;)"
+             Range="true" Emsg="尊敬的纳税人，您符合小型微利条件，小型微利企业必须选择为是，请核实！"/>
+    <Records Count="2" A1="WSXXS.[HDZSFS]" A3="5,17" A4="3,23" A7="WSXXS.[XWJMMAXVALUE]"
+             Formula="(A1=2 or A1=3) and (A3&gt;A7) and (&quot;A4&quot;=&quot;Y&quot;)"
+             Range="true" Emsg="尊敬的纳税人，本期第12行累计金额超过【A7】，小型微利企业必须选择为否，请核实！"/>
+    <Records Count="2" A1="WSXXS.[HDZSFS]" A3="5,22" A4="3,23" A7="WSXXS.[XWJMMAXVALUE]" A8="1,0"
+             Formula="(A1=1) and (A3&gt;A7/40) and (&quot;A4&quot;=&quot;Y&quot;)"
+             Range="true" Emsg="尊敬的纳税人，第17栏“税务机关核定本期应纳所得税额”大于【A8】，小型微利企业必须选择为否，请核实！"/>
+    <Records Count="2" A1="WSXXS.[BQYJ]" A2="5,21" A3="WSXXS.[HDZSFS]" Formula="(A2&lt;A1) and (A3&lt;&gt;1)" Range="true" Emsg="您录入的本期预缴税款不能小于系统已记录的已缴税额[A1]"/>
+    <Records Count="2" A1="WSXXS.[YJZE]" A2="5,21" A3="WSXXS.[HDZSFS]" Formula="(A2&gt;A1) and (A3&lt;&gt;1)" Range="true" Emsg="您录入的本期预缴税款不能大于系统已记录的预缴总额[A1]"/>
+    <Records Count="1" A1="5,23" Formula="A1&lt;=0" Range="true" Emsg="期末从业人数必须大于0，请调整"/>
+  </SaveCheckData>
+</XmlRWConfig>

@@ -44,7 +44,7 @@
                         {
                             "code":"BQYJ",
                             "name":"本期预缴 ",
-                            "value":"0.00"
+                            "value":"100000.00"
                         },
                         {
                             "code":"WDJAQYYJZE",
@@ -214,7 +214,7 @@
                         {
                             "code":"SQXWBZAYSB",
                             "name":"上期小微标志按月申报标志",
-                            "value":"N"
+                            "value":"Y"
                         },
                         {
                             "code":"SQZSFSDM",

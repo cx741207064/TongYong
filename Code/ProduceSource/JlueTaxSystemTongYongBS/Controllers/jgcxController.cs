@@ -11,7 +11,7 @@ using System.Web;
 using JlueTaxSystemTongYongBS.Code;
 using System.Xml;
 
-namespace JlueTaxSystemTongYongBS.Controllers
+namespace JlueTaxSystemHeBeiBS.Controllers
 {
     [RoutePrefix("sbzx-web/api/sb/jgcx")]
     public class jgcxController : ApiController
@@ -26,22 +26,24 @@ namespace JlueTaxSystemTongYongBS.Controllers
         [Route("sbqkcx")]
         public JObject sbqkcx()
         {
+            string sbxh = "";
             JObject re_json = new JObject();
             string str = File.ReadAllText(HttpContext.Current.Server.MapPath("sbqkcx.json"));
             re_json = JsonConvert.DeserializeObject<JObject>(str);
 
             JArray value = new JArray();
-            List<GDTXTongYongUserYSBQC> listqc = set.getYsbUserYSBQC();
+            List<GDTXUserYSBQC> listqc = set.getYsbUserYSBQC();
             StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
             JObject in_jo = JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
             string zsxmDm = in_jo["zsxmDm"].ToString();
             if (!string.IsNullOrEmpty(zsxmDm))
             {
+                if (zsxmDm == "10101") { sbxh = "001"; }else{ sbxh = ""; }
                 listqc = listqc.Where(a => a.zsxmDm == zsxmDm).ToList();
             }
-            foreach (GDTXTongYongUserYSBQC qc in listqc)
+            foreach (GDTXUserYSBQC qc in listqc)
             {
-                string sbxh = "";
+                
                 JToken jt = set.getUserYSBQCReportData(qc.Id, qc.sbzlDm, out sbxh);
                 string sbse = set.getSBSE(qc.sbzlDm, jt);
                 JObject jo = new JObject();

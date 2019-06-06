@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{39C3DC5B-CC58-4F52-9B12-4D3987E3731E}</ProjectGuid>
+    <ProjectGuid>{D9A9B954-D0F7-464E-9DE0-DCB5AB7633EA}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,7 +56,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
@@ -115,7 +115,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bszm-web\api\xxzx\queryUserMessage\WEB\20\0\5.json" />
     <Content Include="bszm-web\apps\images\home\no-data.png" />
     <Content Include="bszm-web\apps\images\home\userInfoListAccount.png" />
     <Content Include="bszm-web\apps\images\zj\common\bread-location.png" />
@@ -216,9 +215,12 @@
     <Content Include="bszm-web\apps\scripts\zj-common\util.js" />
     <Content Include="bszm-web\apps\styles\fit.css" />
     <Content Include="bszm-web\apps\styles\style.css" />
+    <Content Include="bszm-web\apps\views-zj\home\dist\driver.min.css" />
+    <Content Include="bszm-web\apps\views-zj\home\dist\driver.min.js" />
     <Content Include="bszm-web\apps\views-zj\home\home.aspx" />
     <Content Include="bszm-web\apps\views-zj\home\home.css" />
     <Content Include="bszm-web\apps\views-zj\home\home.js" />
+    <Content Include="bszm-web\apps\views-zj\home\mydriver.js" />
     <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.css" />
     <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.html" />
     <Content Include="bszm-web\apps\views-zj\publicPages\allFunctions.js" />
@@ -247,8 +249,59 @@
     <Content Include="js\json2.js" />
     <Content Include="js\point_line.js" />
     <Content Include="QuestionMain.aspx" />
+    <Content Include="sbzx-web\api\baseCode\get\baseCode2CombSelect2\DM_GY_SFZJLX.json" />
+    <Content Include="sbzx-web\api\baseCode\get\baseCode2CombSelect\DM_SB_BMZD_YPXHALL.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\10109.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30203.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30216.json" />
+    <Content Include="sbzx-web\api\baseCode\get\dsJmxx\21101.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_DJ_DJZCLX.159.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_DJ_DJZCLX.173.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_HY.4899.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_HY.5219.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_SFZJLX.201.json" />
+    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_SWJG_GT3.11306230000.json" />
+    <Content Include="sbzx-web\api\base\dsnsrxx\get.json" />
+    <Content Include="sbzx-web\api\base\nsrckzhxx\get.json" />
+    <Content Include="sbzx-web\api\base\nsrxx\get.json" />
+    <Content Include="sbzx-web\api\hb\sb\fjs\compareGdsNsrxx.json" />
+    <Content Include="sbzx-web\api\sbzf\submit\sbzf.json" />
+    <Content Include="sbzx-web\api\sb\common\batch\sbcl.json" />
+    <Content Include="sbzx-web\api\sb\common\dsnsrxx\get.json" />
+    <Content Include="sbzx-web\api\sb\common\fnb\getSbsj.json" />
+    <Content Include="sbzx-web\api\sb\common\fnb\sbzc.json" />
     <Content Include="sbzx-web\api\sb\common\get\10442.dataconfig.xml" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10101.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10103.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10442.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10444.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.21201.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.29836.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.ysb.json" />
+    <Content Include="sbzx-web\api\sb\common\hdxx\canBeRemove.json" />
+    <Content Include="sbzx-web\api\sb\common\initrules.json" />
+    <Content Include="sbzx-web\api\sb\common\nb\getSbsj.json" />
+    <Content Include="sbzx-web\api\sb\common\nb\sbbc.json" />
+    <Content Include="sbzx-web\api\sb\common\nb\sbzc.json" />
+    <Content Include="sbzx-web\api\sb\common\submit\sbcl.json" />
+    <Content Include="sbzx-web\api\sb\common\submit\sbcll\zlk.json" />
+    <Content Include="sbzx-web\api\sb\fjs\hdxx.json" />
+    <Content Include="sbzx-web\api\sb\fjs\hdxx.ysb.json" />
+    <Content Include="sbzx-web\api\sb\fpxxtq\getXxfpGjxx.json" />
+    <Content Include="sbzx-web\api\sb\fpxxtq\queryFpHzxx.json" />
+    <Content Include="sbzx-web\api\sb\jgcx\sbqkcx.json" />
+    <Content Include="sbzx-web\api\sb\sbbd\needBd.json" />
+    <Content Include="sbzx-web\api\sb\sbbd\zzsbd.json" />
+    <Content Include="sbzx-web\api\sb\tyqc\hdxx.ashx" />
+    <Content Include="sbzx-web\api\sb\tyqc\hdxx.json" />
+    <Content Include="sbzx-web\api\sb\tyqc\hdxx1.json" />
+    <Content Include="sbzx-web\api\sb\xgmsb\validatePkZg.json" />
+    <Content Include="sbzx-web\api\sb\xgmsb\validateYqwrd.json" />
+    <Content Include="sbzx-web\api\sb\yhsqc\hdxx.json" />
+    <Content Include="sbzx-web\api\ysbqc\queryysb.json" />
+    <Content Include="sbzx-web\apps\data\qysds\data_cglx.json" />
     <Content Include="sbzx-web\apps\data\qysds\data_cglx.txt" />
+    <Content Include="sbzx-web\apps\data\url\urlMap.json" />
     <Content Include="sbzx-web\apps\images\public\bg-header.png" />
     <Content Include="sbzx-web\apps\images\public\bg-sb-success.png" />
     <Content Include="sbzx-web\apps\images\public\bread-back.png" />
@@ -275,18 +328,27 @@
     <Content Include="sbzx-web\apps\images\xgmsb\ico-jbxx.png" />
     <Content Include="sbzx-web\apps\images\xgmsb\ico-msg-box.png" />
     <Content Include="sbzx-web\apps\images\xgmsb\ico-sbzb.png" />
+    <Content Include="sbzx-web\apps\scripts\common-include-year.js" />
     <Content Include="sbzx-web\apps\scripts\common-include.js" />
     <Content Include="sbzx-web\apps\scripts\includeHeader.js" />
+    <Content Include="sbzx-web\apps\scripts\miniui-year.js" />
     <Content Include="sbzx-web\apps\scripts\miniui.js" />
+    <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport-year.js" />
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.css" />
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\servyouReport.js" />
     <Content Include="sbzx-web\apps\scripts\reportSB3.0\style.css" />
     <Content Include="sbzx-web\apps\scripts\reportTip.js" />
     <Content Include="sbzx-web\apps\scripts\sbzxcommon.js" />
     <Content Include="sbzx-web\apps\scripts\steps.js" />
+    <Content Include="sbzx-web\apps\scripts\yearReport\yearReport.css" />
+    <Content Include="sbzx-web\apps\scripts\yearReport\yearReport.js" />
     <Content Include="sbzx-web\apps\styles\style.css" />
     <Content Include="sbzx-web\apps\views\apiService\publicService.js" />
     <Content Include="sbzx-web\apps\views\apiService\xfsService.js" />
+    <Content Include="sbzx-web\apps\views\apiService\ybnsrService.js" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk.css" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk_jsxxcx.html" />
+    <Content Include="sbzx-web\apps\views\gdsJk\jk_jsxxcx.js" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx-hb.css" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.css" />
     <Content Include="sbzx-web\apps\views\gdsSbjgcx\sbjgcx.html" />
@@ -302,6 +364,7 @@
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\002_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\003_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\formulas.json" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.html" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\sb_cwbb_xqy_kjzz.js" />
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\table_001.html" />
@@ -309,14 +372,34 @@
     <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\table_003.html" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\001_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\formulas.json" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\sb_fjs.html" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\sb_fjs.js" />
     <Content Include="sbzx-web\apps\views\sb_fjs_2019\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\config\002_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\config\002_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\sb_gdlh_cztdsys.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\sb_gdlh_cztdsys.js" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_cztdsys\table_002.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\sb_gdlh_tysbb.html" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\sb_gdlh_tysbb.js" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_tysbb\table_001.html" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs.html" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs.js" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\table_001.html" />
-    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\003_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\003_j3.xml" />
@@ -328,6 +411,7 @@
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\006_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\007_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\007_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\formulas.json" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.css" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\sb_sdsA_yj_new.js" />
@@ -338,18 +422,77 @@
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_006.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\table_007.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\Timer.js" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\config\002_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\config\002_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\sb_sdsB_yj_new.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\sb_sdsB_yj_new.js" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\table_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\table_002.html" />
+    <Content Include="sbzx-web\apps\views\sb_sdsB_yj_new\Timer.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\001\config\001_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\001\config\001_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\001\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\001\sb_ybnsr_001.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\001\sb_ybnsr_001.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\002\config\002_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\002\config\002_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\002\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\002\sb_ybnsr_002.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\002\sb_ybnsr_002.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\003\config\003_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\003\config\003_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\003\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\003\sb_ybnsr_003.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\003\sb_ybnsr_003.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\006\config\006_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\006\config\006_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\006\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\006\sb_ybnsr_006.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\006\sb_ybnsr_006.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\007\config\007_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\007\config\007_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\007\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\007\sb_ybnsr_007.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\007\sb_ybnsr_007.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\031\config\031_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\031\config\031_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\031\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\031\sb_ybnsr_031.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\031\sb_ybnsr_031.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\032\config\032_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\032\config\032_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\032\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\032\sb_ybnsr_032.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\032\sb_ybnsr_032.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\081\config\081_cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\081\config\081_j3.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\081\config\formulas.json" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\081\sb_ybnsr_081.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\081\sb_ybnsr_081.js" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\config\cfg.xml" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\reportTip.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\sb_ybnsr.html" />
+    <Content Include="sbzx-web\apps\views\sb_ybnsr_201905\sb_ybnsr.js" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\001_cfg.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_cfg.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\006_j3.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_cfg.xml" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\008_j3.xml" />
+    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\formulas.json" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\reportTip.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_001.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_006.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\table_008.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\xgmsb-tbs.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-tbs\xgmsb-tbs.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds\qrsbbView.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds\xgmsb-view.html" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds\xgmsb-view.js" />
+    <Content Include="sbzx-web\apps\views\xgmsb-yds\xgmsb.css" />
     <Content Include="sbzx-web\apps\views\xgmsb-yds_new\qrsbbView.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-yds_new\sbtjView.html" />
     <Content Include="sbzx-web\apps\views\xgmsb-yds_new\skjs.html" />
@@ -416,9 +559,7 @@
     <Content Include="Video\js\jquery-1.12.4.min.js" />
     <Content Include="Video\js\video.js" />
     <Content Include="Video\Video.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AutofacMVCConfig.cs" />
@@ -440,8 +581,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Code\CurrentUser.cs" />
-    <Compile Include="Code\GDTXTongYongUserYSBQC.cs" />
-    <Compile Include="Code\GDTXTongYongUserYSBQCReportData.cs" />
+    <Compile Include="Code\GDTXUserYSBQC.cs" />
+    <Compile Include="Code\GDTXUserYSBQCReportData.cs" />
     <Compile Include="Code\GTXMethod.cs" />
     <Compile Include="Code\GTXNameValue.cs" />
     <Compile Include="Code\GTXResult.cs" />
@@ -452,6 +593,7 @@
     <Compile Include="Controllers\commonController.cs" />
     <Compile Include="Controllers\cwbbdrController.cs" />
     <Compile Include="Controllers\fjsController.cs" />
+    <Compile Include="Controllers\fpxxtqController.cs" />
     <Compile Include="Controllers\jgcxController.cs" />
     <Compile Include="Controllers\JlueTaxSystemController.cs" />
     <Compile Include="Controllers\sbbdController.cs" />
@@ -461,6 +603,9 @@
     <Compile Include="Controllers\yhsqcController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GotoFP.ashx.cs">
+      <DependentUpon>GotoFP.ashx</DependentUpon>
     </Compile>
     <Compile Include="Models\GDTXDate.cs" />
     <Compile Include="Models\Nsrxx.cs" />
@@ -472,6 +617,10 @@
     </Compile>
     <Compile Include="QuestionMain.aspx.designer.cs">
       <DependentUpon>QuestionMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sbzx-web\api\sb\tyqc\hdxx.ashx.cs">
+      <DependentUpon>hdxx.ashx</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
     <Compile Include="VideoManage\GetVideo.ashx.cs">
       <DependentUpon>GetVideo.ashx</DependentUpon>
@@ -507,79 +656,18 @@
     <Folder Include="sbzx-web\apps\views\cwbbCallOcx\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sbzx-web\apps\views\sb_fjs_2019\config\formulas.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ChuShiHua.ashx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="VideoManage\GetVideo.ashx" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="bszm-web\api\desktop\allFunctionsEX\get.json" />
     <Content Include="bszm-web\api\desktop\customizedFuctionsEX\usertype\get.json" />
     <Content Include="bszm-web\api\desktop\todoList\get.json" />
     <Content Include="bszm-web\api\desktop\userInfo\get.json" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="bszm-web\api\xxzx\queryUserMessage\WEB\20\0\5.json" />
     <Content Include="bszm-web\apps\data\zj\tzgg.json" />
+    <Content Include="ChuShiHua.ashx" />
+    <Content Include="VideoManage\GetVideo.ashx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sbzx-web\api\base\nsrxx\get.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\api\baseCode\get\baseCode2CombSelect2\DM_GY_SFZJLX.json" />
-    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\10109.json" />
-    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30203.json" />
-    <Content Include="sbzx-web\api\baseCode\get\dsJmxxZsxm\30216.json" />
-    <Content Include="sbzx-web\api\baseCode\get\dsJmxx\21101.json" />
-    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_DJ_DJZCLX.159.json" />
-    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_HY.4899.json" />
-    <Content Include="sbzx-web\api\baseCode\get\getBaseCodeValueByName\DM_GY_SFZJLX.201.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\api\hb\sb\fjs\compareGdsNsrxx.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\api\sbzf\submit\sbzf.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\api\ysbqc\queryysb.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\api\sb\common\fnb\getSbsj.json" />
-    <Content Include="sbzx-web\api\sb\common\fnb\sbzc.json" />
-    <Content Include="sbzx-web\api\sb\common\get\hdxx.10103.json" />
-    <Content Include="sbzx-web\api\sb\common\get\hdxx.10442.json" />
-    <Content Include="sbzx-web\api\sb\common\get\hdxx.29836.json" />
-    <Content Include="sbzx-web\api\sb\common\get\hdxx.ysb.json" />
-    <Content Include="sbzx-web\api\sb\common\submit\sbcl.json" />
-    <Content Include="sbzx-web\api\sb\fjs\hdxx.json" />
-    <Content Include="sbzx-web\api\sb\fjs\hdxx.ysb.json" />
-    <Content Include="sbzx-web\api\sb\jgcx\sbqkcx.json" />
-    <Content Include="sbzx-web\api\sb\sbbd\needBd.json" />
-    <Content Include="sbzx-web\api\sb\sbbd\zzsbd.json" />
-    <Content Include="sbzx-web\api\sb\xgmsb\validatePkZg.json" />
-    <Content Include="sbzx-web\api\sb\xgmsb\validateYqwrd.json" />
-    <Content Include="sbzx-web\api\sb\yhsqc\hdxx.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\apps\data\url\urlMap.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\apps\views\xgmsb-tbs\config\formulas.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\formulas.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\formulas.json" />
-    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sbzx-web\apps\views\sb_cwbb_xqy_kjzz\config\formulas.json" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="GotoFP.ashx" />
+    <None Include="Properties\PublishProfiles\hebei.pubxml" />
     <None Include="Properties\PublishProfiles\IIS.pubxml" />
   </ItemGroup>
   <PropertyGroup>
@@ -595,9 +683,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>20426</DevelopmentServerPort>
+          <DevelopmentServerPort>18862</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:20426/</IISUrl>
+          <IISUrl>http://localhost:18862/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

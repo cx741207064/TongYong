@@ -141,10 +141,18 @@
                             if (v.QuestionType == 2) {
                                 QuestionTypeName = "申报类";
                             }
+                            var name = v.Name;
+                            if (name == "业务一") {
+                                name = "1";
+                            } else if (name == "业务二") {
+                                name = "2";
+                            } else {
+                                name = "3";
+                            }
                             var Gtxpath = "bszm-web/apps/views-zj/home/home.aspx?userid=" + userId + "&username=" + username + "&classid=" + ClassId + "&courseid=" + courseid + "&sortid=" + sortid + "&questionId=" + v.QuestionId + "&userquestionId=" + v.Id + "&CompanyId=" + v.CompanyId + "&Name=" + encodeURIComponent(v.Name) + "&rand=" + new Date().getTime();
                             var Dtxpath = '<%=System.Web.Configuration.WebConfigurationManager.AppSettings["Dtxpath"]%>' + "/MainAction.php?sessionId=" + v.NSRSBH + ";timestamp&questionid=" + v.QuestionId + "&happenddate=" + v.HappenDate + "&userid=" + userId + "&classid=" + ClassId + "&CompanyId=" + v.CompanyId;
                             debugger;
-                            var FPpath = "GotoFP.ashx?sessionId=" + v.NSRSBH + ";timestamp&questionId=" + v.QuestionId + "&happenDate=" + v.HappenDate + "&userId=" + userId + "&classId=" + ClassId + "&companyId=" + v.CompanyId + "&sortid=" + sortid;
+                            var FPpath = "GotoFP.ashx?sessionId=" + v.NSRSBH + ";timestamp&questionId=" + v.QuestionId + "&happenDate=" + v.HappenDate + "&userId=" + userId + "&classId=" + ClassId + "&companyId=" + v.CompanyId + "&sortid=" + sortid + "&name=" + v.Name;
                             debugger;
                             var str = '<li class="ksmc-sj5"><div class="ksmc-sj1-title">';
                             str += '<table class="fulltable">';
@@ -166,7 +174,7 @@
                                 if (a >= 0) {
                                     str += '<a class="radius box-shadow ksmc-sj1-tanchuti" href="' + FPpath + '" target="_blank" onclick="closeareaGTX(' + v.QuestionId + ');">发票勾选平台</a>';
                                 }
-                                str += '<a target="_blank" class="radius box-shadow ksmc-sj1-tanchuti" onclick="checkvideo(\'' + Gtxvideopath + '\',\'' + v.VideoID + '\',\'国\')" >国税视频</a><a class="radius box-shadow ksmc-sj1-tanchuti" target="_blank" onclick="checkvideo(\'' + Dtxvideopath + '\',\'' + v.VideoID + '\',\'地\')">地税视频</a></div>';
+                                str += '</div>';
                             }
                             else {
                                 str += '<div id="oper' + v.QuestionId + '" style="display: none" class="oper_area"><a class="radius box-shadow ksmc-sj1-tanchuti"  onclick="checkpath(\'' + downpath + '\',\'' + v.FilePath + '\')" target="_blank" style="display:none">下载材料</a><a class="radius box-shadow ksmc-sj1-tanchuti" href="' + Gtxpath + '" target="_blank" onclick="closeareaGTX(' + v.QuestionId + ');">纳税申报</a>';

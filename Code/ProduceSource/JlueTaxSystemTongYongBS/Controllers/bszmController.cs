@@ -83,7 +83,7 @@ namespace JlueTaxSystemTongYongBS.Controllers
                             }
                         }
                         JToken zzs = jt["subMenus"].Where(a => a["menuName"].ToString() == "增值税").FirstOrDefault().SelectToken("subMenus[0].functions[0]");
-                        GDTXTongYongUserYSBQC qc = set.getUserYSBQC("10101");
+                        GDTXUserYSBQC qc = set.getUserYSBQC("10101");
                         if (qc != null)
                         {
                             zzs["name"] = qc.TaskName;
@@ -152,8 +152,8 @@ namespace JlueTaxSystemTongYongBS.Controllers
             re_json = JsonConvert.DeserializeObject<JObject>(str);
 
             JArray data = new JArray();
-            List<GDTXTongYongUserYSBQC> listqc = set.getUserYSBQC();
-            foreach (GDTXTongYongUserYSBQC qc in listqc)
+            List<GDTXUserYSBQC> listqc = set.getUserYSBQC();
+            foreach (GDTXUserYSBQC qc in listqc)
             {
                 JObject jo = new JObject();
                 if (qc.SBZT == set.ysbzt)

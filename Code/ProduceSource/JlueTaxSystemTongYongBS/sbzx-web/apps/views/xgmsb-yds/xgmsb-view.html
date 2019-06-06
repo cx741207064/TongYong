@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=renderer content=webkit|ie-stand|ie-comp><meta name=description content=网上税务局,网上办税服务厅><meta name=keywords content=网上税务局,网上办税服务厅><meta name=viewport content="width=device-width, initial-scale=1"><link href=../../images/public/favicon.ico rel=icon type=image/x-icon><title>小规模申报</title><link rel=stylesheet href=../../../apps/styles/style.css?v=1546151803424_2.0.0><link rel=stylesheet href=xgmsb.css?v=1546151803424_2.0.0><style>
+        html, body {
+            background: #f7f7f7;
+            min-width: inherit;
+        }
+
+        #xgmsb-view {
+            width: 1160px;
+            margin: -1px auto 30px;
+        }
+
+        #xgmsb-view h2 {
+            display: none;
+        }
+        .mini-checkboxlist-item {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-family: 'MicroSoft YaHei';
+        }
+        input[disabled]{
+            width: 98%;
+            background: none;
+            border: none;
+            font-size: 14px;
+            font-family: "MicroSoft YaHei";
+            padding-left: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #666;
+        }
+        .sbb-view-actions{
+            margin-bottom: 0;
+            padding-bottom: 40px;
+        }
+    </style></head><body><div id=xgmsb-view></div><div id=htmlContent style=display:none;></div><div class=sbb-view-actions style=display:none;><button class=button-blue style="padding: 8px 25px" onclick=xgmsbView.printSbb()>下载申报表</button></div><div class=mini-window id=selectSbbWin style="width: 400px;display: none" title=选择申报表><div id=sbb-list class=mini-checkboxlist textfield=MC valuefield=ID repeatdirection=vertical data="[{'MC':'增值税纳税申报表','ID':'xgmsb_zb'},{'MC':'增值税纳税申报表（小规模纳税人适用）附列资料','ID':'xgmsb_fb1'},{'MC':'增值税减免税申报明细表','ID':'xgmsb_jmb'}]"></div><div class=footer style="margin-top: 15px;text-align:right"><a class="mini-button toolBtn-blue" style="padding: 0 25px" onclick=xgmsbView.printOk>确定</a> <a class="mini-button toolBtn-white" style="padding: 0 25px" onclick=xgmsbView.printCancel>取消</a></div></div><script src=../../../lib/jquery/jquery.min.js?v=1546151803424_2.0.0></script><script src=../../../apps/scripts/miniui.js?v=1546151803424_2.0.0></script><script src=../../../lib/ds-commonFront/build/wssqUtil.js?v=1546151803424_2.0.0></script><script src=../../../lib/lodop/lodopPrint.js?v=1546151803424_2.0.0></script><script src=../../../apps/scripts/xmlUtil.js?v=1546151803424_2.0.0></script><script src=../../../apps/scripts/hdxxUtil.js?v=1546151803424_2.0.0></script><script src=xgmsb-view.js?v=1546151803424_2.0.0></script><script src=../../scripts/yqdzClientView.js?v=1546151803424_2.0.0></script></body></html>

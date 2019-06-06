@@ -82,6 +82,17 @@ namespace JlueTaxSystemTongYongBS.Controllers
             return re_json;
         }
 
+        [Route("baseCode/get/getBaseCodeValueByName/DM_GY_SWJG_GT3")]
+        [HttpGet]
+        public JObject DM_GY_SWJG_GT3(string dm)
+        {
+            JObject re_json = new JObject();
+            string str = File.ReadAllText(HttpContext.Current.Server.MapPath("DM_GY_SWJG_GT3." + dm + ".json"));
+            re_json = JsonConvert.DeserializeObject<JObject>(str);
+
+            return re_json;
+        }
+
         [Route("baseCode/get/dsJmxxZsxm/{dm}")]
         [HttpGet]
         public JArray dsJmxxZsxm(string dm)
@@ -99,6 +110,17 @@ namespace JlueTaxSystemTongYongBS.Controllers
         {
             JArray re_json = new JArray();
             string str = File.ReadAllText(HttpContext.Current.Server.MapPath(dm + ".json"));
+            re_json = JsonConvert.DeserializeObject<JArray>(str);
+
+            return re_json;
+        }
+
+        [Route("baseCode/get/baseCode2CombSelect/DM_SB_BMZD_YPXHALL")]
+        [HttpGet]
+        public JArray DM_SB_BMZD_YPXHALL()
+        {
+            JArray re_json = new JArray();
+            string str = File.ReadAllText(HttpContext.Current.Server.MapPath("DM_SB_BMZD_YPXHALL.json"));
             re_json = JsonConvert.DeserializeObject<JArray>(str);
 
             return re_json;
@@ -125,7 +147,7 @@ namespace JlueTaxSystemTongYongBS.Controllers
             StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
             JObject in_jo = JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
             string sbzlDm = in_jo["sbzlDm"].ToString();
-            GDTXTongYongUserYSBQC qc = set.getUserYSBQC(sbzlDm);
+            GDTXUserYSBQC qc = set.getUserYSBQC(sbzlDm);
             GTXMethod.DeleteUserReportData(qc.Id.ToString(), qc.sbzlDm);
             GTXMethod.UpdateYSBQC(qc.Id.ToString(), set.wsbzt);
             return re_json;
@@ -143,6 +165,10 @@ namespace JlueTaxSystemTongYongBS.Controllers
         [Route("hb/sb/fjs/compareGdsNsrxx")]
         public JObject compareGdsNsrxx()
         {
+            StreamReader sr = new StreamReader(HttpContext.Current.Request.InputStream);
+            JObject in_jo = JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
+            string sbzldm = in_jo["sbzldm"].ToString();
+
             Nsrxx x = set.getNsrxx();
             JObject re_json = new JObject();
             string str = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("compareGdsNsrxx.json"));
@@ -164,7 +190,26 @@ namespace JlueTaxSystemTongYongBS.Controllers
             ds["shxydm"] = x.NSRSBH;
             ds["ssdabh"] = x.NSRSBH;
 
-            re_json["value"] = new JValue(JsonConvert.SerializeObject(value));
+            switch (sbzldm)
+            {
+                case "10101":
+                    re_json["value"] = "null";
+                    break;
+                case "10103":
+                    re_json["value"] = new JValue(JsonConvert.SerializeObject(value));
+                    break;
+            }
+            return re_json;
+        }
+
+        [Route("base/nsrckzhxx/get")]
+        [HttpGet]
+        public JObject nsrckzhxx()
+        {
+            JObject re_json = new JObject();
+            string str = File.ReadAllText(HttpContext.Current.Server.MapPath("get.json"));
+            re_json = JsonConvert.DeserializeObject<JObject>(str);
+
             return re_json;
         }
 

@@ -1,0 +1,24 @@
+{
+  "031":[
+      "G9 = round(D9+E9,2)",
+      "K9 = round(G9-I9,2)",
+      "K13 = round(G13-I13,2)",
+      "G13 = round(D13+E13,2)",
+      "K12 = round(G12-I12,2)",
+      "G12 = round(D12+E12,2)",
+      "K11 = round(G11-I11,2)",
+      "G11 = round(D11+E11,2)",
+      "G10 = round(D10+E10,2)",
+      "K10 = round(G10-I10,2)",
+      "I17 = ROUND(D17+E17-G17,2)",
+      "I18 = ROUND(D18+E18-G18,2)",
+      "K17 = ROUND(I17-J17,2)",
+      "K18 = ROUND(I18-J18,2)",
+      "D19 = ROUND(D17+D18,2)",
+      "E19 = ROUND(E17+E18,2)",
+      "G19 = ROUND(G17+G18,2)",
+      "I19 = ROUND(I17+I18,2)",
+      "J19 = ROUND(J17+J18,2)",
+      "K19 = ROUND(K17+K18,2)"
+  ]
+}

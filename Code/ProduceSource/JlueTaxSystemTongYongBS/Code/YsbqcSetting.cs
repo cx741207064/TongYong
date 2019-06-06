@@ -34,12 +34,12 @@ namespace JlueTaxSystemTongYongBS.Code
             set { }
         }
 
-        public List<GDTXTongYongUserYSBQC> getUserYSBQC()
+        public List<GDTXUserYSBQC> getUserYSBQC()
         {
             GTXResult resultq = GTXMethod.GetUserYSBQC();
             if (resultq.IsSuccess)
             {
-                List<GDTXTongYongUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQC>>(resultq.Data.ToString());
+                List<GDTXUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXUserYSBQC>>(resultq.Data.ToString());
                 return ysbqclist;
             }
             else
@@ -48,14 +48,14 @@ namespace JlueTaxSystemTongYongBS.Code
             }
         }
 
-        public GDTXTongYongUserYSBQC getUserYSBQC(Type controller)
+        public GDTXUserYSBQC getUserYSBQC(Type controller)
        {
            string s = controller.Name;
            s = s.Substring(0, s.IndexOf("Controller"));
            GTXResult resultq = GTXMethod.GetUserYSBQC();
            if (resultq.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQC>>(resultq.Data.ToString());
+               List<GDTXUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXUserYSBQC>>(resultq.Data.ToString());
 
                ysbqclist = ysbqclist.Where(a => a.BDDM.ToUpper() == s.ToUpper()).ToList();
                if (ysbqclist.Count == 0)
@@ -71,7 +71,7 @@ namespace JlueTaxSystemTongYongBS.Code
            }
        }
 
-        public GDTXTongYongUserYSBQC getUserYSBQC(string dm)
+        public GDTXUserYSBQC getUserYSBQC(string dm)
        {
            string s = dm.ToUpper();
            switch (s)
@@ -83,7 +83,7 @@ namespace JlueTaxSystemTongYongBS.Code
            GTXResult resultq = GTXMethod.GetUserYSBQC();
            if (resultq.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQC>>(resultq.Data.ToString());
+               List<GDTXUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXUserYSBQC>>(resultq.Data.ToString());
 
                ysbqclist = ysbqclist.Where(a => a.BDDM.ToUpper() == s || a.sbzlDm == s || a.zsxmDm == s).ToList();
                if (ysbqclist.Count == 0)
@@ -98,12 +98,12 @@ namespace JlueTaxSystemTongYongBS.Code
            }
        }
 
-        public List<GDTXTongYongUserYSBQC> getYsbUserYSBQC()
+        public List<GDTXUserYSBQC> getYsbUserYSBQC()
        {
            GTXResult resultq = GTXMethod.GetUserYSBQC();
            if (resultq.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQC>>(resultq.Data.ToString());
+               List<GDTXUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXUserYSBQC>>(resultq.Data.ToString());
 
                ysbqclist = ysbqclist.Where(a => a.SBZT == "已申报").ToList();
                return ysbqclist;
@@ -114,12 +114,12 @@ namespace JlueTaxSystemTongYongBS.Code
            }
        }
 
-        public List<GDTXTongYongUserYSBQC> getWsbUserYSBQC()
+        public List<GDTXUserYSBQC> getWsbUserYSBQC()
         {
             GTXResult resultq = GTXMethod.GetUserYSBQC();
             if (resultq.IsSuccess)
             {
-                List<GDTXTongYongUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQC>>(resultq.Data.ToString());
+                List<GDTXUserYSBQC> ysbqclist = JsonConvert.DeserializeObject<List<GDTXUserYSBQC>>(resultq.Data.ToString());
 
                 ysbqclist = ysbqclist.Where(a => a.SBZT == "未申报").ToList();
                 return ysbqclist;
@@ -143,18 +143,35 @@ namespace JlueTaxSystemTongYongBS.Code
            return saveresult;
        }
 
-        public GTXResult saveUserYSBQCReportData(string strJson, string userYsbqcId, string reportCode, string dataKey = "data")
-       {
-           List<GTXNameValue> nameList = new List<GTXNameValue>();
-           GTXNameValue nv = new GTXNameValue();
-           nv.key = dataKey;
-           byte[] bytes = Encoding.Default.GetBytes(strJson);
-           string _result = HttpUtility.UrlEncode(Convert.ToBase64String(bytes));
-           nv.value = _result;
-           nameList.Add(nv);
-           GTXResult saveresult = GTXMethod.SaveUserReportData(JsonConvert.SerializeObject(nameList), userYsbqcId, reportCode);
-           return saveresult;
-       }
+        public GTXResult saveUserYSBQCListReportData(JToken json, string userYsbqcId, string reportCode, string dataKey = "data")
+        {
+            List<GTXNameValue> nameList = new List<GTXNameValue>();
+            GTXNameValue nv = new GTXNameValue();
+            nv.key = dataKey;
+            byte[] bytes = Encoding.Default.GetBytes(JsonConvert.SerializeObject(json, Newtonsoft.Json.Formatting.None));
+            string _result = HttpUtility.UrlEncode(Convert.ToBase64String(bytes));
+            nv.value = _result;
+            nameList.Add(nv);
+
+            GTXResult gr = GTXMethod.GetUserReportData(userYsbqcId, reportCode);
+            if (gr.IsSuccess)
+            {
+                List<GDTXUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXUserYSBQCReportData>>(gr.Data.ToString());
+                foreach (GDTXUserYSBQCReportData data in dataList)
+                {
+                    if (data.DataKey == dataKey)
+                    {
+                        continue;
+                    }
+                    GTXNameValue data_nv = new GTXNameValue();
+                    data_nv.key = data.DataKey;
+                    data_nv.value = HttpUtility.UrlEncode(data.DataValue);
+                    nameList.Add(data_nv);
+                }
+            }
+            GTXResult saveresult = GTXMethod.SaveUserReportData(JsonConvert.SerializeObject(nameList), userYsbqcId, reportCode);
+            return saveresult;
+        }
 
         public string getUserYSBQCReportData_String(int id, string reportCode, string dataKey = "data")
        {
@@ -162,7 +179,7 @@ namespace JlueTaxSystemTongYongBS.Code
            GTXResult gr = GTXMethod.GetUserReportData(id.ToString(), reportCode);
            if (gr.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQCReportData>>(gr.Data.ToString());
+               List<GDTXUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXUserYSBQCReportData>>(gr.Data.ToString());
                if (dataList.Count > 0)
                {
                    byte[] outputb = Convert.FromBase64String(dataList[0].DataValue);
@@ -178,10 +195,10 @@ namespace JlueTaxSystemTongYongBS.Code
            GTXResult gr = GTXMethod.GetUserReportData(id.ToString(), reportCode);
            if (gr.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQCReportData>>(gr.Data.ToString());
+               List<GDTXUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXUserYSBQCReportData>>(gr.Data.ToString());
                if (dataList.Count > 0)
                {
-                   GDTXTongYongUserYSBQCReportData data = dataList.Where(a => a.DataKey == dataKey).FirstOrDefault();
+                   GDTXUserYSBQCReportData data = dataList.Where(a => a.DataKey == dataKey).FirstOrDefault();
                    byte[] outputb = Convert.FromBase64String(data.DataValue);
                    string dataValue = Encoding.Default.GetString(outputb);
                    JToken re_json = JsonConvert.DeserializeObject<JToken>(dataValue);
@@ -197,10 +214,10 @@ namespace JlueTaxSystemTongYongBS.Code
            GTXResult gr = GTXMethod.GetUserReportData(id.ToString(), reportCode);
            if (gr.IsSuccess)
            {
-               List<GDTXTongYongUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXTongYongUserYSBQCReportData>>(gr.Data.ToString());
+               List<GDTXUserYSBQCReportData> dataList = JsonConvert.DeserializeObject<List<GDTXUserYSBQCReportData>>(gr.Data.ToString());
                if (dataList.Count > 0)
                {
-                   GDTXTongYongUserYSBQCReportData data = dataList[0];
+                   GDTXUserYSBQCReportData data = dataList[0];
                    byte[] outputb = Convert.FromBase64String(data.DataValue);
                    string dataValue = Encoding.Default.GetString(outputb);
                    JToken re_json = JsonConvert.DeserializeObject<JToken>(dataValue);
@@ -300,7 +317,7 @@ namespace JlueTaxSystemTongYongBS.Code
        public GDTXDate getGDTXDate(Type type)
        {
            GDTXDate gd = new GDTXDate();
-           GDTXTongYongUserYSBQC qc = getUserYSBQC(type);
+           GDTXUserYSBQC qc = getUserYSBQC(type);
            gd.sbrqq = qc.HappenDate.Substring(0, 8) + "01";
            gd.sbrqz = qc.SBQX;
            gd.sbNd = qc.HappenDate.Substring(0, 4);
@@ -315,7 +332,7 @@ namespace JlueTaxSystemTongYongBS.Code
        public GDTXDate getGDTXDate(string dm)
        {
            GDTXDate gd = new GDTXDate();
-           GDTXTongYongUserYSBQC qc = getUserYSBQC(dm);
+           GDTXUserYSBQC qc = getUserYSBQC(dm);
            gd.sbrqq = qc.HappenDate.Substring(0, 8) + "01";
            gd.sbrqz = qc.SBQX;
            gd.sbNd = qc.HappenDate.Substring(0, 4);
@@ -357,9 +374,24 @@ namespace JlueTaxSystemTongYongBS.Code
            XmlDocument xml = new XmlDocument();
            JObject jo = new JObject();
            JArray ja = new JArray();
-
+           string a;
            switch (sbzlDm)
            {
+               case "10101":
+                   jv = (JValue)jt.SelectToken("j3xmlData");
+                   //a= jv.Value<string>().Split(',')[1];
+                   //a = a.Replace("}]\"", "");
+                   a = jv.Value<string>().Replace("{", "").Replace("}", "").Replace("[", "").Replace("]", "");
+                   JObject jo1 = (JObject)JsonConvert.DeserializeObject("{"+a+"}");
+                   a= jo1["bbxml"].ToString();
+                   xml.LoadXml(a);
+                   jo = JsonConvert.DeserializeObject<JObject>(JsonConvert.SerializeXmlNode(xml));
+                   ja = (JArray)jo.SelectToken("zzssyyybnsr_zb.zbGrid.zbGridlbVO");
+                   foreach (JObject j in ja)
+                   {
+                       sum += decimal.Parse(j["bqybtse"].ToString());
+                   }
+                   break;
                case "21101":
                    jv = (JValue)jt.SelectToken("[0].bbxml");
                    xml.LoadXml(jv.Value<string>());

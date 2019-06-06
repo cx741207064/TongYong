@@ -166,7 +166,7 @@ var Api = {
         return result;
     },
     getDsNsrxxVo: function () {
-        return this.getData('/sbzx-web/api/base/dsnsrxx/get', {});
+        return this.getData('/sbzx-web/api/sb/common/dsnsrxx/get', {});
     }
 };
 

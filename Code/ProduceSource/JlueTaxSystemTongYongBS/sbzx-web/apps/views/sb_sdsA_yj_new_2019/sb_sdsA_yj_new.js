@@ -449,6 +449,7 @@ var qysdsyjbA = {
     },
     control005row1: function () {
         var ynse = Number($('#001_16_5').val());
+        mini.get('xwqy').setValue('Y');
         var xwqy = mini.get('xwqy').getValue();
         var hj2to28 = Number($('#005_0_2').val());//剔除23栏
         var XWJM_2019 = Number(servyouReport.wsxxMap['XWJM_2019']);

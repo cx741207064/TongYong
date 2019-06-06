@@ -1,0 +1,207 @@
+﻿
+<div class=table-box>
+    <table id=table_001 class="sb_table fixed" type=sb sb_url=config sb_id=001 sb_title=通用申报表（工会经费）>
+        <colgroup><col width=150><col width=150><col width=150><col width=140><col width=140><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150><col width=150></colgroup>
+        <thead>
+            <tr>
+                <td colspan=16 class=table-title>通用申报表（工会经费）</td>
+            </tr>
+            <tr>
+                <td class=txt-l colspan=8>纳税人识别号：<span class=nsrsbh></span></td>
+                <td class=txt-r colspan=8>纳税人名称：<span class=nsrmc></span></td>
+            </tr>
+            <tr>
+                <td colspan=16 class="txt-l txt-red tips">
+                    温馨提示：1.当您鼠标移入“征收项目”的对应行次时，可以看到“删除行”按钮。
+                    <br>
+                    <p class=txt-indent-5>2.您可以通过拖动申报表底部的滚动条来完成申报表右半部分数据的填写。</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    征收项目
+                    <br>
+                    <span class="btn btn-blue btn-small addrow">增加行</span>
+                </td>
+                <td>征收品目</td>
+                <td>征收子目</td>
+                <td>税款所属期起</td>
+                <td>税款所属期止</td>
+                <td>应税项（1）</td>
+                <td>减除项（2）</td>
+                <td>应税所得率（3）</td>
+                <td>计税（费）依据（4=（1-2）*3）</td>
+                <td>税（费）率或单位税额（5）</td>
+                <td>速算扣除数（6）</td>
+                <td>本期应纳税（费）额（7=4*5-6）<input type=txt value=0.00 class=hidden></td>
+                <td>本期减免税（费）额（8）<input type=txt value=0.00 class=hidden></td>
+                <td>减免性质</td>
+                <td>本期已缴税（费）额（9）<input type=txt value=0.00 class=hidden></td>
+                <td>本期应补（退）税（费）额（10=7-8-9）<input type=txt value=0.00 class=hidden></td>
+                <td class=hidden>税源标志</td>
+                <td class=hidden>税源编号</td>
+                <td class=hidden>税源坐落</td>
+            </tr>
+            <tr class=hj001>
+                <td>合计</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td class=txt-r><input type=text disabled= disabled value=0.00></td>
+                <td class=txt-r><input type=text disabled= disabled value=0.00></td>
+                <td>--</td>
+                <td class=txt-r><input type=text disabled= disabled value=0.00></td>
+                <td class=txt-r><input type=text disabled= disabled value=0.00></td>
+                <td class=hidden>--</td>
+                <td class=hidden>--</td>
+                <td class=hidden>--</td>
+            </tr>
+        </tbody>
+        <tbody class=hidden>
+            <tr>
+                <td class=txt-l colspan=6>其他个人出租不动产租金是否分摊</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=txt-l colspan=10>
+                    <input type=radio value=1 name=sfft disabled= disabled>
+                    <label>是</label>
+                    <input type=radio value=0 name=sfft disabled= disabled checked="">
+                    <label>否</label>
+                </td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+            <tr>
+                <td colspan=6 class=txt-l>其他个人出租不动产租赁期起</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=10 class=txt-l><input id=date1 class=mini-datepicker value=""></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+            <tr>
+                <td colspan=6 class=txt-l>其他个人出租不动产租赁期止</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=10 class=txt-l><input id=date2 class=mini-datepicker value=""></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+            <tr>
+                <td colspan=6 class=txt-l>其他个人出租不动产分摊后月租金收入</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=10 class=txt-l><input type=text value=0.00 disabled= disabled></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan=4 class=txt-l>办税人：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=5></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=txt-l colspan=4>申报日期：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=3></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+            <tr>
+                <td colspan=4 class=txt-l>办理人员身份证件类型：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=5></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=txt-l colspan=4>办理人员身份证件号码：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=3></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+            <tr>
+                <td class=txt-l colspan=3>受理人：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=3></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=txt-l colspan=2>受理日期：</td>
+                <td class=hidden></td>
+                <td colspan=2></td>
+                <td class=hidden></td>
+                <td class=txt-l colspan=3>受理税务机关：</td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td colspan=5></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+                <td class=hidden></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

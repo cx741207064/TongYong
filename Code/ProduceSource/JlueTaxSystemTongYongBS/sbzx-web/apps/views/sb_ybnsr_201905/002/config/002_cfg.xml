@@ -1,0 +1,77 @@
+<XmlRWConfig>
+	<SaveCheckData XmlFile="'005','018','019','042','006',">
+		<!-- ywz 2、4、5、7、12、15、17、19，还有13栏当11列大于0时，12列不能大于11列 -->
+		<Records Count="2" A1="17,8" A2="16,8" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第2栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,11" A2="16,11" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第4栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,12" A2="16,12" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第5栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,14" A2="16,14" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第7栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,17" A2="16,17" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第9b栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,20" A2="16,20" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第12栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,21" A2="16,21" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第13a栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,22" A2="16,22" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第13b栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,25" A2="16,25" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第15栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,27" A2="16,27" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第17栏12列数值不能大于11列数值。"/>
+		<Records Count="2" A1="17,29" A2="16,29" Formula="(A2&gt;0) and (A1&gt;A2)" Range="true" Emsg="第19栏12列数值不能大于11列数值。"/>
+		<!-- ywz 2013-03-11 增加2、4、5、13栏的校验 -->
+		<Records Count="3" A1="17,8" A2="19,8" A3="15,8" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第2栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,11" A2="19,11" A3="15,11" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第4栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,12" A2="19,12" A3="15,12" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第5栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,14" A2="19,14" A3="15,14" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第7栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,20" A2="19,20" A3="15,20" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第12栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,25" A2="19,25" A3="15,25" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第15栏14列数值应等于第10列数值。"/>
+		<Records Count="3" A1="17,17" A2="19,17" A3="15,17" Formula="(A2&lt;&gt;A3)and(A1=0)" Range="true" Emsg="第9b栏14列数值应等于第10列数值。"/>
+
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,7" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第1栏销项（应纳）税额应该为0，请检查是否录入了一般计税方法13%税率的货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,13" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第6栏销项（应纳）税额应该为0，请检查是否录入了一般计税方法即征即退货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,15" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第8栏销项（应纳）税额应该为0，请检查是否录入了简易征收方法6%征收率的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,16" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第9栏销项（应纳）税额应该为0，请检查是否录入了简易征收方法5%征收率的发票。"/>
+
+        <Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,10" Formula="(A1=02) and (A2&lt;&gt;0)" Range="true" Emsg="税种类别为服务：第3栏销项（应纳）税额应该为0，请检查是否录入了一般计税方法9%税率的应税货物或应税劳务发票。"/>
+
+		<!--CP13162,634河北要求放开此校验-->
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,19" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第11栏销项（应纳）税额应该为0，请检查是否录入了简易征收方法3%征收率的货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="15,24" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第14栏销项（应纳）税额应该为0，请检查是否录入了简易征收方法即征即退货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="14,26" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第16栏销售额应该为0，请检查是否录入了免抵退税方法货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="14,28" Formula="(A2&lt;&gt;0)and(A1=02)" Range="true" Emsg="税种类别为服务：第18栏销售额应该为0，请检查是否录入了免税方法货物及加工修理修配劳务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,8" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第2栏扣除后销项（应纳）税额应该为0，请检查是否录入了一般计税方法13%税率的应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,11" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第4栏扣除后销项（应纳）税额应该为0，请检查是否录入了一般计税方法9%税率的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,12" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第5栏扣除后销项（应纳）税额应该为0，请检查是否录入了一般计税方法6%税率的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,14" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第7栏扣除后销项（应纳）税额应该为0，请检查是否录入了一般计税方法即征即退应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,17" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第9b栏扣除后销项（应纳）税额应该为0，请检查是否录入了简易征收方法5%征收率的应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,20" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第12栏扣除后销项（应纳）税额应该为0，请检查是否录入了简易征收方法3%征收率的应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="19,25" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第15栏扣除后销项（应纳）税额应该为0，请检查是否录入了简易征收方法的即征即退应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="18,27" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第17栏含税（免税）销售额应该为0，请检查是否录入了免抵退税方法的应税服务的发票。"/>
+		<Records Count="2" A1="WSXXS.[SZLBDM]" A2="18,29" Formula="(A2&lt;&gt;0)and(A1=01)" Range="true" Emsg="税种类别为货物：第19栏含税（免税）销售额应该为0，请检查免税方法的应税服务的发票。"/>
+
+		<Records AreaCode="65" Count="10" A1="12,7" A2="13,7" A3="12,8" A4="13,8" A5="12,9" A6="13,9" A7="12,10" A8="13,10" A9="12,11" A10="13,11" A11="12,12" A12="13,12" Formula="(A1&lt;&gt;0) or (A2&lt;&gt;0) or (A3&lt;&gt;0) or (A4&lt;&gt;0) or (A5&lt;&gt;0) or (A6&lt;&gt;0) or (A7&lt;&gt;0) or (A8&lt;&gt;0) or (A9&lt;&gt;0) or (A10&lt;&gt;0) or (A11&lt;&gt;0) or (A12&lt;&gt;0)" Range="true" Emsg="您在“纳税检查调整”填有数据，根据税务机关规定，须到办税大厅办理申报，请检查。"/>
+
+		<!--即征即退的校验-->
+		<Records Count="2" A1="14,13" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第6行第9列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="15,13" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第6行第10列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="14,14" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第7行第9列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="15,14" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第7行第10列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="14,24" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第14行第9列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="15,24" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第14行第10列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="14,25" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第15行第9列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+		<Records Count="2" A1="15,25" A2="WSXXS.[JZJTBZ]" Formula="(&quot;A2&quot;=&quot;N&quot;) and (abs(A1)&gt;0.0001)" Range="true" Emsg="第15行第10列填有非0.00数据，请您先去税局做增值税即征即退备案！" ignore="1"/>
+
+		<!--<Records AreaCode="65," Count="17" A1="14,15" A2="15,15" A3="14,16" A4="15,16" A5="14,17" A6="15,17" A7="14,18" A8="15,18" A9="14,19" A10="15,19" A11="14,20" A12="15,20" A13="14,24" A14="15,24" A15="14,25" A16="15,25" A17="WSXXS.[JYZSBZ]" Formula="(A17=0) and ((A1&lt;&gt;0) or (A2&lt;&gt;0) or (A3&lt;&gt;0) or (A4&lt;&gt;0) or (A5&lt;&gt;0) or (A6&lt;&gt;0) or (A7&lt;&gt;0) or (A8&lt;&gt;0) or (A9&lt;&gt;0) or (A10&lt;&gt;0) or (A11&lt;&gt;0) or (A12&lt;&gt;0) or (A13&lt;&gt;0) or (A14&lt;&gt;0) or (A15&lt;&gt;0) or (A16&lt;&gt;0))" Range="true" Emsg="您未进行简易计税备案，附表一的“二、简易计税方法计税”部分（即第8、9、9b、10、11、12、14、15行）的第9、10列必须为0，请核实！"/>-->
+		<Records AreaCode="13,65" Count="17" A1="14,15" A2="15,15" A3="14,16" A4="15,16" A5="14,17" A6="15,17" A7="14,18" A8="15,18" A9="14,19" A10="15,19" A11="14,20" A12="15,20" A13="14,24" A14="15,24" A15="14,25" A16="15,25" A17="WSXXS.[JYZSBZ]" Formula="(A17=0) and ((A1&lt;&gt;0) or (A2&lt;&gt;0) or (A3&lt;&gt;0) or (A4&lt;&gt;0) or (A5&lt;&gt;0) or (A6&lt;&gt;0) or (A9&lt;&gt;0) or (A10&lt;&gt;0) or (A11&lt;&gt;0) or (A12&lt;&gt;0) or (A13&lt;&gt;0) or (A14&lt;&gt;0) or (A15&lt;&gt;0) or (A16&lt;&gt;0))" Range="true" Emsg="您未进行简易计税备案，附表一的“二、简易计税方法计税”部分（即第8、9、9b、11、12、14、15行）的第9、10列必须为0，请核实！"/>
+		<Records AreaCode="4403" Count="2" A1="18,14" A2="19,14" Formula="(A1&lt;&gt;0)and(A2=0)" Range="true" Emsg="第7行第13列数值不为0时，要求第7行的第14列也不能为0。"/>
+		<Records AreaCode="4403" Count="2" A1="18,25" A2="19,25" Formula="(A1&lt;&gt;0)and(A2=0)" Range="true" Emsg="第15行第13列数值不为0时，要求第15行的第14列也不能为0。"/>
+	</SaveCheckData>
+	<DoShowMessage>
+		<Records Count="6" A1="6,15" A2="7,15" A3="8,15" A4="9,15" A5="10,15" A6="11,15" Conditions="(A1&gt;0) or (A2&gt;0) or (A3&gt;0) or (A4&gt;0) or (A5&gt;0) or (A6&gt;0)" ActionTime="save" ErrMsg="国家税务总局政策简并增值税征收率为3%或5%，请核实您的第8行数据。" InfoMsg= ""/>
+		<Records AreaCode="36,61,62,4403,63,65" Count="6" A1="6,18" A2="7,18" A3="8,18" A4="9,18" A5="10,18" A6="11,18" Conditions="(A1&gt;0) or (A2&gt;0) or (A3&gt;0) or (A4&gt;0) or (A5&gt;0) or (A6&gt;0)" ActionTime="save" ErrMsg="国家税务总局政策简并增值税征收率为3%或5%，请核实您的第10行数据。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="4" A1="14,13" A2="14,7" A3="14,9" A4="14,10" Conditions="(A1&gt;A2+A3+A4)" ActionTime="save" ErrMsg="第6行第9列不能大于第1、3行第9列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="4" A1="15,13" A2="15,7" A3="15,9" A4="15,10" Conditions="(A1&gt;A2+A3+A4)" ActionTime="save" ErrMsg="第6行第10列不能大于第1、3行第10列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="4" A1="14,14" A2="14,8" A3="14,10" A4="14,11" A5="14,12" Conditions="(A1&gt;A2+A4+A5)" ActionTime="save" ErrMsg="第7行第9列不能大于第2、4、5行第9列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="4" A1="15,14" A2="15,8" A3="15,10" A4="15,11" A5="15,12" Conditions="(A1&gt;A2+A4+A5)" ActionTime="save" ErrMsg="第7行第10列不能大于第2、4、5行第10列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="4" A1="19,14" A2="19,8" A4="19,11" A5="19,12" Conditions="(A1&gt;A2+A4+A5)" ActionTime="save" ErrMsg="第7行第14列不能大于第2、4、5行第14列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="5" A1="14,24" A2="14,15" A3="14,16" A4="14,18" A5="14,19" Conditions="(A1&gt;A2+A3+A4+A5)" ActionTime="save" ErrMsg="第14行第9列不能大于第8、9、10、11行第9列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="5" A1="15,24" A2="15,15" A3="15,16" A4="15,18" A5="15,19" Conditions="(A1&gt;A2+A3+A4+A5)" ActionTime="save" ErrMsg="第14行第10列不能大于第8、9、10、11行第10列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="3" A1="14,25" A2="14,20" A3="14,17" Conditions="(A1&gt;A2+A3)" ActionTime="save" ErrMsg="第15行第9列不能大于第9b、12行第9列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="3" A1="15,25" A2="15,20" A3="15,17" Conditions="(A1&gt;A2+A3)" ActionTime="save" ErrMsg="第15行第10列不能大于第9b、12行第10列之和。" InfoMsg= ""/>
+		<Records AreaCode="4403" Count="3" A1="19,25" A2="19,20" A3="19,17" Conditions="(A1&gt;A2+A3)" ActionTime="save" ErrMsg="第15行第14列不能大于第9b、12行第14列之和。" InfoMsg= ""/>
+	</DoShowMessage>
+</XmlRWConfig>
