@@ -16,9 +16,9 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("bszm-web")]
     public class bszmController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
-        public bszmController(IYsbqcSetting _is)
+        public bszmController(YsbqcSetting _is)
         {
             this.set = _is;
         }

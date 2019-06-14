@@ -17,11 +17,11 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("sbzx-web/apps")]
     public class sbzx_appsController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
         GDTXDate date { get; set; }
 
-        public sbzx_appsController(IYsbqcSetting _is)
+        public sbzx_appsController(YsbqcSetting _is)
         {
             this.set = _is;
         }

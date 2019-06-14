@@ -16,13 +16,13 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("sbzx-web/api/sb/fjs")]
     public class fjsController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
         GDTXDate date { get; set; }
 
         GDTXUserYSBQC qc { get; set; }
 
-        public fjsController(IYsbqcSetting _is)
+        public fjsController(YsbqcSetting _is)
         {
             this.set = _is;
             date = set.getGDTXDate(this.GetType());

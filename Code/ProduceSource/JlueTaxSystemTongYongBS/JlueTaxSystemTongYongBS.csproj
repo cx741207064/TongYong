@@ -271,7 +271,6 @@
     <Content Include="sbzx-web\api\sb\common\fnb\getSbsj.json" />
     <Content Include="sbzx-web\api\sb\common\fnb\sbzc.json" />
     <Content Include="sbzx-web\api\sb\common\get\10442.dataconfig.xml" />
-    <Content Include="sbzx-web\api\sb\common\get\hdxx.10101.json" />
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10103.json" />
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10442.json" />
     <Content Include="sbzx-web\api\sb\common\get\hdxx.10444.json" />
@@ -394,7 +393,6 @@
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_cfg.xml" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\001_j3.xml" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\config\formulas.json" />
-    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs.html" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs.js" />
     <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\table_001.html" />
     <Content Include="sbzx-web\apps\views\sb_sdsA_yj_new_2019\config\001_cfg.xml">
@@ -586,7 +584,6 @@
     <Compile Include="Code\GTXMethod.cs" />
     <Compile Include="Code\GTXNameValue.cs" />
     <Compile Include="Code\GTXResult.cs" />
-    <Compile Include="Code\IYsbqcSetting.cs" />
     <Compile Include="Code\MyViewEngine.cs" />
     <Compile Include="Code\YsbqcSetting.cs" />
     <Compile Include="Controllers\bszmController.cs" />
@@ -669,6 +666,9 @@
     <Content Include="GotoFP.ashx" />
     <None Include="Properties\PublishProfiles\hebei.pubxml" />
     <None Include="Properties\PublishProfiles\IIS.pubxml" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10101.commerce.json" />
+    <Content Include="sbzx-web\api\sb\common\get\hdxx.10101.industry.json" />
+    <Content Include="sbzx-web\apps\views\sb_gdlh_yhs_2019\sb_gdlh_yhs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

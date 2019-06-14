@@ -13,9 +13,9 @@ namespace JlueTaxSystemTongYongBS.Controllers
 {
     public class JlueTaxSystemController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
-        public JlueTaxSystemController(IYsbqcSetting _is)
+        public JlueTaxSystemController(YsbqcSetting _is)
         {
             this.set = _is;
         }

@@ -14,7 +14,7 @@ namespace JlueTaxSystemTongYongBS
         public static void Run()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType(typeof(YsbqcSetting)).As(typeof(IYsbqcSetting));
+            builder.RegisterType(typeof(YsbqcSetting)).As(typeof(YsbqcSetting));
             builder.RegisterControllers(typeof(Global).Assembly);//注册所有的Controller
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

@@ -1887,7 +1887,7 @@
                 this.sb_id = this.defalutSbId || $('table[type="sb"]').attr('sb_id');//报表id
                 this.sssqq = this.hd['sksssqQ'];	//所属时期起
                 this.sssqz = this.hd['sksssqZ'];	//所属时期止
-                this.tbrq = Date.getLocalDate().format('yyyy-MM-dd');//填表日期
+                this.tbrq = this.hd['tbrq'];//填表日期
                 this._setWsxxAndLsxxMap(this.hd);//将所有wsxx和lsxx节点，整理成map形式{key: value}
             },
             preCondition: function () {

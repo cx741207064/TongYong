@@ -12,7 +12,7 @@ using JlueTaxSystemTongYongBS.Models;
 
 namespace JlueTaxSystemTongYongBS.Code
 {
-    public class YsbqcSetting : IYsbqcSetting
+    public class YsbqcSetting
     {
         public string ysbzt
         {
@@ -265,37 +265,14 @@ namespace JlueTaxSystemTongYongBS.Code
            return X;
        }
 
-       public void getYbnsrzzsBnlj(ref JObject in_jo, string dm)
+       public string getHangYeName()
        {
            string Name = HttpContext.Current.Session["Name"].ToString();
            XmlDocument doc = new XmlDocument();
            doc.LoadXml(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "industry.xml"));
            JToken industry = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(doc));
            industry = industry.SelectToken("root.industry").Where(a => a["name"].ToString() == Name).ToList()[0];
-
-           XmlDocument xml_bnlj = new XmlDocument();
-           xml_bnlj.LoadXml(File.ReadAllText(HttpContext.Current.Server.MapPath(dm + "." + industry["value"] + ".xml")));
-           JToken bnlj = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(xml_bnlj));
-           bnlj = bnlj.SelectToken("root." + dm);
-           in_jo.Merge(bnlj, new JsonMergeSettings { MergeArrayHandling = MergeArrayHandling.Union });
-       }
-
-       public JObject getYbnsrzzsDataConfig(object in_obj, string dm)
-       {
-           string Name = HttpContext.Current.Session["Name"].ToString();
-           XmlDocument doc = new XmlDocument();
-           doc.LoadXml(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "industry.xml"));
-           JToken industry = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(doc));
-           industry = industry.SelectToken("root.industry").Where(a => a["name"].ToString() == Name).ToList()[0];
-
-           JObject in_jo = JsonConvert.DeserializeObject<JObject>(JsonConvert.SerializeObject(in_obj));
-
-           XmlDocument xml_config = new XmlDocument();
-           xml_config.LoadXml(File.ReadAllText(HttpContext.Current.Server.MapPath(dm + "." + industry["value"] + ".xml")));
-           JToken config = JsonConvert.DeserializeObject<JToken>(JsonConvert.SerializeXmlNode(xml_config));
-           config = config.SelectToken("root." + dm);
-           in_jo.Merge(config, new JsonMergeSettings { MergeArrayHandling = MergeArrayHandling.Union });
-           return in_jo;
+           return industry["value"].ToString();
        }
 
        public JObject getQysdsyjADataConfig(JObject in_jo, string dm)

@@ -16,9 +16,9 @@ namespace JlueTaxSystemHeBeiBS.Controllers
     [RoutePrefix("sbzx-web/api/sb/jgcx")]
     public class jgcxController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
-        public jgcxController(IYsbqcSetting _is)
+        public jgcxController(YsbqcSetting _is)
         {
             this.set = _is;
         }

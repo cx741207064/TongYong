@@ -1,5 +1,1 @@
-http://localhost:20426/QuestionMain.aspx?userid=TY&username=%E6%B5%8B%E8%AF%95%E4%BA%BA%E5%91%98&classid=9&courseid=99&sortid=125
-
-http://192.168.1.115:8024/QuestionMain.aspx?userid=TY&username=%E6%B5%8B%E8%AF%95%E4%BA%BA%E5%91%98&classid=9&courseid=99&sortid=125
-
 http://localhost:18862/QuestionMain.aspx?userid=TY&username=%E6%B5%8B%E8%AF%95%E4%BA%BA%E5%91%98&classid=9&courseid=234&sortid=125

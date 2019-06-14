@@ -20,7 +20,7 @@ namespace JlueTaxSystemTongYongBS
             //builder.RegisterApiControllers(Assembly.GetExecutingAssembly()).PropertiesAutowired();
 
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
-            builder.RegisterType<YsbqcSetting>().As<IYsbqcSetting>().InstancePerRequest();
+            builder.RegisterType<YsbqcSetting>().As<YsbqcSetting>().InstancePerRequest();
 
             var container = builder.Build();
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container);

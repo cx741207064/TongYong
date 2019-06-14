@@ -16,11 +16,11 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("sbzx-web/api")]
     public class sbzx_apiController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
         Nsrxx x { get; set; }
 
-        public sbzx_apiController(IYsbqcSetting _is)
+        public sbzx_apiController(YsbqcSetting _is)
         {
             this.set = _is;
             x = set.getNsrxx();

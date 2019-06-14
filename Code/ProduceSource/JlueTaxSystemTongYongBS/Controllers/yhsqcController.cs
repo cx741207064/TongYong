@@ -16,11 +16,11 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("sbzx-web/api/sb/yhsqc")]
     public class yhsqcController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
         GDTXDate date { get; set; }
 
-        public yhsqcController(IYsbqcSetting _is)
+        public yhsqcController(YsbqcSetting _is)
         {
             this.set = _is;
             date = set.getGDTXDate(this.GetType());

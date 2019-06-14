@@ -12,9 +12,9 @@ namespace JlueTaxSystemTongYongBS.Controllers
     [RoutePrefix("cwbbdr-web")]
     public class cwbbdrController : ApiController
     {
-        IYsbqcSetting set { get; set; }
+        YsbqcSetting set { get; set; }
 
-        public cwbbdrController(IYsbqcSetting _is)
+        public cwbbdrController(YsbqcSetting _is)
         {
             this.set = _is;
         }
