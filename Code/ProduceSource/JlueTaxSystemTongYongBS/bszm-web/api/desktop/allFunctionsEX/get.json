@@ -5559,7 +5559,7 @@
                             "menuName":"我要申报",
                             "parentMenuId":220,
                             "priority":5,
-                            "icon":"https://ybs.he-n-tax.gov.cn:8888/bszm-web/apps/images/zj/home/icon-wysb.png",
+                            "icon":"/bszm-web/apps/images/zj/home/icon-wybs.png",
                             "subMenus":[
                                 {
                                     "menuId":2200620,

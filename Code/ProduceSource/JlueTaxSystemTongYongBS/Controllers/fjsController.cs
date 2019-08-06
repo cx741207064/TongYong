@@ -51,6 +51,13 @@ namespace JlueTaxSystemTongYongBS.Controllers
                 JToken sbzl = re_json.SelectToken("value.sbzl[0]");
                 sbzl["sksssqQ"] = date.skssqq;
                 sbzl["sksssqZ"] = date.skssqz;
+
+                JToken wsxx = sbzl.SelectToken("wsxxs.wsxx");
+                JToken SFSYXGMZC = wsxx.Where(a => a["code"].ToString() == "SFSYXGMZC").FirstOrDefault();
+                if (HttpContext.Current.Session["name"].ToString() == "业务三")
+                {
+                    SFSYXGMZC["value"] = "Y";
+                }
             }
 
             return re_json;

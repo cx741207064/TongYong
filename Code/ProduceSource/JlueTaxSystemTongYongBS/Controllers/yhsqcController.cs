@@ -36,6 +36,7 @@ namespace JlueTaxSystemTongYongBS.Controllers
             JToken wsxx = re_json.SelectToken("value.sbzl[0].wsxxs.wsxx");
             IEnumerable<JToken> SKSSQQ_06 = wsxx.Where(a => a["code"].ToString() == "SKSSQQ_06");
             IEnumerable<JToken> SKSSQZ_06 = wsxx.Where(a => a["code"].ToString() == "SKSSQZ_06");
+            IEnumerable<JToken> SFSYXGMZC_06 = wsxx.Where(a => a["code"].ToString() == "SFSYXGMZC_06");
 
             foreach (JToken jt in SKSSQQ_06)
             {
@@ -44,6 +45,13 @@ namespace JlueTaxSystemTongYongBS.Controllers
             foreach (JToken jt in SKSSQZ_06)
             {
                 jt["value"] = date.skssqz;
+            }
+            if (HttpContext.Current.Session["name"].ToString() == "业务三")
+            {
+                foreach (JToken jt in SFSYXGMZC_06)
+                {
+                    jt["value"] = "Y";
+                }
             }
 
             return re_json;
