@@ -95,7 +95,7 @@
                         {
                             "code": "QZD",
                             "name": "起征点",
-                            "value": "90000.0"
+                            "value": "100000.0"
                         },
                         {
                             "code": "XGMFB1QCYE",
@@ -220,7 +220,7 @@
                         {
                             "code": "YSFWQZD",
                             "name": "应税服务起征点（月报30000，季报90000）",
-                            "value": "90000.00"
+                            "value": "100000.00"
                         },
                         {
                             "code": "YSBDCZSL",
